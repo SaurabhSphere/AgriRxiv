@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgriRxiv Dashboard</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<style>
+body {
+    font-family: Arial;
+    background: #f4f7f6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+h1 { text-align: center; }
+
+.stats {
+    display: flex;
+    gap: 20px;
+}
+
+.stat {
+    flex: 1;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tag-complete { color: green; }
+.tag-incomplete { color: red; }
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📊 Research Dashboard</h1>
+
+<div class="card stats">
+    <div class="stat">
+        <h3>Total</h3>
+        <p id="total">0</p>
+    </div>
+    <div class="stat">
+        <h3>PDFs</h3>
+        <p id="pdf">0</p>
+    </div>
+    <div class="stat">
+        <h3>Completion</h3>
+        <p id="completion">0%</p>
+    </div>
+</div>
+
+<div class="card">
+    <canvas id="authorChart"></canvas>
+</div>
+
+<div class="card">
+    <canvas id="pdfChart"></canvas>
+</div>
+
+<div class="card">
+    <h2>Papers</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Authors</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>PDF</th>
+            </tr>
+        </thead>
+        <tbody id="table"></tbody>
+    </table>
+</div>
+
+</div>
+
+<script>
+
+let authorChart, pdfChart;
+
+function renderDashboard(data) {
+
+    const table = document.getElementById("table");
+    table.innerHTML = "";
+
+    let pdfCount = 0;
+    let completeCount = 0;
+
+    let authorCounts = [];
+
+    data.forEach((item, i) => {
+
+        if(item.is_pdf_available) pdfCount++;
+        if(item.status === "complete") completeCount++;
+
+        authorCounts.push(item.authors.length);
+
+        let row = `
+        <tr>
+            <td>${item.title}</td>
+            <td>${item.authors.join(", ")}</td>
+            <td>${item.publish_date}</td>
+            <td class="tag-${item.status}">${item.status}</td>
+            <td>
+                ${item.pdf_local_path 
+                    ? `<a href="file:///${item.pdf_local_path}">Local</a>`
+                    : (item.is_pdf_available 
+                        ? `<a href="${item.pdf_url}" target="_blank">Online</a>`
+                        : "N/A")}
+            </td>
+        </tr>`;
+
+        table.innerHTML += row;
+    });
+
+    // stats
+    document.getElementById("total").textContent = data.length;
+    document.getElementById("pdf").textContent = pdfCount;
+    document.getElementById("completion").textContent =
+        Math.round((completeCount / data.length) * 100) + "%";
+
+    // destroy old charts if reloaded
+    if(authorChart) authorChart.destroy();
+    if(pdfChart) pdfChart.destroy();
+
+    // author chart
+    authorChart = new Chart(document.getElementById("authorChart"), {
+        type: "bar",
+        data: {
+            labels: data.map((_, i) => "Paper " + (i+1)),
+            datasets: [{
+                label: "Authors Count",
+                data: authorCounts
+            }]
+        }
+    });
+
+    // pdf chart
+    pdfChart = new Chart(document.getElementById("pdfChart"), {
+        type: "pie",
+        data: {
+            labels: ["PDF Available", "No PDF"],
+            datasets: [{
+                data: [pdfCount, data.length - pdfCount]
+            }]
+        }
+    });
+}
+
+
+// 🔥 FETCH JSON HERE
+fetch("agrirxiv_final_data.json")   // 👈 PUT YOUR JSON PATH HERE
+    .then(res => res.json())
+    .then(data => renderDashboard(data))
+    .catch(err => console.error("Error loading JSON:", err));
+
+</script>
+
+</body>
+</html>

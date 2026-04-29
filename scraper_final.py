@@ -113,7 +113,196 @@
 
 
 
+# import json
+# import logging
+# import random
+# import requests
+# from datetime import datetime
+# from pathlib import Path
+# from urllib.parse import urljoin
+# from bs4 import BeautifulSoup
+# from seleniumbase import SB
 
+# # --- Configuration ---
+# SCRAPER_CONFIG = {
+#     "search_url": "https://www.cabidigitallibrary.org/action/doSearch?SeriesKey=agrirxiv&sortBy=EPubDate",
+#     "base_url": "https://www.cabidigitallibrary.org",
+#     "max_pages": 100,
+# }
+
+# OUTPUT_FILE = Path("agrirxiv_final_data.json")
+# PDF_DIR = Path("downloaded_pdfs")
+# PDF_DIR.mkdir(exist_ok=True)
+
+# logging.basicConfig(
+#     level=logging.INFO, 
+#     format="%(asctime)s - %(levelname)s - %(message)s",
+#     handlers=[logging.FileHandler("scraper_debug.log"), logging.StreamHandler()]
+# )
+# logger = logging.getLogger(__name__)
+
+# class AgriRxivUltimateScraper:
+#     def __init__(self):
+#         self.articles = []
+#         self.seen_dois = set()
+#         self.session = requests.Session()
+
+#     def sync_session_cookies(self, sb):
+#         """Copies browser cookies to requests session for secure PDF downloading"""
+#         cookies = sb.get_cookies()
+#         for cookie in cookies:
+#             self.session.cookies.set(cookie['name'], cookie['value'])
+
+#     def download_pdf(self, url, doi):
+#         """Downloads PDF and returns local file path"""
+#         try:
+#             safe_name = doi.replace(".", "_").replace("/", "_") + ".pdf"
+#             file_path = PDF_DIR / safe_name
+            
+#             # Using the synced session to bypass Cloudflare on the file request
+#             response = self.session.get(url, timeout=30, stream=True)
+#             if response.status_code == 200:
+#                 with open(file_path, "wb") as f:
+#                     for chunk in response.iter_content(chunk_size=8192):
+#                         f.write(chunk)
+#                 return str(file_path.absolute())
+#         except Exception as e:
+#             logger.error(f"Download failed for {doi}: {e}")
+#         return None
+
+#     def get_list_page_items(self, html):
+#         soup = BeautifulSoup(html, "html.parser")
+#         items = soup.select("li.search__item")
+#         found = []
+#         for item in items:
+#             link_tag = item.select_one(".issue-item__title a")
+#             if not link_tag: continue
+#             raw_href = link_tag.get("href", "")
+#             full_link = urljoin(SCRAPER_CONFIG["base_url"], raw_href)
+#             doi = raw_href.split("/doi/")[-1] if "/doi/" in raw_href else "unknown"
+#             found.append({"title": link_tag.get_text(strip=True), "link": full_link, "doi": doi})
+#         return found
+
+#     def scrape_article_details(self, sb, article_info):
+#         """Extracts data from inside the article page"""
+#         sb.uc_open_with_reconnect(article_info["link"], 4)
+#         sb.sleep(3) # Wait for all dynamic elements (authors/date)
+        
+#         soup = BeautifulSoup(sb.get_page_source(), "html.parser")
+        
+#         # 1. Extract Abstract
+#         abstract_div = soup.select_one("#summary-abstract div[role='paragraph']")
+        
+#         # 2. Extract Authors (Specific to Article Page)
+#         authors = []
+#         author_links = soup.select("span[property='author'] span[property='givenName'], span[property='author'] span[property='familyName']")
+#         # Reconstruct full names from schema properties if simple links are empty
+#         current_author = []
+#         for span in author_links:
+#             current_author.append(span.get_text(strip=True))
+#             if len(current_author) == 2:
+#                 authors.append(" ".join(current_author))
+#                 current_author = []
+        
+#         # Fallback for authors if schema spans aren't present
+#         if not authors:
+#             authors = [a.get_text(strip=True) for a in soup.select(".contributors .authors a") if "@" not in a.get_text()]
+
+#         # 3. Extract Published Date
+#         publish_date = None
+#         date_div = soup.select_one(".meta-panel__onlineDate")
+#         if date_div:
+#             publish_date = date_div.get_text(strip=True)
+
+#         data = {
+#             "abstract": abstract_div.get_text(strip=True) if abstract_div else None,
+#             "authors": list(set(authors)),
+#             "publish_date": publish_date,
+#             "is_pdf_available": False,
+#             "pdf_url": None,
+#             "pdf_local_path": None,
+#             "status": "incomplete"
+#         }
+
+#         # 4. PDF Handling
+#         pdf_btn = "a.btn--pdf"
+#         if sb.is_element_visible(pdf_btn):
+#             data["is_pdf_available"] = True
+#             viewer_path = sb.get_attribute(pdf_btn, "href")
+#             viewer_url = urljoin(SCRAPER_CONFIG["base_url"], viewer_path)
+            
+#             sb.uc_open_with_reconnect(viewer_url, 3)
+#             sb.sleep(4) # Viewer pages are heavy
+            
+#             download_btn = "a.navbar-download"
+#             if sb.is_element_visible(download_btn):
+#                 final_pdf_path = sb.get_attribute(download_btn, "href")
+#                 final_pdf_url = urljoin(SCRAPER_CONFIG["base_url"], final_pdf_path)
+#                 data["pdf_url"] = final_pdf_url
+                
+#                 self.sync_session_cookies(sb)
+#                 data["pdf_local_path"] = self.download_pdf(final_pdf_url, article_info["doi"])
+                
+#                 # Set status based on PDF success
+#                 if data["pdf_local_path"]:
+#                     data["status"] = "complete"
+#             else:
+#                 # If PDF available but download link failed to grab
+#                 data["status"] = "incomplete"
+#         else:
+#             # If no PDF exists at all, it's considered a complete scrape of available data
+#             data["status"] = "complete"
+        
+#         return data
+
+#     def run(self):
+#         with SB(uc=True, test=True, locale="en") as sb:
+#             logger.info("🚀 Opening CABI Portal...")
+#             sb.uc_open_with_reconnect(SCRAPER_CONFIG["search_url"], 10)
+#             sb.wait_for_element("li.search__item", timeout=30)
+            
+#             page = 1
+#             while page <= SCRAPER_CONFIG["max_pages"]:
+#                 logger.info(f"📄 Processing Page {page}...")
+                
+#                 if "Just a moment" in sb.get_title():
+#                     sb.uc_reconnect(10)
+
+#                 current_list = self.get_list_page_items(sb.get_page_source())
+                
+#                 for i, item in enumerate(current_list):
+#                     if item["doi"] in self.seen_dois: continue
+                    
+#                     logger.info(f"  🔍 [{i+1}/{len(current_list)}] Scraping: {item['doi']}")
+#                     try:
+#                         details = self.scrape_article_details(sb, item)
+#                         item.update(details)
+#                         item["scraped_at"] = datetime.now().isoformat()
+                        
+#                         self.articles.append(item)
+#                         self.seen_dois.add(item["doi"])
+                        
+#                         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+#                             json.dump(self.articles, f, indent=4, ensure_ascii=False)
+                            
+#                     except Exception as e:
+#                         logger.error(f"  ❌ Error on {item['doi']}: {e}")
+                    
+#                     # Jump back to list
+#                     sb.uc_open_with_reconnect(SCRAPER_CONFIG["search_url"], 5)
+                
+#                 next_btn = "a.pagination__btn--next"
+#                 if sb.is_element_visible(next_btn):
+#                     sb.scroll_to(next_btn)
+#                     sb.sleep(2)
+#                     sb.uc_click(next_btn, reconnect_time=5)
+#                     page += 1
+#                 else:
+#                     break
+
+# if __name__ == "__main__":
+#     scraper = AgriRxivUltimateScraper()
+#     scraper.run()
 
 import json
 import logging
@@ -122,6 +311,7 @@ import os
 import requests
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from seleniumbase import SB
 
@@ -129,138 +319,182 @@ from seleniumbase import SB
 SCRAPER_CONFIG = {
     "search_url": "https://www.cabidigitallibrary.org/action/doSearch?SeriesKey=agrirxiv&sortBy=EPubDate",
     "base_url": "https://www.cabidigitallibrary.org",
-    "max_pages": 3,
+    "max_pages": 100,
 }
 
-# Directories
-OUTPUT_FILE = Path("agrirxiv_detailed_data.json")
+OUTPUT_FILE = Path("agrirxiv_final_data.json")
 PDF_DIR = Path("downloaded_pdfs")
 PDF_DIR.mkdir(exist_ok=True)
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(message)s")
+# FIX: Added encoding="utf-8" to the FileHandler to prevent UnicodeEncodeError
+logging.basicConfig(
+    level=logging.INFO, 
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler("scraper_debug.log", encoding="utf-8"), 
+        logging.StreamHandler()
+    ]
+)
 logger = logging.getLogger(__name__)
 
-class AgriRxivDeepScraper:
+class AgriRxivUltimateScraper:
     def __init__(self):
         self.articles = []
+        self.seen_dois = set()
         self.session = requests.Session()
 
-    def sync_session(self, sb):
-        """Sync cookies from Selenium to Requests for direct downloading"""
+    def sync_session_cookies(self, sb):
         cookies = sb.get_cookies()
         for cookie in cookies:
             self.session.cookies.set(cookie['name'], cookie['value'])
 
-    def download_pdf_file(self, url, doi):
-        """Downloads the PDF and returns the local path"""
+    def download_pdf(self, url, doi):
         try:
-            filename = doi.replace(".", "_").replace("/", "_") + ".pdf"
-            path = PDF_DIR / filename
+            safe_name = doi.replace(".", "_").replace("/", "_") + ".pdf"
+            file_path = PDF_DIR / safe_name
             
-            response = self.session.get(url, timeout=30)
+            # Use the synced session
+            response = self.session.get(url, timeout=45, stream=True)
             if response.status_code == 200:
-                with open(path, "wb") as f:
-                    f.write(response.content)
-                return str(path.absolute())
+                with open(file_path, "wb") as f:
+                    for chunk in response.iter_content(chunk_size=8192):
+                        f.write(chunk)
+                if file_path.stat().st_size > 1000: # Check if file is valid (>1KB)
+                    return str(file_path.absolute())
+            logger.error(f"Download failed for {doi} - Status: {response.status_code}")
         except Exception as e:
-            logger.error(f"Download failed for {url}: {e}")
+            logger.error(f"Download exception for {doi}: {e}")
         return None
 
-    def extract_full_details(self, sb, item):
-        """Parses the article page and handles PDF logic"""
-        html = sb.get_page_source()
-        soup = BeautifulSoup(html, "html.parser")
-        
-        # 1. Basic Metadata
-        abstract_div = soup.select_one("#summary-abstract div[role='paragraph']")
-        details = {
-            "abstract": abstract_div.get_text(strip=True) if abstract_div else "No abstract available",
-            "is_pdf_available": False,
-            "pdf_local_path": None,
-            "pdf_url": None
-        }
-
-        # 2. PDF Logic
-        # Look for the PDF/EPUB button on the article page
-        pdf_btn_selector = "a.btn--pdf" 
-        if sb.is_element_visible(pdf_btn_selector):
-            details["is_pdf_available"] = True
-            viewer_url = sb.get_attribute(pdf_btn_selector, "href")
-            
-            # Navigate to the large PDF viewer page
-            logger.info("Opening PDF viewer...")
-            sb.open(f"{SCRAPER_CONFIG['base_url']}{viewer_url}")
-            sb.sleep(3) # Wait for viewer to load the internal download button
-            
-            # Find the actual download link in the viewer (the HTML you provided)
-            # Selector targets the link with class 'navbar-download'
-            final_link_selector = "a.navbar-download"
-            if sb.is_element_visible(final_link_selector):
-                final_pdf_url = sb.get_attribute(final_link_selector, "href")
-                full_pdf_url = f"{SCRAPER_CONFIG['base_url']}{final_pdf_url}"
-                details["pdf_url"] = full_pdf_url
-                
-                # Sync cookies and download
-                self.sync_session(sb)
-                local_path = self.download_pdf_file(full_pdf_url, item['doi'])
-                details["pdf_local_path"] = local_path
-            
-            # Go back to the article page
-            sb.go_back()
-
-        return details
-
-    def get_list_items(self, html):
+    def get_list_page_items(self, html):
         soup = BeautifulSoup(html, "html.parser")
         items = soup.select("li.search__item")
-        results = []
+        found = []
         for item in items:
             link_tag = item.select_one(".issue-item__title a")
             if not link_tag: continue
-            href = link_tag.get("href", "")
-            results.append({
-                "title": link_tag.get_text(strip=True),
-                "link": f"{SCRAPER_CONFIG['base_url']}{href}" if href.startswith("/") else href,
-                "doi": href.split("/doi/")[-1] if "/doi/" in href else "unknown"
-            })
-        return results
+            raw_href = link_tag.get("href", "")
+            full_link = urljoin(SCRAPER_CONFIG["base_url"], raw_href)
+            doi = raw_href.split("/doi/")[-1] if "/doi/" in raw_href else "unknown"
+            found.append({"title": link_tag.get_text(strip=True), "link": full_link, "doi": doi})
+        return found
+
+    def scrape_article_details(self, sb, article_info):
+        # Open article
+        sb.uc_open_with_reconnect(article_info["link"], 5)
+        sb.sleep(4) 
+        
+        soup = BeautifulSoup(sb.get_page_source(), "html.parser")
+        
+        # 1. Extract Abstract
+        abstract_div = soup.select_one("#summary-abstract div[role='paragraph']")
+        
+        # 2. Extract Authors
+        authors = []
+        author_links = soup.select("span[property='author'] span[property='givenName'], span[property='author'] span[property='familyName']")
+        current_author = []
+        for span in author_links:
+            current_author.append(span.get_text(strip=True))
+            if len(current_author) == 2:
+                authors.append(" ".join(current_author))
+                current_author = []
+        
+        if not authors:
+            authors = [a.get_text(strip=True) for a in soup.select(".contributors .authors a") if "@" not in a.get_text()]
+
+        publish_date = None
+        date_div = soup.select_one(".meta-panel__onlineDate")
+        if date_div:
+            publish_date = date_div.get_text(strip=True)
+
+        data = {
+            "abstract": abstract_div.get_text(strip=True) if abstract_div else None,
+            "authors": list(set(authors)),
+            "publish_date": publish_date,
+            "is_pdf_available": False,
+            "pdf_url": None,
+            "pdf_local_path": None,
+            "status": "incomplete"
+        }
+
+        # 3. PDF Handling
+        pdf_btn = "a.btn--pdf"
+        if sb.is_element_visible(pdf_btn):
+            data["is_pdf_available"] = True
+            viewer_path = sb.get_attribute(pdf_btn, "href")
+            viewer_url = urljoin(SCRAPER_CONFIG["base_url"], viewer_path)
+            
+            # Step into viewer
+            sb.uc_open_with_reconnect(viewer_url, 4)
+            sb.sleep(5) 
+            
+            # Look for the download button inside viewer
+            download_btn = "a.navbar-download"
+            if sb.is_element_visible(download_btn):
+                final_pdf_path = sb.get_attribute(download_btn, "href")
+                final_pdf_url = urljoin(SCRAPER_CONFIG["base_url"], final_pdf_path)
+                data["pdf_url"] = final_pdf_url
+                
+                self.sync_session_cookies(sb)
+                local_path = self.download_pdf(final_pdf_url, article_info["doi"])
+                data["pdf_local_path"] = local_path
+                
+                if local_path:
+                    data["status"] = "complete"
+        else:
+            data["status"] = "complete" # Scrape complete if no PDF exists
+        
+        return data
 
     def run(self):
-        with SB(uc=True, test=True) as sb:
+        with SB(uc=True, test=True, locale="en") as sb:
+            logger.info("Opening CABI Portal...")
             sb.uc_open_with_reconnect(SCRAPER_CONFIG["search_url"], 10)
+            sb.wait_for_element("li.search__item", timeout=30)
             
-            page_num = 1
-            while page_num <= SCRAPER_CONFIG["max_pages"]:
-                sb.wait_for_element("li.search__item", timeout=20)
-                current_page_list = self.get_list_items(sb.get_page_source())
+            page = 1
+            while page <= SCRAPER_CONFIG["max_pages"]:
+                logger.info(f"Processing Page {page}...")
                 
-                for i, item in enumerate(current_page_list):
-                    logger.info(f"🔍 Article {i+1}/{len(current_page_list)}: {item['title'][:50]}...")
-                    
-                    sb.uc_open_with_reconnect(item['link'], 5)
-                    deep_details = self.extract_full_details(sb, item)
-                    item.update(deep_details)
-                    
-                    self.articles.append(item)
-                    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-                        json.dump(self.articles, f, indent=4, ensure_ascii=False)
-                    
-                    sb.go_back()
-                    sb.wait_for_element("li.search__item", timeout=20)
+                if "Just a moment" in sb.get_title():
+                    sb.uc_reconnect(10)
 
+                current_list = self.get_list_page_items(sb.get_page_source())
+                
+                for i, item in enumerate(current_list):
+                    if item["doi"] in self.seen_dois: continue
+                    
+                    # Emojis removed to prevent UnicodeEncodeError
+                    logger.info(f"  Scraping [{i+1}/{len(current_list)}]: {item['doi']}")
+                    try:
+                        details = self.scrape_article_details(sb, item)
+                        item.update(details)
+                        item["scraped_at"] = datetime.now().isoformat()
+                        
+                        self.articles.append(item)
+                        self.seen_dois.add(item["doi"])
+                        
+                        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+                            json.dump(self.articles, f, indent=4, ensure_ascii=False)
+                            
+                    except Exception as e:
+                        logger.error(f"  Error on {item['doi']}: {e}")
+                    
+                    # Back to list
+                    sb.uc_open_with_reconnect(SCRAPER_CONFIG["search_url"], 5)
+                
                 next_btn = "a.pagination__btn--next"
                 if sb.is_element_visible(next_btn):
+                    sb.scroll_to(next_btn)
+                    sb.sleep(3)
                     sb.uc_click(next_btn, reconnect_time=5)
-                    page_num += 1
+                    page += 1
                 else:
                     break
 
 if __name__ == "__main__":
-    scraper = AgriRxivDeepScraper()
+    scraper = AgriRxivUltimateScraper()
     scraper.run()
-
-
-
 
 
 

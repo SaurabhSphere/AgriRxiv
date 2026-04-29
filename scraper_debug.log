@@ -1,0 +1,49 @@
+2026-04-30 00:34:34,937 - INFO - Opening CABI Portal...
+2026-04-30 00:34:48,361 - INFO - Processing Page 1...
+2026-04-30 00:34:49,012 - INFO -   Scraping [1/20]: 10.31220/agriRxiv.2026.00434
+2026-04-30 00:35:14,852 - ERROR - Download failed for 10.31220/agriRxiv.2026.00434 - Status: 403
+2026-04-30 00:35:22,833 - INFO -   Scraping [2/20]: 10.31220/agriRxiv.2026.00435
+2026-04-30 00:35:49,507 - ERROR - Download failed for 10.31220/agriRxiv.2026.00435 - Status: 403
+2026-04-30 00:35:57,556 - INFO -   Scraping [3/20]: 10.31220/agriRxiv.2026.00432
+2026-04-30 00:36:26,793 - INFO -   Scraping [4/20]: 10.31220/agriRxiv.2026.00433
+2026-04-30 00:36:52,767 - ERROR - Download failed for 10.31220/agriRxiv.2026.00433 - Status: 403
+2026-04-30 00:37:00,785 - INFO -   Scraping [5/20]: 10.31220/agriRxiv.2026.00430
+2026-04-30 00:37:26,983 - ERROR - Download failed for 10.31220/agriRxiv.2026.00430 - Status: 403
+2026-04-30 00:37:35,180 - INFO -   Scraping [6/20]: 10.31220/agriRxiv.2026.00431
+2026-04-30 00:38:00,604 - ERROR - Download failed for 10.31220/agriRxiv.2026.00431 - Status: 403
+2026-04-30 00:38:08,550 - INFO -   Scraping [7/20]: 10.31220/agriRxiv.2026.00426
+2026-04-30 00:38:33,952 - ERROR - Download failed for 10.31220/agriRxiv.2026.00426 - Status: 403
+2026-04-30 00:38:41,991 - INFO -   Scraping [8/20]: 10.31220/agriRxiv.2026.00427
+2026-04-30 00:39:08,505 - ERROR - Download failed for 10.31220/agriRxiv.2026.00427 - Status: 403
+2026-04-30 00:39:16,605 - INFO -   Scraping [9/20]: 10.31220/agriRxiv.2026.00424
+2026-04-30 00:39:43,700 - ERROR - Download failed for 10.31220/agriRxiv.2026.00424 - Status: 403
+2026-04-30 00:39:51,857 - INFO -   Scraping [10/20]: 10.31220/agriRxiv.2026.00425
+2026-04-30 00:40:18,060 - ERROR - Download failed for 10.31220/agriRxiv.2026.00425 - Status: 403
+2026-04-30 00:40:26,439 - INFO -   Scraping [11/20]: 10.31220/agriRxiv.2026.00428
+2026-04-30 00:40:52,497 - ERROR - Download failed for 10.31220/agriRxiv.2026.00428 - Status: 403
+2026-04-30 00:41:00,513 - INFO -   Scraping [12/20]: 10.31220/agriRxiv.2026.00423
+2026-04-30 00:41:26,405 - ERROR - Download failed for 10.31220/agriRxiv.2026.00423 - Status: 403
+2026-04-30 00:41:34,396 - INFO -   Scraping [13/20]: 10.31220/agriRxiv.2026.00429
+2026-04-30 00:42:07,924 - ERROR - Download failed for 10.31220/agriRxiv.2026.00429 - Status: 403
+2026-04-30 00:42:16,212 - INFO -   Scraping [14/20]: 10.31220/agriRxiv.2026.00420
+2026-04-30 00:42:43,177 - ERROR - Download failed for 10.31220/agriRxiv.2026.00420 - Status: 403
+2026-04-30 00:42:51,193 - INFO -   Scraping [15/20]: 10.31220/agriRxiv.2026.00421
+2026-04-30 00:43:16,792 - ERROR - Download failed for 10.31220/agriRxiv.2026.00421 - Status: 403
+2026-04-30 00:43:24,832 - INFO -   Scraping [16/20]: 10.31220/agriRxiv.2026.00418
+2026-04-30 00:43:50,994 - ERROR - Download failed for 10.31220/agriRxiv.2026.00418 - Status: 403
+2026-04-30 00:43:58,966 - INFO -   Scraping [17/20]: 10.31220/agriRxiv.2026.00415
+2026-04-30 00:44:26,303 - ERROR - Download failed for 10.31220/agriRxiv.2026.00415 - Status: 403
+2026-04-30 00:44:34,281 - INFO -   Scraping [18/20]: 10.31220/agriRxiv.2026.00416
+2026-04-30 00:45:01,105 - ERROR - Download failed for 10.31220/agriRxiv.2026.00416 - Status: 403
+2026-04-30 00:45:09,094 - INFO -   Scraping [19/20]: 10.31220/agriRxiv.2026.00419
+2026-04-30 00:45:35,185 - ERROR - Download failed for 10.31220/agriRxiv.2026.00419 - Status: 403
+2026-04-30 00:45:43,293 - INFO -   Scraping [20/20]: 10.31220/agriRxiv.2026.00417
+2026-04-30 00:46:09,884 - ERROR - Download failed for 10.31220/agriRxiv.2026.00417 - Status: 403
+2026-04-30 00:46:29,040 - INFO - Processing Page 2...
+2026-04-30 00:46:30,531 - INFO -   Scraping [1/20]: 10.31220/agriRxiv.2026.00412
+2026-04-30 00:46:56,538 - ERROR - Download failed for 10.31220/agriRxiv.2026.00412 - Status: 403
+2026-04-30 00:47:04,548 - INFO -   Scraping [2/20]: 10.31220/agriRxiv.2026.00413
+2026-04-30 00:47:29,996 - ERROR - Download failed for 10.31220/agriRxiv.2026.00413 - Status: 403
+2026-04-30 00:47:38,019 - INFO -   Scraping [3/20]: 10.31220/agriRxiv.2026.00414
+2026-04-30 00:48:03,712 - ERROR - Download failed for 10.31220/agriRxiv.2026.00414 - Status: 403
+2026-04-30 00:48:11,746 - INFO -   Scraping [4/20]: 10.31220/agriRxiv.2026.00411

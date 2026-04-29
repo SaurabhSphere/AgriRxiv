@@ -1,0 +1,385 @@
+[
+    {
+        "title": "1.Environmental variables driving diversity of arbuscular mycorrhizal fungi in Ohio\n                     soybean agricultural systems.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00434",
+        "doi": "10.31220/agriRxiv.2026.00434",
+        "abstract": "Arbuscular mycorrhizal fungi (AMF) play a crucial role in crop productivity and agroecosystem processes. However, the composition of soil AMF communities and the factors controlling their diversity and distribution in Ohio remain poorly understood. We profiled soil AMF and physico-chemical characteristics in 17 soybean fields across agricultural regions in Ohio. Mycorrhizal fungi were recovered through amplicon sequencing of the 18S ribosomal gene coupled with PacBio technology. Within Glomeromycota, we detected 14 genera belonging to six families. The familyGlomeraceaeaccounted for >50% of the AMF reads recovered, while the families Gigasporaceae and Archaeosporaceae were rare. At the genus level,Entrophospora,Nanoglomus,Paraglomus, andFunneliformiswere most widespread, contrasting with rare taxa such asGigaspora,Dominikia, andArchaeospora. Soil AMF community composition varied across soil pH ranges (5.2-7.7), with most genera observed in soils with pH between 5.5-6.5.Funneliformis,Entrophospora, andDiversisporawere present in soils with a wide pH range, but their highest abundance was observed in soils with slightly alkaline conditions, whileGigasporaandArchaeosporawere present in soils with near-neutral pH. From the 17 fields studied, eight were infested with soybean cyst nematode (SCN), with densities ranging from 40 to 720 eggs per 100 cm3of soil. In these soils, AMF diversity was negatively correlated with SCN abundance, and some specific AMF genera were associated with OM, TEC and P. Future research should expand soil sampling to root colonization and evaluate functional impacts on soybean yields in Ohio.",
+        "authors": [
+            "Florence Breuillin-Sessoms",
+            "Samaneh Tajik",
+            "Timothy Frey",
+            "Horacio D. Lopez-Nicora",
+            "M. Soledad Benitez Ponce",
+            "Jelmer W. Poelstra"
+        ],
+        "publish_date": "27 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00434?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:35:14.855463"
+    },
+    {
+        "title": "2.A dynamic model of complex plant infections based on a continuum of pathogenesis strategies:\n                     verification using long-term spring wheat data under climatic aridification.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00435",
+        "doi": "10.31220/agriRxiv.2026.00435",
+        "abstract": "Current epidemiological models predominantly treat plant pathogens as discrete taxonomic entities, largely ignoring the dynamic and continuous nature of their ecological strategies. This study proposes a novel theoretical framework that integrates the Ramensky-Grime CSR continuum concept into phytopathology, representing pathogenesis strategies not as fixed categories, but as vectors in a continuous L-J-T space bounded by three archetypes: active immune breaching (L-strategy), exergy exploitation (J-strategy), and baseline erosion (T-strategy). Three mechanisms governing transitions within this continuum are introduced: ontogenetic shift, phenotypic plasticity, and evolutionary adaptation. The host's physiological potential (V) is modeled as a function of negative entropy (Bauer's principle), and disease progression is framed as a stochastic optimization problem using Bellman dynamics. The model is verified against a unique 32-year (1992-2024) dataset on spring wheat pathosystem dynamics in the Republic of Tatarstan, Russian Federation. The dataset documents a climate-driven shift in the pathogen community centroid from an L-dominated to a J/T-dominated state, consistent with model predictions. The framework provides a mechanistic explanation for the observed rise of necrotrophic and soil-borne pathogens under aridification and offers a mathematical basis for predicting long-term shifts in phytosanitary risk.",
+        "authors": [
+            "R. I. Safin"
+        ],
+        "publish_date": "27 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00435?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:35:49.510380"
+    },
+    {
+        "title": "3.Climate-induced shocks, food insecurity and strategies for tackling evolving impacts\n                     within the Alliance of Sahel States.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00432",
+        "doi": "10.31220/agriRxiv.2026.00432",
+        "abstract": null,
+        "authors": [],
+        "publish_date": null,
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "pdf_local_path": null,
+        "status": "complete",
+        "scraped_at": "2026-04-30T00:36:18.629236"
+    },
+    {
+        "title": "4.Drought by design? How rainfall data choices shape food insecurity estimates.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00433",
+        "doi": "10.31220/agriRxiv.2026.00433",
+        "abstract": "This study combines household survey data from Mali and Chad with ten rainfall datasets from various sources to examine how the choice of rainfall data influences estimates of drought impacts on food security. Rainfall shocks are measured using the Standardized Precipitation Index and assigned through bilinear, nearest-neighbor, and zonal aggregation techniques. Results without controls reveal substantial heterogeneity. Estimated coefficients vary widely in both magnitude and sign across datasets and interpolation methods, with coarse or satellite-only products exhibiting particularly high volatility. Once controls are added, this heterogeneity largely disappears and coefficients converge toward consistently negative values in line with theoretical expectations. Beyond magnitudes, the analysis also finds that the relative ranking of datasets shifts depending on the interpolation method and model specification, revealing instability in dataset performance. The findings highlight a fundamental challenge for applied economics since empirical conclusions may depend as much on dataset choice, spatial interpolation, and specification decisions as on the underlying relationship. This highlights the importance of transparency in the selection and processing of rainfall data.",
+        "authors": [
+            "Musa Hasen Ahme"
+        ],
+        "publish_date": "23 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00433?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:36:52.769837"
+    },
+    {
+        "title": "5.Emergence and spatial redistribution of severe Dalaca pallens infestations across\n                     western Patagonian pastures.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00430",
+        "doi": "10.31220/agriRxiv.2026.00430",
+        "abstract": "Recent severe infestations ofDalaca pallensin western Patagonia suggest a shift in the spatial distribution of this key pasture pest beyond its historically recognized range. Larval infestation was quantified across agroecological gradients in the Ays'en region (Chile) using a multivariate framework in which 2025 observations were projected onto a reference space defined using 2021 data, enabling direct comparison within a fixed environmental structure. The 2021 configuration showed a strong concentration of infestation within a restricted sector of the gradient. By contrast, the 2025 projection revealed a broader spatial footprint and a marked redistribution of infestation intensity across environmental sectors, including increased representation in previously secondary areas. This shift was accompanied by a consistent displacement of the infestation core toward more continental and higher-elevation conditions. Although causal mechanisms cannot be established, the observed pattern is consistent with a reorganization of infestation patterns across the regional environmental gradient under changing conditions. These findings provide the first quantitative evidence of severeD. pallensoutbreaks in western Patagonia and establish a baseline for future studies integrating climatic and phenological drivers.",
+        "authors": [
+            "Pablo Mata Almonacid",
+            "Osvaldo Teuber Winkler"
+        ],
+        "publish_date": "20 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00430?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:37:26.991295"
+    },
+    {
+        "title": "6.The impact of floods on food insecurity and vulnerability in Democratic Republic of\n                     the Congo.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00431",
+        "doi": "10.31220/agriRxiv.2026.00431",
+        "abstract": "I study the impacts of floods on household food insecurity and vulnerability in Democratic Republic of the Congo. I combine household-level data with two measures of exposure to floods, self-reported exposure and an objective indicator of large flood events at territory-level. I exploit territory-level variation in timing of exposure to floods combined with exposure to floods to identify causal impacts. I find that self-reported exposure to flood is associated with higher food insecurity and greater reliance on negative coping strategies. In contrast, causal estimates based on an objective measure of exposure to floods suggest that exposure to floods does not significantly change consumption frequency or dietary diversity but is associated with improved food security in Eastern DRC. I explore whether this pattern is driven by short-run economic activity or increased agricultural production and find suggestive evidence that exposure to floods in this context expand cultivated land.",
+        "authors": [
+            "Alzaki Alhelo"
+        ],
+        "publish_date": "17 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00431?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:38:00.606315"
+    },
+    {
+        "title": "7.A web-based digital seed viability nomograph for interactive estimation of seed longevity\n                     from moisture content, temperature, and storage duration.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00426",
+        "doi": "10.31220/agriRxiv.2026.00426",
+        "abstract": "Reliable estimation of seed longevity is central to agriculture, seed banking, restoration, and plant genetic resource conservation. For orthodox seeds, the Ellis-Roberts viability framework remains one of the most influential quantitative approaches for relating storage life to seed moisture content, temperature, and initial seed quality. Classical seed nomographs translated this framework into practical graphical tools, but many contemporary users now work in digital environments and require interactive, portable, and transparent decision-support tools. Here, we present a browser accessible digital seed viability nomograph, implemented as a React/Vite web application and available at https://seed-viability-nomograph.vercel.app. The tool allows users to adjust seed moisture content, storage temperature, storage duration, and viability constants, and then visualizes predicted germination decline, time to selected viability thresholds, and a moisture-based nomograph table. The application is intended as a teaching, research-prototyping, and planning interface rather than as a substitute for species-specific experimental calibration. This distinction is important because orthodox, intermediate, and recalcitrant seeds differ fundamentally in storage biology, and conventional dry seed models are most appropriate for orthodox materials. The digital implementation modernizes classical longevity theory through a portable and transparent interface that can be accessed directly in a web browser, making seed viability prediction easier to explore, communicate, and adapt for educational and preliminary analytical use.",
+        "authors": [
+            "Mark Ihrwell R. Petalcorin"
+        ],
+        "publish_date": "14 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00426?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:38:33.955300"
+    },
+    {
+        "title": "8.Anomalous temporal synchronization in U.S. HPAI H5N1 outbreak data: evidence for uncharacterized\n                     transmission vectors in commercial poultry infrastructure.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00427",
+        "doi": "10.31220/agriRxiv.2026.00427",
+        "abstract": "We report the identification of an anomalous temporal synchronization pattern in USDA APHIS confirmed Highly Pathogenic Avian Influenza (HPAI) H5N1 detection data from U.S. commercial and backyard poultry flocks (February 2022-March 2026). Analysis of 672 confirmed detections revealed 160 outbreak events distributed across 12 or more states occurring within identical 48-hour windows. This synchronization velocity exceeds all established transmission mechanisms, including wild bird migration (2-4 weeks), interstate poultry trade (3-7 days), and personnel movement (1-3 days). The pattern was identified alongside seven additional structural findings, including subclinical viral persistence in urban live bird markets, a breeder-to-production supply chain transmission cascade, and mammalian spillover acceleration at eight times historical rates. We present these findings as evidence that anthropogenic transmission vectors, potentially including shared feed supply chains, equipment vendor networks, or rendering truck routes, may play a larger role in domestic H5N1 propagation than currently recognized. All results were deterministic and reproducible across three independent analytical runs.",
+        "authors": [
+            "Tiara S. Jamison"
+        ],
+        "publish_date": "14 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00427?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:39:08.508988"
+    },
+    {
+        "title": "9.First record of Hercinothrips dimidiatus Hood, 1937 (Thysanoptera: Thripidae), in\n                     the United States and its pest status on Aloe L.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00424",
+        "doi": "10.31220/agriRxiv.2026.00424",
+        "abstract": null,
+        "authors": [
+            "Michael Forthman"
+        ],
+        "publish_date": "13 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00424?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:39:43.702781"
+    },
+    {
+        "title": "10.Evaluating integrated soybean cyst nematode management using spatially informed mixed\n                     models.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00425",
+        "doi": "10.31220/agriRxiv.2026.00425",
+        "abstract": "Evaluating management strategies for soybean cyst nematode (SCN) under field conditions remains challenging because the pathogen's inherently patchy spatial distribution inflates experimental error and can obscure treatment effects. This study combined spatially explicit linear mixed models with a split-plot field evaluation of two SCN-resistance sources (PI 88788 and Peking) and fluopyram seed treatment against nematode populations capable of reproducing on both resistance sources in Ohio. Six models spanning a gradient of spatial complexity were compared; tensor-product penalized spline models improved experimental efficiency by 33-39% relative to conventional non-spatial models. Peking-derived cultivars outperformed PI 88788 by 257 kg ha-1and suppressed nematode reproduction by 36%, demonstrating a clear advantage under these SCN population conditions. However, Peking exhibited slightly greater yield sensitivity to increasing initial SCN population density (Pi; -5.1% per log-unit increase) than PI 88788 (-4%), revealing a trade-off between reproductive suppression and yield stability. Fluopyram seed treatment increased yield by 111 kg ha-1but did not reduce SCN reproduction factor, indicating a yield-protective effect rather than direct suppression of nematode population growth. These results demonstrate that effective management in fields with populations capable of reproducing on both resistance sources requires diversification of resistance, with Peking-derived cultivars representing an important complement to PI 88788 and seed treatments providing supplementary yield protection. The spatial modeling framework developed here provides a template for improving precision in soilborne pathogen research.",
+        "authors": [
+            "Vinicius C. Garnica",
+            "Horacio D. Lopez-Nicora"
+        ],
+        "publish_date": "13 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00425?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:40:18.065601"
+    },
+    {
+        "title": "11.Agroecological vineyard management in cool semi-continental systems: effects on pesticide\n                     use, yield, and mildew damage.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00428",
+        "doi": "10.31220/agriRxiv.2026.00428",
+        "abstract": "Conventional agriculture, including viticulture, is heavily reliant on chemical inputs, and especially synthetic pesticides. However, pesticides come with unintended negative impacts for the environment and society. Agricultural systems, including vineyard, must find ways to maintain production levels while reducing pesticides to improve environmental and social outcomes. In this long-term study, we assessed various agroecological vineyard management strategies and their impacts on pesticide use, mildew control, and yield. We worked closely with key stakeholders to develop a set of 11 low-input vineyard plots implementing several combinations of technical and management changes to reduce pesticide use. The implemented changes were categorized based on the efficiency-substitution-redesign framework, and the vineyards were monitored and assessed over six consecutive years as a proof of concept. Pesticide use was successfully reduced in each of the case study plots, with most of the combinations of agroecological changes resulting in lower pesticide use while still achieving yields that both aligned with regional averages and met winegrowers' yield targets. The low-input plots produced the expected yields for six consecutive years, with acceptable levels of powdery and downy mildew damage at harvest. Our results can support the transition toward low-input vineyard systems by providing agricultural advisers with information to aid implementation and reassuring farmers who may be reluctant to make a shift to these systems.",
+        "authors": [
+            "Anne Merot",
+            "Marie Thiollet-Scholtus",
+            "Jean-Jacques Lambert"
+        ],
+        "publish_date": "13 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00428?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:40:52.500038"
+    },
+    {
+        "title": "12.Soil and cocoa bean nutrients, cadmium, and market-relevant bean attributes across\n                     Papua New Guinea.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00423",
+        "doi": "10.31220/agriRxiv.2026.00423",
+        "abstract": "Cocoa is Papua New Guinea's (PNG) third-largest agricultural export, supporting about two million smallholder farmers. Recent cadmium (Cd) regulations in chocolate products and limits on Cd in soils pose possible risks to the sustainability of PNG's cocoa industry. This study provides the first nationwide assessment of Cd in cocoa-growing soils and cocoa beans in PNG, assesses soil nutrient status, evaluates the suitability of portable X-ray fluorescence (pXRF) for rapid soil Cd screening, and examines select cocoa bean attributes of market concern. A total of 122 soil samples were collected and analysed from eight cocoa-growing provinces and the Autonomous Region of Bougainville (ARoB), along with 71 cocoa bean samples from two of these provinces and ARoB. Across all provinces and ARoB, DTPA-extractable soil Cd (proxy for bioavailable Cd) averaged 0.13 mg kg-1(± 0.33 Standard Deviation). While no samples exceeded international limits (>3.0 mg kg-1), one sample from New Ireland contained 2.43 mg kg-1of Cd, indicating the need for further targeted sampling to determine the extent and spatial distribution of high Cd concentrations. At the low DTPA-extractable Cd concentrations measured across PNG, pXRF lacked the sensitivity required for reliable detection and therefore is not recommended for screening. Bean Cd concentrations were not of concern. However, all samples exceeded industry thresholds for free fatty acids (FFA). Sealed hermetic storage may present a practical strategy to help mitigate FFA accumulation and improve bean quality. Finally, soils exhibited sub-optimal exchangeable Ca:Mg:K ratios, with widespread K deficiency and nutrient depletion, underscoring the need for targeted nutrient replenishment. This study provides the first nationwide baseline of soil and bean Cd status, as well as key cocoa attributes of market concern in PNG, offering insights relevant to cocoa-producing regions globally.",
+        "authors": [
+            "Chris Fidelis",
+            "Paul N. Nelson",
+            "Damien Field",
+            "Tom Swan",
+            "Tiago Rodrigues Tavares",
+            "David Guest",
+            "David Yinil",
+            "Ho Jun Jang",
+            "Belinda Nielsen"
+        ],
+        "publish_date": "10 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00423?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:41:26.408425"
+    },
+    {
+        "title": "13.Climatic fingerprint of the 2023 wheat head blast outbreak and its historical and\n                     future analogs in southern South America.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00429",
+        "doi": "10.31220/agriRxiv.2026.00429",
+        "abstract": "Wheat head blast is a major threat to wheat in South America, but outbreaks vary across space and time because they depend on seasonal weather. In subtropical and temperate regions, epidemics occur only when winter conditions allow inoculum survival and weather during heading favors infection. As a result, epidemiological data from these regions remain limited. In 2023, unusual weather led to widespread disease occurrence across parts of southern South America. In this study, we adopted a climate-analog framework to define the climatic fingerprint of the 2023 epidemic season and assess whether similar conditions occurred historically (1981-2023) or reoccur under mid-century climate projections (2024-2055). Two biologically informed indices were developed for each year: winter thermal favorability, representing conditions for inoculum carryover, and hygrothermal suitability during heading. Historical years were compared with 2023 conditions at each site and with the 2023 Passo Fundo epidemic. Analog years were rare in the historical record, confirming the exceptional nature of 2023. Under RCP 8.5, analog frequency increased markedly in southern Brazil, indicating a higher likelihood of permissive seasons. Argentine sites became more favorable relative to their history but remained far from the Passo Fundo benchmark, whereas Artigas-Salto became less permissive due to colder winters. Overall, the 2023 climatic envelope appears historically anomalous but likely to become more frequent in southern Brazil, reinforcing the need for continued surveillance and blast-resistant management.",
+        "authors": [
+            "Igor F. Erhardt",
+            "Adam H. Sparks",
+            "Emerson M. Del Ponte"
+        ],
+        "publish_date": "10 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00429?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:42:07.927926"
+    },
+    {
+        "title": "14.Agricultural evidence synthesis at a critical juncture: quality assessment and pathways\n                     to maturation.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00420",
+        "doi": "10.31220/agriRxiv.2026.00420",
+        "abstract": "Systematic reviews and meta-analyses have become essential tools for synthesizing evidence to address complex agricultural challenges, yet their methodological quality remains largely uncharacterized. This study conducted a quality assessment of agricultural evidence syntheses published between 1997 and 2023. A random sample of 244 systematic reviews and meta-analyses was drawn from a bibliometric dataset of 1,709 articles. Reporting quality was evaluated using a 12-indicator rubric across four domains: reproducibility, dual-purpose infrastructure, bias mitigation, and best practices. Quality patterns were analyzed by article type and temporal trends. Predictors of reporting quality were identified through multivariate regression. Articles achieved only 32% of the maximum quality score, with major quality gaps in dual screening (4%), study quality assessment (18%), and protocol registration (12%). Systematic reviews significantly outperformed meta-analyses (6.53 vs. 3.75), suggesting divergent methodological cultures. Journal prestige and international collaboration were not associated with quality. While quality improved from 2009 to 2016, key quality indicators plateaued thereafter despite rapid publication growth. Guideline adherence emerged as the strongest quality predictor: standard guideline users scored five points higher than non-users, explaining 20% of observed variance. These findings indicate that agricultural evidence synthesis is in mid-maturation, with systemic gaps stemming from remediable knowledge and resource constraints rather than structural barriers. The strong association between guideline adherence and quality, alongside its sharp adoption increase, highlights a clear pathway for accelerating progress. To support this advancement, the CREDIT framework is proposed, targeting six interrelated needs: Collaboration, Resources, Education, Documentation, Integration, and Tools.",
+        "authors": [
+            "Jane K. Yatcilla",
+            "Chao Cai",
+            "Justyna Czader",
+            "Jeffrey J. Volenec",
+            "Sylvie M. Brouder"
+        ],
+        "publish_date": "31 March 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00420?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:42:43.182058"
+    },
+    {
+        "title": "15.Production of bottle fermented sparkling wine using nano and micro filters.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00421",
+        "doi": "10.31220/agriRxiv.2026.00421",
+        "abstract": "This study presents a method for the production of sparkling wine in a bottle using micro and nano- filters. The nano filter is employed for the separation of carbon dioxide from volatile aromas present in gaseous fermentation products. Nanofilters are able to pass small carbon dioxide molecules through them, which are contained in the fermentation gas. At the same time, nanofilters prevent the exit of large aromatic molecules. This process allows the wine to retain the full flavour potential of the grapes, which may be partially lost during the winemaking process. Microfilters are used to separate the majority of the wine from yeast cells, significantly simplifying the process of yeast removal from bottles after fermentation has been completed. This process is analogous to the method of removing tea leaves from a prepared infusion using a tea bag. The use of a microfilter allows for the interruption of the fermentation process at any point when the desired level of residual sugar has been reached. Various options for producing sparkling wines using the proposed method are being considered. The main focus is on the process of producing sparkling wine from wort in one stage and in one bottle. The proposed method does not require the use of expensive equipment, which makes it affordable for small-scale production and even for use at home.",
+        "authors": [
+            "Ju. H. Krieger"
+        ],
+        "publish_date": "31 March 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00421?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:43:16.794529"
+    },
+    {
+        "title": "16.Prevalence and spatial distribution of Fusarium wilt of banana in the Peruvian Amazon.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00418",
+        "doi": "10.31220/agriRxiv.2026.00418",
+        "abstract": "Fusariumwilt of banana (FWB), caused byFusarium oxysporumf. sp. cubense (Foc), is a primary threat toMusaspp. production. Despite its impact, the intensity and potential drivers of the disease in the Peruvian Amazon remain poorly understood. This study assessed FWB prevalence, spatial distribution, and associated biophysical and management variables at the mesoscale. A census of 189 plots (213,005 mats) was conducted across six regions using visual inspection. Overall prevalence was 28.04%, with the highest value in Junín (55.56%). FWB was significantly associated with Isla (Iholena, AAB) and Seda (Gros Michel, AAA) cultivars. Spatial analysis revealed hierarchical aggregation with localized foci (radius = 13.8 km) and broader farm clustering at intermediate scales. Disease occurrence was more frequent in areas with higher altitudes (> 762.5 m a.s.l.) and annual precipitation (> 1481 mm). Areas with higher flood risk, linked to pronounced rainfall seasonality, were identified as critical for pathogen movement via watercourses. FWB was identified as the main phytosanitary issue in affected areas, where the lack of intervention on symptomatic plants strongly correlated with disease presence. These findings provide an epidemiological baseline for designing context-specific management and preventive strategies in the Peruvian rainforest, particularly against the emerging threat of Foc TR4, yet no present un this region of the country.",
+        "authors": [
+            "Julio Marín-Horna",
+            "Miguel Dita",
+            "Dustin Marín-Gil"
+        ],
+        "publish_date": "25 March 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00418?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:43:50.996708"
+    },
+    {
+        "title": "17.Biomass dilution by SiO2: a reason for misinterpretation of the plant nutritional\n                     status in silicon trials.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00415",
+        "doi": "10.31220/agriRxiv.2026.00415",
+        "abstract": "Plants can take up significant amounts of silicon (Si), which is deposited in the apoplast as silica (SiO2). Changes in biomass and element concentrations after Si application often have been attributed to direct effects of Si on photosynthesis and nutrient uptake, not accounting for the significant biomass effect of SiO2which dilutes biomass and element concentrations. Here, we quantified this biomass dilution by SiO2and its effect on the interpretation of element concentrations. Five independent hydroponic experiments with rice, wheat, and rapeseed were conducted at different Si supply levels (0-2000 µmol L-1). Biomass and element concentrations were determined (measured data) and mathematically corrected for the SiO2content of the biomass (corrected data). With increasing Si supply, measured carbon concentrations were significantly reduced by up to 6%. This effect disappeared after mathematical correction of the SiO2dilution. Similar results were found for elements with predominantly transporter-mediated uptake. For sodium, an element taken up via bypass flow, relative concentration changes attributable to mere biomass dilution were strongly outweighed by other effects. This shows that SiO2deposition mechanistically alters the uptake processes of this element. These results illustrate that meaningful analysis of changes in nutrient uptake patterns due to Si can only be done after accounting for SiO2dilution. Not correcting the concentrations of elements by SiO2 dilution can lead to a misinterpretation of the nutritional status of plants.",
+        "authors": [
+            "Tabea Selzer",
+            "Jakob Santner",
+            "Mirriam Chishala Chibesa"
+        ],
+        "publish_date": "23 March 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00415?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:44:26.305948"
+    },
+    {
+        "title": "18.Research on rural household livelihood differentiation based on PCA and K-means algorithms:\n                     a case study of Daxing Village, Shenyang, China.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00416",
+        "doi": "10.31220/agriRxiv.2026.00416",
+        "abstract": "Against the backdrop of urban-rural integration and population aging, objectively quantifying the characteristics of rural household livelihood differentiation holds important reference value for understanding micro-level structural changes in rural society. Based on questionnaire survey data from 493 households in Daxing Village, Shenyang, this study constructs a livelihood indicator system comprising 14 variables across four capital dimensions. Kernel Density Estimation (KDE) is employed to examine the distributional characteristics of per capita income. Principal Component Analysis (PCA) combined with K-means clustering is applied for quantitative household classification. To mitigate the interference of redundant feature information on Euclidean distance metrics, a joint parameter optimization procedure incorporating the silhouette coefficient was implemented to simultaneously select the optimal number of principal components and the number of clusters. The results indicate that: (1) the per capita income of sampled households exhibits a non-normal bimodal distribution; (2) the optimal model structure is achieved when two principal components are retained and households are partitioned into two clusters (silhouette coefficient = 0.558); and (3) sampled households are classified into \"Young and Middle-aged Laborers,\" primarily engaged in non-agricultural employment, and \"Elderly Transfer-dependent\" households, who rely predominantly on policy-based transfer income. These findings suggest that the key drivers of suburban rural livelihoods are shifting from land endowments toward human capital, and that elderly households exhibit pronounced passivity in their livelihood strategies. This study provides an empirical reference for the quantitative analysis of multi-dimensional micro-level livelihood survey data.",
+        "authors": [
+            "Xu-sheng Chen",
+            "Yi-jiao Diao"
+        ],
+        "publish_date": "23 March 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00416?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:45:01.109341"
+    },
+    {
+        "title": "19.Laser-assisted foliar zinc delivery in grapevine: a proof-of-concept evaluation of\n                     FLB technology with conventional spray, laser-assisted spray, and laser-assisted patch\n                     delivery modes.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00419",
+        "doi": "10.31220/agriRxiv.2026.00419",
+        "abstract": "Zinc (Zn) deficiency is a widespread limitation in grapevine (Vitis viniferaL.) production, affecting photosynthesis, berry development, and vine health. Foliar Zn applications are constrained by the hydrophobic leaf cuticle, which restricts ionic uptake. Foliar Laser Boost (FLB) is a patented technology (US Patent 12,532,814 B2) that applies a pulsed 450 nm semiconductor diode laser to the leaf surface immediately prior to nutrient delivery, creating transient micro-apertures in the epicuticular wax layer to enhance localized foliar uptake. This proof-of-concept (PoC) study evaluated FLB-assisted zinc sulfate (ZnSO4) delivery in grapevine across four treatments: (GV UTC) untreated control; (GV S) conventional spray without laser pre-treatment; (GV LS) FLB laser pre-treatment followed by liquid spray; and (GV LP) FLB laser pre-treatment followed by biodegradable patch delivery. Leaf tissue was sampled 72 hours after treatment (T72) and analyzed by ICP-OES at Waypoint Analytical Tennessee, Inc. The untreated control yielded a baseline Zn of 49 ppm. Conventional spray without laser (GV S) raised tissue Zn to 138 ppm (+182% above UTC). FLB laser-assisted spray (GV LS) achieved 152 ppm (+210% above UTC; +10% above GV S), indicating a modest additional uplift from laser pre-treatment. FLB laser-assisted patch delivery (GV LP) produced the highest tissue Zn at 275 ppm (+461% above UTC; +99% above GV S; +81% above GV LS), demonstrating that sustained contact between the nutrient source and the laser-permeabilized cuticle substantially amplifies uptake efficiency. These preliminary results support FLB technology as a promising approach for precision foliar Zn delivery in grapevine, with the patch delivery mode showing particular efficacy. Formal statistical analysis was not possible due to the single-composite-per treatment design; replicated trials are warranted.",
+        "authors": [
+            "Teresa Flores-Reyes",
+            "Alejandro Ponce-Flores",
+            "Luis Ponce-Cabrera"
+        ],
+        "publish_date": "23 March 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00419?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:45:35.187773"
+    },
+    {
+        "title": "20.A revised method for estimating breeding population size in native equine breeds:\n                     scientific rationale, genetic implications, and policy relevance.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00417",
+        "doi": "10.31220/agriRxiv.2026.00417",
+        "abstract": "Background: Reliable estimates of breeding population size are critical for conservation of rare livestock breeds. Traditional methods in the UK have used recent pedigree registrations multiplied by species specific factors to estimate breeding females. However, equine breeds show highly variable and sporadic breeding patterns, rendering multiplier-based approaches unsuitable. Many mares produce only one or two foals in a lifetime and numerous equines never enter breeding programs. Additionally, incomplete reporting of deaths inflates counts of potential breeders. These issues complicate the identification of at risk native pony and horse breeds and the allocation of conservation resources. Methods: The UK Department for Environment, Food & Rural Affairs (Defra), in collaboration with the UK Genetics for Livestock and Equines Committee (UKGLE), developed a 10-year retrospective quantification method, often referred to as amultiplier, to directly enumerate breeding females. Under this new method, a mare is counted as part of the breeding population if she has produced at least one registered foal in the past 10 years and is still alive at the end of that period. Each qualifying mare is included starting from the year she first foals and for ten years after her last foaling, unless recorded deceased. Mares with no offspring are excluded as they made no genetic contribution. We review prior approaches, detail the rationale behind the 10-year multiplier (including a conceptual diagram, Figure 1), and interpret this method in light of population genetics theory (effective population sizeNe, inbreeding coefficientsF, mean kinshipMK). We compare the new approach to international practices (FAO, Rare Breeds Survival Trust) and discuss its implications for conservation policy. Results: The 10-year breeding female multiplier provides a more accurate and breed-specific estimate of active broodmare numbers compared to earlier proxy measures. It inherently adjusts for the longer generational interval of equines (~8-10 years) and irregular foaling schedules. By focusing on mares that reproduced, it avoids overestimating genetic contributors such as by counting all mature females and underestimating long-interval breeders which a short-term metric could exclude. Preliminary application indicates that for some breeds, the new method yields significantly different (often lower) breeding population estimates than prior speculative multipliers, aligning better with known studbook trends. The method outputs also enable direct calculation ofNeusing the true number of breeding males and females, rather than cruder assumptions. For example, using the new data, the averageNeof UK native horse breeds was ~100 in 2019-2024 (down from ~224 in 2000), and several breeds (e.g. four horse breeds in 2024) show critically lowNe≤ 50. This underscores the urgency of effective breeding management. Integrating pedigree analyses, breed societies have begun monitoring mean inbreeding and kinship of the counted breeding population, as advocated by conservation geneticists. The Rare Breeds Survival Trust's recent watchlist methodology shift toNeand inbreeding metrics complements this 10-year multiplier, yielding a more holistic risk assessment. Internationally, the UK's approach exemplifies a move from simple numeric thresholds towards demographic-genetic indicators in breed conservation. Conclusions: The newly implemented 10-year multiplier for quantifying the population of breeding mares provides a scientifically robust and transparent means to estimate the genetic breeding population of equine breeds. It directly addresses biological realities of equine reproduction and resolves the shortcomings of prior indirect estimation. Coupling this demographic metric with genetic diversity measures (effective size, inbreeding rate, MK) offers a powerful tool for conservation decision-making. This approach ensures that at-risk status and related policy support (e.g. inclusion on the Native Breeds at Risk list) are grounded in meaningful data on both population size and genetic health. The method has broad implications: it can improve the accuracy of national and international breed risk registries, guide targeted interventions (such as breeding programs or incentives to utilize underrepresented mares), and ultimately enhance the long-term viability of the UK's native horse and pony breeds.",
+        "authors": [
+            "Samuel White",
+            "Philippe B. Wilson",
+            "Libby Henson",
+            "Marcus Bates"
+        ],
+        "publish_date": "19 March 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00417?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:46:09.887283"
+    },
+    {
+        "title": "21.Impact of grape seed extract on flavor and functionality of pea protein extrudates\n                     and patties.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00412",
+        "doi": "10.31220/agriRxiv.2026.00412",
+        "abstract": "Consumer interest in plant-based proteins is increasing, but undesirable off-flavors from Maillard reaction and lipid oxidation processes hinder their broader acceptance. Our previous work showed that proanthocyanidin-rich plant extracts like grape seed extract (GSE) could reduce formation of these off-flavors in aqueous plant protein solutions. This study investigated the effects of GSE addition pre- and post-extrusion at two levels (0.02 and 1.0% w/w) on off-flavor development in pea protein extrudates and patties. We hypothesized that GSE addition at different processing phases would impact its ability to alter Maillard reaction and lipid oxidation processes, thus affecting its ability to mitigate off-flavor formation. Pre-extrusion treatments reduced Maillard browning products by 40% more than post-extrusion treatments, likely because GSE polyphenols were present throughout extrusion-induced protein denaturation and restructuring, which allowed them to bind reactive amino groups and limit amino acid interaction with reducing sugars. Conversely, post-extrusion GSE treatment decreased primary and secondary lipid oxidation products by approximately 53% and 44% in patties, respectively (vs 15% and 31%, respectively, in pre-treated samples), and enhanced antioxidant capacities across all samples. Because post-extrusion GSE treatments exhibited fewer protein-polyphenol interactions, polyphenols were able to scavenge free radicals more efficiently than pre-extrusion treatments. Sensory evaluation indicated that GSE did not impart astringency, a common concern with polyphenol addition. These results demonstrate that polyphenols can effectively improve flavor quality in plant-based protein products. Practical Application: Addition of grape seed extract can help reduce off-flavors in legumes caused by major flavor degradation pathways. In particular, adding polyphenols before processing can reduce Maillard-derived off-flavors, while polyphenols added after processing are more effective at reducing lipid oxidation-derived off-flavors. This approach offers a simple and sustainable way to enhance flavor quality and properties of plant-based meat alternatives.",
+        "authors": [
+            "Lily Lincoln",
+            "Audrey L. Girard",
+            "Wendy Lu"
+        ],
+        "publish_date": "18 March 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00412?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:46:56.543520"
+    },
+    {
+        "title": "22.Laser-assisted foliar phosphorus delivery in strawberry: comparing low-dose FLB applications\n                     against conventional high-volume spray.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00413",
+        "doi": "10.31220/agriRxiv.2026.00413",
+        "abstract": "Conventional high-volume foliar sprays deliver large quantities of nutrients per application but risk phytotoxicity and waste active ingredients. Foliar Laser Boost (FLB) technology employs a handheld pulsed laser to create transient micro-perforations in the leaf cuticle, enabling highly localized nutrient delivery at substantially reduced doses. This randomized controlled trial evaluated FLB-assisted phosphorus (P) delivery in strawberry (Fragaria × ananassa cv. Chandler) under greenhouse conditions (Chula, GA, 2026). Sixty plants were assigned to five treatments (12 replicates each): (T1) untreated control; (T2) high-volume conventional micro-spray (10 mL of 0-0-26 solution per whole plant; ~2,840 mg P); (T3) low-dose micro-spray (0.2 mL applied to one leaf; ~77 mg P); (T4) FLB micro-spray (laser pre-treatment followed by 0.2 mL on one leaf); and (T5) FLB patch (laser pre-treatment followed by 0.2 mL delivered via biodegradable patch). Leaf tissue P content (% dry weight), chlorophyll content (mg/cm2, AtLeaf CHL Plus), and phytotoxicity (% necrosis) were assessed at 3 and 7 days after treatment (DAT). T2 caused severe phytotoxicity (45% at 3 DAT; 70.4% at 7 DAT; F = 1,056.7, p < 0.0001) due to undiluted solution application, and achieved the highest P uptake (2.44% at 3 DAT; 2.02% at 7 DAT). FLB-assisted treatments (T4: 0.80%; T5: 0.74% at 3 DAT) exceeded the low-dose control without laser (T3: 0.66%); at 7 DAT, T4 and T3 retained similar P levels (0.44% vs. 0.43%), while T5 declined toward the baseline (0.36%). FLB treatments achieved meaningful P enrichment using ~37-fold less product than the conventional spray, with minimal phytotoxicity (0-0.8%). These results demonstrate that FLB technology enables substantial input reduction without proportional loss of foliar nutrient uptake efficacy, supporting its viability as a precision delivery platform.",
+        "authors": [
+            "Luis Ponce Cabrera"
+        ],
+        "publish_date": "18 March 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00413?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:47:30.002078"
+    },
+    {
+        "title": "23.Protecting wild populations and working landscapes: the case for transitioning to\n                     size-based criteria for federal regulation of American ginseng.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00414",
+        "doi": "10.31220/agriRxiv.2026.00414",
+        "abstract": "Overharvesting of wild medicinal plants threatens biodiversity, rural livelihoods, and the long-term sustainability of harvested populations worldwide. Wild American ginseng (Panax quinquefolius L.) is listed on Appendix II of the Convention on International Trade in Endangered Species (CITES) and, as a result, is regulated in the United States under a federally coordinated, age-based harvest framework intended to sustain natural populations. However, age-based criteria assume strong, consistent relationships between plant age, size, and reproductive capacity—relationships that do not hold up for many other plant and animal species, and have been questioned for American ginseng. We test whether size-based metrics provide a stronger and more practical basis for regulating ginseng harvest than chronological age. We measured age, aboveground traits, root biomass, and reproductive output for wild-simulated ginseng plants (5–10 years old) across four sites spanning substantial environmental heterogeneity. Leaf area, estimated from a simple field measurement, explained 75% of the variation in root dry mass, far exceeding the explanatory power of age (12%) or the combination of age and leaf count (36%), representing the current regulatory approach. Leaf area also strongly predicted the probability of reproduction and maximum seed production, with larger plants consistently outperforming smaller, older individuals. Our results demonstrate that age-based harvest criteria are weak proxies for the biological attributes most relevant to conservation and sustainability. A simple, field-measurable size metric better reflects ginseng performance and could underpin a transition to size-based regulation, analogous to widely used approaches in fisheries management.",
+        "authors": [
+            "Alex C. McAlvay",
+            "Marlyse C. Duguid",
+            "Nat S. Burr",
+            "Karam C. Sheban",
+            "Mark A. Bradford",
+            "Anna K. Plattner"
+        ],
+        "publish_date": "18 March 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00414?download=true",
+        "pdf_local_path": null,
+        "status": "incomplete",
+        "scraped_at": "2026-04-30T00:48:03.716355"
+    }
+]
