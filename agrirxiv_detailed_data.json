@@ -1,0 +1,11 @@
+[
+    {
+        "title": "1.A dynamic model of complex plant infections based on a continuum of pathogenesis strategies:\n                     verification using long-term spring wheat data under climatic aridification.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00435",
+        "doi": "10.31220/agriRxiv.2026.00435",
+        "abstract": "Current epidemiological models predominantly treat plant pathogens as discrete taxonomic entities, largely ignoring the dynamic and continuous nature of their ecological strategies. This study proposes a novel theoretical framework that integrates the Ramensky-Grime CSR continuum concept into phytopathology, representing pathogenesis strategies not as fixed categories, but as vectors in a continuous L-J-T space bounded by three archetypes: active immune breaching (L-strategy), exergy exploitation (J-strategy), and baseline erosion (T-strategy). Three mechanisms governing transitions within this continuum are introduced: ontogenetic shift, phenotypic plasticity, and evolutionary adaptation. The host's physiological potential (V) is modeled as a function of negative entropy (Bauer's principle), and disease progression is framed as a stochastic optimization problem using Bellman dynamics. The model is verified against a unique 32-year (1992-2024) dataset on spring wheat pathosystem dynamics in the Republic of Tatarstan, Russian Federation. The dataset documents a climate-driven shift in the pathogen community centroid from an L-dominated to a J/T-dominated state, consistent with model predictions. The framework provides a mechanistic explanation for the observed rise of necrotrophic and soil-borne pathogens under aridification and offers a mathematical basis for predicting long-term shifts in phytosanitary risk.",
+        "is_pdf_available": true,
+        "pdf_local_path": null,
+        "pdf_url": null
+    }
+]
