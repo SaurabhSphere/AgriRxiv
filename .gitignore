@@ -1,0 +1,96 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Downloaded Files and PDFs
+downloaded_files/
+downloaded_pdfs/
+*.pdf
+*.PDF
+
+# Data Files
+agrirxiv_final_data.json
+agrirxiv_data.json
+*.json
+
+# Logs
+*.log
+scraper_debug.log
+debug_logs/
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS Specific
+.DS_Store
+Thumbs.db
+.env
+.env.local
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Browser Data
+chromedriver
+chromedriver.exe
+*.crx
+
+# Node modules (if using any frontend tools)
+node_modules/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Scrapy specific
+.scrapy/
+
+# Any sensitive configuration files
+config.py
+secrets.py
+credentials.json
+
+# MacOS
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+$RECYCLE.BIN/
+ehthumbs.db

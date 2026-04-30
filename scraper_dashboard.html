@@ -1,186 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AgriRxiv Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced AgriRxiv Dashboard</title>
+    <!-- Dependencies: Chart.js, Lucide Icons, and Google Fonts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --text: #1e293b;
+            --success: #22c55e;
+            --danger: #ef4444;
+        }
 
-<style>
-body {
-    font-family: Arial;
-    background: #f4f7f6;
-    padding: 20px;
-}
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 20px;
+        }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
+        .container { max-width: 1300px; margin: auto; }
 
-.card {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-}
+        /* --- Header & Stats --- */
+        header { text-align: center; margin-bottom: 30px; }
+        #last-scraped { color: #64748b; font-size: 0.9rem; }
 
-h1 { text-align: center; }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
 
-.stats {
-    display: flex;
-    gap: 20px;
-}
+        .card {
+            background: var(--card);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+        }
 
-.stat {
-    flex: 1;
-    text-align: center;
-}
+        .stat-val { font-size: 1.8rem; font-weight: 600; color: var(--primary); }
+        .stat-label { color: #64748b; font-size: 0.9rem; }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
+        /* --- Filters --- */
+        .toolbar {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
 
-th, td {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
-}
+        .search-box {
+            flex: 2;
+            padding: 12px 15px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 1rem;
+        }
 
-.tag-complete { color: green; }
-.tag-incomplete { color: red; }
-</style>
+        .filter-select {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            background: white;
+        }
+
+        /* --- Charts Layout --- */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 850px) { .charts-grid { grid-template-columns: 1fr; } }
+
+        /* --- Accordion Table --- */
+        .paper-row { cursor: pointer; transition: background 0.2s; }
+        .paper-row:hover { background: #f1f5f9; }
+        
+        .abstract-content {
+            display: none;
+            background: #fdfdfd;
+            padding: 20px;
+            border-left: 4px solid var(--primary);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th { text-align: left; padding: 15px; background: #f1f5f9; font-weight: 600; }
+        td { padding: 15px; border-bottom: 1px solid #e2e8f0; vertical-align: top; }
+
+        .tag {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .tag-complete { background: #dcfce7; color: var(--success); }
+        .tag-incomplete { background: #fee2e2; color: var(--danger); }
+
+        .btn-link {
+            text-decoration: none;
+            color: var(--primary);
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    </style>
 </head>
-
 <body>
 
 <div class="container">
+    <header>
+        <h1>📊 Research Insights Dashboard</h1>
+        <p id="last-scraped">Syncing data...</p>
+    </header>
 
-<h1>📊 Research Dashboard</h1>
-
-<div class="card stats">
-    <div class="stat">
-        <h3>Total</h3>
-        <p id="total">0</p>
+    <div class="stats-grid">
+        <div class="card">
+            <div class="stat-val" id="total-val">0</div>
+            <div class="stat-label">Total Papers Scraped</div>
+        </div>
+        <div class="card">
+            <div class="stat-val" id="pdf-val">0</div>
+            <div class="stat-label">PDFs Downloaded</div>
+        </div>
+        <div class="card">
+            <div class="stat-val" id="completion-val">0%</div>
+            <div class="stat-label">Success Rate</div>
+        </div>
+        <div class="card">
+            <div class="stat-val" id="author-avg">0</div>
+            <div class="stat-label">Avg. Authors per Paper</div>
+        </div>
     </div>
-    <div class="stat">
-        <h3>PDFs</h3>
-        <p id="pdf">0</p>
+
+    <div class="charts-grid">
+        <div class="card">
+            <canvas id="timeChart"></canvas>
+        </div>
+        <div class="card">
+            <canvas id="pdfStatusChart"></canvas>
+        </div>
     </div>
-    <div class="stat">
-        <h3>Completion</h3>
-        <p id="completion">0%</p>
+
+    <div class="card">
+        <div class="toolbar">
+            <input type="text" id="search" class="search-box" placeholder="Search by title, author, or DOI...">
+            <select id="statusFilter" class="filter-select">
+                <option value="all">All Statuses</option>
+                <option value="complete">Complete</option>
+                <option value="incomplete">Incomplete</option>
+            </select>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 40%;">Title (Click to read abstract)</th>
+                    <th>Authors</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="papers-table"></tbody>
+        </table>
     </div>
-</div>
-
-<div class="card">
-    <canvas id="authorChart"></canvas>
-</div>
-
-<div class="card">
-    <canvas id="pdfChart"></canvas>
-</div>
-
-<div class="card">
-    <h2>Papers</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Title</th>
-                <th>Authors</th>
-                <th>Date</th>
-                <th>Status</th>
-                <th>PDF</th>
-            </tr>
-        </thead>
-        <tbody id="table"></tbody>
-    </table>
-</div>
-
 </div>
 
 <script>
+    let rawData = [];
+    let timeChart, statusChart;
 
-let authorChart, pdfChart;
+    // --- Time Formatter ---
+    function timeAgo(dateString) {
+        const seconds = Math.floor((new Date() - new Date(dateString)) / 1000);
+        let interval = seconds / 31536000;
+        if (interval > 1) return Math.floor(interval) + " years ago";
+        interval = seconds / 2592000;
+        if (interval > 1) return Math.floor(interval) + " months ago";
+        interval = seconds / 86400;
+        if (interval > 1) return Math.floor(interval) + " days ago";
+        interval = seconds / 3600;
+        if (interval > 1) return Math.floor(interval) + " hours ago";
+        interval = seconds / 60;
+        if (interval > 1) return Math.floor(interval) + " minutes ago";
+        return Math.floor(seconds) + " seconds ago";
+    }
 
-function renderDashboard(data) {
+    // --- Accordion Toggle ---
+    function toggleAbstract(id) {
+        const content = document.getElementById(`abstract-${id}`);
+        content.style.display = content.style.display === "block" ? "none" : "block";
+    }
 
-    const table = document.getElementById("table");
-    table.innerHTML = "";
+    // --- Main Rendering Logic ---
+    function updateDisplay(data) {
+        const tableBody = document.getElementById("papers-table");
+        tableBody.innerHTML = "";
 
-    let pdfCount = 0;
-    let completeCount = 0;
+        data.forEach((item, index) => {
+            const row = document.createElement("tr");
+            row.className = "paper-row";
+            row.onclick = () => toggleAbstract(index);
+            
+            row.innerHTML = `
+                <td>
+                    <strong>${item.title}</strong>
+                    <div id="abstract-${index}" class="abstract-content">
+                        <strong>Abstract:</strong><br>${item.abstract || "No abstract available."}
+                        <br><br><strong>DOI:</strong> ${item.doi}
+                    </div>
+                </td>
+                <td>${item.authors.join(", ") || "N/A"}</td>
+                <td>${item.publish_date || "N/A"}</td>
+                <td><span class="tag tag-${item.status}">${item.status}</span></td>
+                <td>
+                    ${item.pdf_local_path 
+                        ? `<a href="file:///${item.pdf_local_path}" class="btn-link">📁 Local</a>`
+                        : (item.is_pdf_available ? `<a href="${item.pdf_url}" target="_blank" class="btn-link">🌐 Online</a>` : "🚫 N/A")}
+                </td>
+            `;
+            tableBody.appendChild(row);
+        });
 
-    let authorCounts = [];
+        calculateStats(data);
+        renderCharts(data);
+    }
 
-    data.forEach((item, i) => {
+    function calculateStats(data) {
+        const total = data.length;
+        const pdfs = data.filter(i => i.is_pdf_available).length;
+        const complete = data.filter(i => i.status === 'complete').length;
+        const avgAuthors = (data.reduce((sum, i) => sum + i.authors.length, 0) / total).toFixed(1);
 
-        if(item.is_pdf_available) pdfCount++;
-        if(item.status === "complete") completeCount++;
+        document.getElementById("total-val").innerText = total;
+        document.getElementById("pdf-val").innerText = pdfs;
+        document.getElementById("completion-val").innerText = Math.round((complete / total) * 100) + "%";
+        document.getElementById("author-avg").innerText = avgAuthors;
 
-        authorCounts.push(item.authors.length);
-
-        let row = `
-        <tr>
-            <td>${item.title}</td>
-            <td>${item.authors.join(", ")}</td>
-            <td>${item.publish_date}</td>
-            <td class="tag-${item.status}">${item.status}</td>
-            <td>
-                ${item.pdf_local_path 
-                    ? `<a href="file:///${item.pdf_local_path}">Local</a>`
-                    : (item.is_pdf_available 
-                        ? `<a href="${item.pdf_url}" target="_blank">Online</a>`
-                        : "N/A")}
-            </td>
-        </tr>`;
-
-        table.innerHTML += row;
-    });
-
-    // stats
-    document.getElementById("total").textContent = data.length;
-    document.getElementById("pdf").textContent = pdfCount;
-    document.getElementById("completion").textContent =
-        Math.round((completeCount / data.length) * 100) + "%";
-
-    // destroy old charts if reloaded
-    if(authorChart) authorChart.destroy();
-    if(pdfChart) pdfChart.destroy();
-
-    // author chart
-    authorChart = new Chart(document.getElementById("authorChart"), {
-        type: "bar",
-        data: {
-            labels: data.map((_, i) => "Paper " + (i+1)),
-            datasets: [{
-                label: "Authors Count",
-                data: authorCounts
-            }]
+        if (data.length > 0) {
+            document.getElementById("last-scraped").innerText = "Last Paper Scraped: " + timeAgo(data[0].scraped_at);
         }
-    });
+    }
 
-    // pdf chart
-    pdfChart = new Chart(document.getElementById("pdfChart"), {
-        type: "pie",
-        data: {
-            labels: ["PDF Available", "No PDF"],
-            datasets: [{
-                data: [pdfCount, data.length - pdfCount]
-            }]
-        }
-    });
-}
+    function renderCharts(data) {
+        if (timeChart) timeChart.destroy();
+        if (statusChart) statusChart.destroy();
 
+        // 1. Bar Chart: Authors per paper
+        const authorCounts = data.slice(0, 10).map(i => i.authors.length);
+        const authorLabels = data.slice(0, 10).map(i => i.title.substring(0, 15) + "...");
 
-// 🔥 FETCH JSON HERE
-fetch("agrirxiv_final_data.json")   // 👈 PUT YOUR JSON PATH HERE
-    .then(res => res.json())
-    .then(data => renderDashboard(data))
-    .catch(err => console.error("Error loading JSON:", err));
+        timeChart = new Chart(document.getElementById('timeChart'), {
+            type: 'bar',
+            data: {
+                labels: authorLabels,
+                datasets: [{
+                    label: 'Author Count (Top 10)',
+                    data: authorCounts,
+                    backgroundColor: '#2563eb'
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false }
+        });
 
+        // 2. Pie Chart: PDF Availability
+        const hasPdf = data.filter(i => i.is_pdf_available).length;
+        statusChart = new Chart(document.getElementById('pdfStatusChart'), {
+            type: 'doughnut',
+            data: {
+                labels: ['PDF Available', 'No PDF'],
+                datasets: [{
+                    data: [hasPdf, data.length - hasPdf],
+                    backgroundColor: ['#22c55e', '#cbd5e1']
+                }]
+            },
+            options: { responsive: true, maintainAspectRatio: false }
+        });
+    }
+
+    // --- Search & Filter ---
+    function filterData() {
+        const searchTerm = document.getElementById("search").value.toLowerCase();
+        const statusTerm = document.getElementById("statusFilter").value;
+
+        const filtered = rawData.filter(item => {
+            const matchesSearch = item.title.toLowerCase().includes(searchTerm) || 
+                                  item.doi.toLowerCase().includes(searchTerm) ||
+                                  item.authors.some(a => a.toLowerCase().includes(searchTerm));
+            const matchesStatus = statusTerm === "all" || item.status === statusTerm;
+            return matchesSearch && matchesStatus;
+        });
+
+        updateDisplay(filtered);
+    }
+
+    document.getElementById("search").oninput = filterData;
+    document.getElementById("statusFilter").onchange = filterData;
+
+    // --- Initial Fetch ---
+    fetch("agrirxiv_final_data.json")
+        .then(res => res.json())
+        .then(data => {
+            rawData = data;
+            // Sort by most recent scraped
+            rawData.sort((a, b) => new Date(b.scraped_at) - new Date(a.scraped_at));
+            updateDisplay(rawData);
+        })
+        .catch(err => {
+            document.getElementById("last-scraped").innerText = "Error: JSON data file not found.";
+            console.error(err);
+        });
 </script>
-
 </body>
 </html>
