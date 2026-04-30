@@ -3614,5 +3614,31 @@
         "pdf_local_path": "C:\\Users\\Saurabh-CSIO\\Desktop\\Scrapy\\downloaded_files\\10.31220_agriRxiv.2024.00245.pdf",
         "status": "complete",
         "scraped_at": "2026-04-30T14:22:12.591735"
+    },
+    {
+        "title": "193.Diversified crop rotations mitigate agricultural losses from dry weather.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00244",
+        "doi": "10.31220/agriRxiv.2024.00244",
+        "abstract": "As changing climates create drought conditions with increasing frequency and severity, there is an urgent need for farmers to adopt agricultural systems that lower the risk of losses during drought. Diverse crop rotations have long been associated with a wide array of economic and environmental benefits, yet cropping systems in the US Midwest and across the world have been simplifying for over a century. Long-term experiments have shown potential for diverse rotations to avoid yield losses under dry conditions, and could be an impactful target in a region overwhelmingly dominated by corn-soy rotation. Here we use Bayesian modeling to show spatial patterns of yield benefits that result from increasing rotational diversity in a range of weather conditions. Data from over 2.2 million field-years reveal that diverse rotations decrease the risk of corn yield losses in dry years in areas that experience these conditions more frequently, while simultaneously increasing yields under favorable conditions across the region. The potential for yield risk mitigation described in the current analysis underscores the critical need for crop rotation adoption as changing climates threaten yield stability in the US and across the globe. We highlight areas where diverse rotations are most likely to improve yields and mitigate risk, amidst spatial heterogeneity in the magnitude of these benefits.",
+        "authors": [
+            "Sarah Manski",
+            "Yvonne Socolar",
+            "Ben Goldstein",
+            "Gina Pizzo",
+            "Zobaer Ahmed",
+            "Lawson Connor",
+            "Harley Cross",
+            "Katie Fettes",
+            "Aria McLauchlan",
+            "Leo Pham",
+            "Frederi Viens",
+            "Timothy M. Bowles"
+        ],
+        "publish_date": "19 April 2024",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2024.00244?download=true",
+        "pdf_local_path": "C:\\Users\\Saurabh-CSIO\\Desktop\\Scrapy\\downloaded_files\\10.31220_agriRxiv.2024.00244.pdf",
+        "status": "complete",
+        "scraped_at": "2026-04-30T14:23:00.109181"
     }
 ]
