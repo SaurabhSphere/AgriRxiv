@@ -1870,3 +1870,630 @@
 2026-04-30 13:23:52,985 - ERROR - STEP: PDF - Exception during download: HTTPSConnectionPool(host='www.cabidigitallibrary.org', port=443): Max retries exceeded with url: /doi/pdf/10.31220/agriRxiv.2025.00300?download=true (Caused by NameResolutionError("HTTPSConnection(host='www.cabidigitallibrary.org', port=443): Failed to resolve 'www.cabidigitallibrary.org' ([Errno 11001] getaddrinfo failed)"))
 2026-04-30 13:23:52,985 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
 2026-04-30 13:23:52,992 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:39:18,884 - INFO - STEP: Resume - Loaded 135 items from existing JSON.
+2026-04-30 13:39:21,786 - INFO - STEP: INIT - Starting SeleniumBase Instance
+2026-04-30 13:39:34,599 - INFO - STEP: PAGINATION - Processing Search Page 1
+2026-04-30 13:39:34,947 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:39:46,613 - INFO - STEP: PAGINATION - Processing Search Page 2
+2026-04-30 13:39:46,918 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:39:58,587 - INFO - STEP: PAGINATION - Processing Search Page 3
+2026-04-30 13:39:58,904 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:40:10,568 - INFO - STEP: PAGINATION - Processing Search Page 4
+2026-04-30 13:40:10,896 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:40:22,563 - INFO - STEP: PAGINATION - Processing Search Page 5
+2026-04-30 13:40:22,841 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:40:34,493 - INFO - STEP: PAGINATION - Processing Search Page 6
+2026-04-30 13:40:34,741 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:40:46,401 - INFO - STEP: PAGINATION - Processing Search Page 7
+2026-04-30 13:40:46,665 - INFO - STEP: MAIN - Starting item 16/20 | DOI: 10.31220/agriRxiv.2025.00300
+2026-04-30 13:40:46,665 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2025.00300
+2026-04-30 13:41:00,372 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:41:00,374 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:41:00,377 - INFO - STEP: DETAILS - Found 2 authors: Ifekristi Benson, Vijaya Gopal Kakani
+2026-04-30 13:41:00,402 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:41:13,815 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2025.00300
+2026-04-30 13:41:16,059 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2025.00300.pdf
+2026-04-30 13:41:16,061 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:41:16,064 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:41:23,413 - INFO - STEP: MAIN - Starting item 17/20 | DOI: 10.31220/agriRxiv.2025.00301
+2026-04-30 13:41:23,413 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2025.00301
+2026-04-30 13:41:36,346 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:41:36,348 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:41:36,350 - INFO - STEP: DETAILS - Found 5 authors: Sarvesh J. P. Nambiyar, Kiruthika Natarajan, Vidyavathi Arumugam, Mahendran Kandasamy, Sivasubramaniam Karuppasamy
+2026-04-30 13:41:36,377 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:41:50,314 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2025.00301
+2026-04-30 13:41:54,407 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2025.00301.pdf
+2026-04-30 13:41:54,410 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:41:54,420 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:42:02,264 - INFO - STEP: MAIN - Starting item 18/20 | DOI: 10.31220/agriRxiv.2025.00298
+2026-04-30 13:42:02,265 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2025.00298
+2026-04-30 13:42:15,215 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:42:15,217 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:42:15,220 - INFO - STEP: DETAILS - Found 3 authors: Rofiqul Islam Nayem, Md. Touhidul Islam Sourav, Mohammad Nuruzzaman
+2026-04-30 13:42:15,242 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:42:29,164 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2025.00298
+2026-04-30 13:42:32,214 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2025.00298.pdf
+2026-04-30 13:42:32,216 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:42:32,221 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:42:40,066 - INFO - STEP: MAIN - Starting item 19/20 | DOI: 10.31220/agriRxiv.2025.00299
+2026-04-30 13:42:40,066 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2025.00299
+2026-04-30 13:42:52,544 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:42:52,546 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:42:52,549 - INFO - STEP: DETAILS - Found 6 authors: Shameem Younuskunju, Yasmin A. Mohamoud, Lisa Sara Mathew, Klaus F. X. Mayer, Karsten Suhre, Joel A. Malek
+2026-04-30 13:42:52,572 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:43:06,439 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2025.00299
+2026-04-30 13:43:15,428 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2025.00299.pdf
+2026-04-30 13:43:15,430 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:43:15,438 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:43:23,184 - INFO - STEP: MAIN - Starting item 20/20 | DOI: 10.31220/agriRxiv.2025.00296
+2026-04-30 13:43:23,184 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2025.00296
+2026-04-30 13:43:36,157 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:43:36,159 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:43:36,163 - INFO - STEP: DETAILS - Found 6 authors: Md. Abubakar Siddique, James Egdane, Efren Bagunu, William Paul Quick, Maria Genaleen Q. Diaz, Amelia Henry
+2026-04-30 13:43:36,186 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:43:50,045 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2025.00296
+2026-04-30 13:43:58,881 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2025.00296.pdf
+2026-04-30 13:43:58,885 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:43:58,895 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:44:06,739 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:44:18,410 - INFO - STEP: PAGINATION - Processing Search Page 8
+2026-04-30 13:44:18,769 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:44:30,450 - INFO - STEP: PAGINATION - Processing Search Page 9
+2026-04-30 13:44:30,748 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:44:41,963 - INFO - STEP: PAGINATION - Processing Search Page 10
+2026-04-30 13:44:42,236 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:44:53,928 - INFO - STEP: PAGINATION - Processing Search Page 11
+2026-04-30 13:44:54,331 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:45:05,998 - INFO - STEP: PAGINATION - Processing Search Page 12
+2026-04-30 13:45:06,269 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:45:17,957 - INFO - STEP: PAGINATION - Processing Search Page 13
+2026-04-30 13:45:18,309 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:45:29,988 - INFO - STEP: PAGINATION - Processing Search Page 14
+2026-04-30 13:45:30,248 - INFO - STEP: MAIN - Starting item 1/20 | DOI: 10.31220/agriRxiv.2025.00297
+2026-04-30 13:45:30,249 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2025.00297
+2026-04-30 13:45:43,226 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:45:43,227 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:45:43,230 - INFO - STEP: DETAILS - Found 6 authors: Saba, Syed Jawad Ahmad Shah, Shahraz Batool, Mahreen Ul-Hassan, Nasreen Anjum, Mahreen Kiran
+2026-04-30 13:45:43,252 - INFO - STEP: PDF - No PDF button available for this article
+2026-04-30 13:45:43,252 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:45:43,256 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:45:51,067 - INFO - STEP: MAIN - Starting item 2/20 | DOI: 10.31220/agriRxiv.2025.00295
+2026-04-30 13:45:51,067 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2025.00295
+2026-04-30 13:46:03,912 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:46:03,914 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:46:03,917 - INFO - STEP: DETAILS - Found 5 authors: Jacob Ulzen, Nana Oduro Osei-Bonsu, George Bush, Hugo Andrés Dorado Betancourt, Jacob van Etten
+2026-04-30 13:46:03,939 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:46:17,856 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2025.00295
+2026-04-30 13:46:26,599 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2025.00295.pdf
+2026-04-30 13:46:26,602 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:46:26,612 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:46:33,863 - INFO - STEP: MAIN - Starting item 3/20 | DOI: 10.31220/agriRxiv.2024.00294
+2026-04-30 13:46:33,864 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00294
+2026-04-30 13:46:46,333 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:46:46,334 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:46:46,338 - INFO - STEP: DETAILS - Found 8 authors: Pablo Rosso, Si-yu Huang, Leonardo Inforsato, Eric Bönecke, Robin Gebbers, Sebastian Vogel, Jörg Rühlmann, Kurt-Christian Kersebau
+2026-04-30 13:46:46,364 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:47:00,234 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00294
+2026-04-30 13:47:05,799 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00294.pdf
+2026-04-30 13:47:05,801 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:47:05,807 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:47:13,649 - INFO - STEP: MAIN - Starting item 4/20 | DOI: 10.31220/agriRxiv.2024.00293
+2026-04-30 13:47:13,650 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00293
+2026-04-30 13:47:26,640 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:47:26,642 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:47:26,650 - INFO - STEP: DETAILS - Found 4 authors: Mohammad Kamrul Hasan, Mahmudun Nabi Mahin, Nasima Akther Roshni, Syed Aflatun Kabir Hemel
+2026-04-30 13:47:26,677 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:47:40,136 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00293
+2026-04-30 13:47:42,419 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00293.pdf
+2026-04-30 13:47:42,422 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:47:42,436 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:47:50,286 - INFO - STEP: MAIN - Starting item 5/20 | DOI: 10.31220/agriRxiv.2024.00291
+2026-04-30 13:47:50,287 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00291
+2026-04-30 13:48:03,221 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:48:03,222 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:48:03,226 - INFO - STEP: DETAILS - Found 8 authors: Y. Song, L. D'Anvers, M. Gote, K. Geerinckx, S. Piepers, S. de Vliegher, B. Aernouts, I. Adriaens
+2026-04-30 13:48:03,266 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:48:16,715 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00291
+2026-04-30 13:48:22,987 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00291.pdf
+2026-04-30 13:48:22,989 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:48:22,995 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:48:30,821 - INFO - STEP: MAIN - Starting item 6/20 | DOI: 10.31220/agriRxiv.2024.00292
+2026-04-30 13:48:30,821 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00292
+2026-04-30 13:48:43,794 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:48:43,796 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:48:43,802 - INFO - STEP: DETAILS - Found 8 authors: Y. Song, L. D'Anvers, M. Gote, K. Geerinckx, S. Piepers, S. de Vlieghe, I. Adriaens, B. Aernouts
+2026-04-30 13:48:43,829 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:48:57,777 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00292
+2026-04-30 13:49:02,576 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00292.pdf
+2026-04-30 13:49:02,577 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:49:02,584 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:49:09,953 - INFO - STEP: MAIN - Starting item 7/20 | DOI: 10.31220/agriRxiv.2024.00290
+2026-04-30 13:49:09,953 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00290
+2026-04-30 13:49:22,890 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:49:22,893 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:49:22,898 - INFO - STEP: DETAILS - Found 20 authors: Gracian Chimwaza, Kenneth Fafa Egbadzor, Marwa El-Graoui, Tsungai Bwerazuva, William Makaza, Casper N. Kamutando, Navison Nyakapene, Marcia Mabhula, Mercy Moyo, Dèdéou Apocalypse Tchokponhoué, Aristide Carlos Houdegbe, Edith Mugehu, Miriam Chibvongodze, Edda Tandi Lwoga, Masimba Muziringa, Jelila S. Blalogoe, Panashe Gombe, Ouedraogo Pingdéwinde Adelaïde, Samuel Angwenyi, Jaron Poricello
+2026-04-30 13:49:22,921 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:49:36,811 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00290
+2026-04-30 13:49:37,941 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00290.pdf
+2026-04-30 13:49:37,943 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:49:37,955 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:49:45,677 - INFO - STEP: MAIN - Starting item 8/20 | DOI: 10.31220/agriRxiv.2024.00289
+2026-04-30 13:49:45,678 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00289
+2026-04-30 13:49:58,568 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:49:58,570 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:49:58,574 - INFO - STEP: DETAILS - Found 5 authors: Maxime Phalempin, Lars Krämer, Maik Geers-Lucas, Fabian Isensee, Steffen Schlüter
+2026-04-30 13:49:58,599 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:50:12,517 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00289
+2026-04-30 13:50:28,847 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00289.pdf
+2026-04-30 13:50:28,850 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:50:28,855 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:50:36,597 - INFO - STEP: MAIN - Starting item 9/20 | DOI: 10.31220/agriRxiv.2024.00288
+2026-04-30 13:50:36,598 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00288
+2026-04-30 13:50:49,482 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:50:49,483 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:50:49,486 - INFO - STEP: DETAILS - Found 5 authors: A. Müller, R. Manners, C. Schumann, C. Mwizerwa, D. Jimenez
+2026-04-30 13:50:49,507 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:51:03,403 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00288
+2026-04-30 13:51:05,425 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00288.pdf
+2026-04-30 13:51:05,427 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:51:05,434 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:51:13,253 - INFO - STEP: MAIN - Starting item 10/20 | DOI: 10.31220/agriRxiv.2024.00286
+2026-04-30 13:51:13,253 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00286
+2026-04-30 13:51:26,088 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:51:26,089 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:51:26,092 - INFO - STEP: DETAILS - Found 3 authors: Olumide O. Fashakin, Karen Cichy, Ilce G. Medina-Meza
+2026-04-30 13:51:26,122 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:51:39,985 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00286
+2026-04-30 13:51:42,783 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00286.pdf
+2026-04-30 13:51:42,784 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:51:42,787 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:51:50,034 - INFO - STEP: MAIN - Starting item 11/20 | DOI: 10.31220/agriRxiv.2024.00287
+2026-04-30 13:51:50,034 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00287
+2026-04-30 13:52:02,942 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:52:02,944 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:52:02,947 - INFO - STEP: DETAILS - Found 6 authors: Pablo Rosso, K. Christian Kersebaum, Jannis Groh, Horst H. Gerke, Kurt Heil, Robin Gebbers
+2026-04-30 13:52:02,972 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:52:16,941 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00287
+2026-04-30 13:52:25,205 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00287.pdf
+2026-04-30 13:52:25,208 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:52:25,218 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:52:33,014 - INFO - STEP: MAIN - Starting item 12/20 | DOI: 10.31220/agriRxiv.2024.00285
+2026-04-30 13:52:33,014 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00285
+2026-04-30 13:52:45,954 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:52:45,956 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:52:45,959 - INFO - STEP: DETAILS - Found 5 authors: Neal R. Haddaway, Matthew Grainger, Marija Sciberras, Ingrid Kelling, Steven J. Cooke
+2026-04-30 13:52:45,986 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:52:59,893 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00285
+2026-04-30 13:53:01,131 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00285.pdf
+2026-04-30 13:53:01,132 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:53:01,142 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:53:08,964 - INFO - STEP: MAIN - Starting item 13/20 | DOI: 10.31220/agriRxiv.2024.00284
+2026-04-30 13:53:08,965 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00284
+2026-04-30 13:53:21,870 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:53:21,872 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:53:21,876 - INFO - STEP: DETAILS - Found 4 authors: Paul Doran, Lewis D. Dawes, Pippa J. Symmonds, Liz Alford
+2026-04-30 13:53:21,902 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:53:35,731 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00284
+2026-04-30 13:53:40,794 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00284.pdf
+2026-04-30 13:53:40,795 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:53:40,799 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:53:48,608 - INFO - STEP: MAIN - Starting item 14/20 | DOI: 10.31220/agriRxiv.2024.00283
+2026-04-30 13:53:48,608 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00283
+2026-04-30 13:54:01,517 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:54:01,519 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:54:01,522 - INFO - STEP: DETAILS - Found 7 authors: Lina Salazar, Maja Schling, Pedro Martel, Renée Pérez Massard, Neal Haddaway, Linda Errington, Sini Savilaakso
+2026-04-30 13:54:01,569 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:54:15,372 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00283
+2026-04-30 13:54:17,580 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00283.pdf
+2026-04-30 13:54:17,581 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:54:17,586 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:54:25,409 - INFO - STEP: MAIN - Starting item 15/20 | DOI: 10.31220/agriRxiv.2024.00282
+2026-04-30 13:54:25,410 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00282
+2026-04-30 13:54:38,302 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:54:38,304 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:54:38,307 - INFO - STEP: DETAILS - Found 5 authors: K. Marie McIntyre, Hazel Cooley, Molly Patricia Watson, Neal R. Haddaway, Sini Savilaakso
+2026-04-30 13:54:38,380 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:54:52,281 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00282
+2026-04-30 13:54:53,737 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00282.pdf
+2026-04-30 13:54:53,738 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:54:53,741 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:55:01,567 - INFO - STEP: MAIN - Starting item 16/20 | DOI: 10.31220/agriRxiv.2024.00281
+2026-04-30 13:55:01,568 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00281
+2026-04-30 13:55:14,474 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:55:14,476 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:55:14,479 - INFO - STEP: DETAILS - Found 8 authors: Robert Malek, Neal Haddaway, Melanie Bateman, Baogen Gu, Ivy Saunyama, Kris Wyckhuys, Ulrich Kuhlmann, Sini Savilaakso
+2026-04-30 13:55:14,512 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:55:28,423 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00281
+2026-04-30 13:55:29,694 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00281.pdf
+2026-04-30 13:55:29,695 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:55:29,699 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:55:37,506 - INFO - STEP: MAIN - Starting item 17/20 | DOI: 10.31220/agriRxiv.2024.00279
+2026-04-30 13:55:37,506 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00279
+2026-04-30 13:55:50,433 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:55:50,435 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:55:50,440 - INFO - STEP: DETAILS - Found 6 authors: Neal R. Haddaway, Anugya Bhattarai, Jesish Ojha, Shristi Siwakoti, Ram Khadka, Sini Savilaakso
+2026-04-30 13:55:50,468 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:56:04,332 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00279
+2026-04-30 13:56:05,518 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00279.pdf
+2026-04-30 13:56:05,519 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:56:05,522 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:56:13,295 - INFO - STEP: MAIN - Starting item 18/20 | DOI: 10.31220/agriRxiv.2024.00280
+2026-04-30 13:56:13,295 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00280
+2026-04-30 13:56:26,177 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:56:26,179 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:56:26,184 - INFO - STEP: DETAILS - Found 6 authors: S. J. R. Woodward, P. C. Beukes, J. P. Edwards, K. J. Verhoek, J. G. Jago, C. Zammit
+2026-04-30 13:56:26,219 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:56:39,646 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00280
+2026-04-30 13:56:43,668 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00280.pdf
+2026-04-30 13:56:43,670 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:56:43,676 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:56:51,474 - INFO - STEP: MAIN - Starting item 19/20 | DOI: 10.31220/agriRxiv.2024.00278
+2026-04-30 13:56:51,474 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00278
+2026-04-30 13:57:04,381 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:57:04,383 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:57:04,387 - INFO - STEP: DETAILS - Found 3 authors: Kai Wang, Usman Arshad, Mutian Niu
+2026-04-30 13:57:04,416 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:57:18,288 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00278
+2026-04-30 13:57:20,199 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00278.pdf
+2026-04-30 13:57:20,201 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:57:20,205 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:57:27,546 - INFO - STEP: MAIN - Starting item 20/20 | DOI: 10.31220/agriRxiv.2024.00276
+2026-04-30 13:57:27,547 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00276
+2026-04-30 13:57:40,454 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:57:40,455 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:57:40,458 - INFO - STEP: DETAILS - Found 6 authors: S. M. Haefele, A. S. Gregory, P. R. Poulton, J. Hernandez-Allica, R. P. White, S. P. McGrath
+2026-04-30 13:57:40,487 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 13:57:54,381 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00276
+2026-04-30 13:57:56,362 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00276.pdf
+2026-04-30 13:57:56,363 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 13:57:56,368 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 13:58:04,145 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:58:15,803 - INFO - STEP: PAGINATION - Processing Search Page 15
+2026-04-30 13:58:16,092 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:58:27,763 - INFO - STEP: PAGINATION - Processing Search Page 16
+2026-04-30 13:58:28,042 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:58:39,704 - INFO - STEP: PAGINATION - Processing Search Page 17
+2026-04-30 13:58:40,002 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:58:51,626 - INFO - STEP: PAGINATION - Processing Search Page 18
+2026-04-30 13:58:51,984 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:59:03,670 - INFO - STEP: PAGINATION - Processing Search Page 19
+2026-04-30 13:59:03,971 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:59:15,654 - INFO - STEP: PAGINATION - Processing Search Page 20
+2026-04-30 13:59:15,994 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:59:27,175 - INFO - STEP: PAGINATION - Processing Search Page 21
+2026-04-30 13:59:27,466 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 13:59:39,126 - INFO - STEP: PAGINATION - Processing Search Page 22
+2026-04-30 13:59:39,524 - INFO - STEP: MAIN - Starting item 1/20 | DOI: 10.31220/agriRxiv.2024.00277
+2026-04-30 13:59:39,524 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00277
+2026-04-30 13:59:52,480 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 13:59:52,482 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 13:59:52,485 - INFO - STEP: DETAILS - Found 3 authors: Emanuele Barca, Daniela de Benedetto, Anna Maria Stellacci
+2026-04-30 13:59:52,512 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:00:06,400 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00277
+2026-04-30 14:00:13,072 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00277.pdf
+2026-04-30 14:00:13,074 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:00:13,079 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:00:20,890 - INFO - STEP: MAIN - Starting item 2/20 | DOI: 10.31220/agriRxiv.2024.00275
+2026-04-30 14:00:20,891 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00275
+2026-04-30 14:00:33,732 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:00:33,734 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:00:33,737 - INFO - STEP: DETAILS - Found 5 authors: Rebecca Fudge, Alison Lovdal, Emily Zimmerman, Lisa Kushner, Julie Grossman
+2026-04-30 14:00:33,763 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:00:47,690 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00275
+2026-04-30 14:00:48,827 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00275.pdf
+2026-04-30 14:00:48,828 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:00:48,835 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:00:56,197 - INFO - STEP: MAIN - Starting item 3/20 | DOI: 10.31220/agriRxiv.2024.00274
+2026-04-30 14:00:56,197 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00274
+2026-04-30 14:01:09,094 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:01:09,096 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:01:09,099 - INFO - STEP: DETAILS - Found 1 authors: Goro Takahashi
+2026-04-30 14:01:09,128 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:01:22,928 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00274
+2026-04-30 14:01:25,632 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00274.pdf
+2026-04-30 14:01:25,633 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:01:25,637 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:01:33,436 - INFO - STEP: MAIN - Starting item 4/20 | DOI: 10.31220/agriRxiv.2024.00272
+2026-04-30 14:01:33,437 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00272
+2026-04-30 14:01:46,300 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:01:46,303 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:01:46,307 - INFO - STEP: DETAILS - Found 13 authors: Isabella Vega, Gustavo Garay-Rodriguez, Ben Lee, Campbell Moses, Victoria Mock, Edward Almanza, Michael Carni, Shelley Durocher, Jonathan M. Jacobs, Nicholas S. Kaczmar, Neil Mattson, Maria Soledad Benitez Ponce, Nathaniel Heiden
+2026-04-30 14:01:46,338 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:02:00,226 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00272
+2026-04-30 14:02:03,403 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00272.pdf
+2026-04-30 14:02:03,406 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:02:03,414 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:02:11,144 - INFO - STEP: MAIN - Starting item 5/20 | DOI: 10.31220/agriRxiv.2024.00273
+2026-04-30 14:02:11,144 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00273
+2026-04-30 14:02:23,557 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:02:23,559 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:02:23,562 - INFO - STEP: DETAILS - Found 6 authors: Gustavo N. Santiago, Lucas R. Trevisan, Ana Carolina Murad Lima, Rodrigo Pratis, Tamara M. Gomes, Fabricio Rossi
+2026-04-30 14:02:23,588 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:02:37,470 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00273
+2026-04-30 14:02:39,412 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00273.pdf
+2026-04-30 14:02:39,413 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:02:39,418 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:02:47,253 - INFO - STEP: MAIN - Starting item 6/20 | DOI: 10.31220/agriRxiv.2024.00271
+2026-04-30 14:02:47,254 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00271
+2026-04-30 14:03:00,125 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:03:00,126 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:03:00,130 - INFO - STEP: DETAILS - Found 10 authors: Marion Deichmann, Jin-hui Yi, Yeshambel E. Mihiret, Samer Zahra, Corinna Sauer, Hubert Hüging, Jens Léon, Matthias Wissuwa, Jürgen Gall, Gabriel Schaaf
+2026-04-30 14:03:00,159 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:03:14,008 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00271
+2026-04-30 14:03:17,638 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00271.pdf
+2026-04-30 14:03:17,639 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:03:17,645 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:03:25,368 - INFO - STEP: MAIN - Starting item 7/20 | DOI: 10.31220/agriRxiv.2024.00270
+2026-04-30 14:03:25,368 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00270
+2026-04-30 14:03:38,246 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:03:38,247 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:03:38,250 - INFO - STEP: DETAILS - Found 3 authors: Ni Putu Putu Sukanteri, Ravindra C. Joshi, I. Made Tamba
+2026-04-30 14:03:38,274 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:03:52,159 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00270
+2026-04-30 14:03:53,869 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00270.pdf
+2026-04-30 14:03:53,870 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:03:53,875 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:04:01,606 - INFO - STEP: MAIN - Starting item 8/20 | DOI: 10.31220/agriRxiv.2024.00269
+2026-04-30 14:04:01,606 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00269
+2026-04-30 14:04:14,549 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:04:14,550 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:04:14,554 - INFO - STEP: DETAILS - Found 8 authors: Ajay Kumar Patel, Edoardo Bertolini, Vasit Sagan, Haireti Alifu, Max Braud, Nirab Shrestha, Cagri Gul, Andrea L. Eveland
+2026-04-30 14:04:14,584 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:04:28,426 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00269
+2026-04-30 14:04:50,264 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00269.pdf
+2026-04-30 14:04:50,265 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:04:50,270 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:04:58,118 - INFO - STEP: MAIN - Starting item 9/20 | DOI: 10.31220/agriRxiv.2024.00268
+2026-04-30 14:04:58,118 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00268
+2026-04-30 14:05:11,044 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:05:11,046 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:05:11,049 - INFO - STEP: DETAILS - Found 2 authors: Deepanjana Saha, D. Suresh Kumar
+2026-04-30 14:05:11,075 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:05:24,981 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00268
+2026-04-30 14:05:30,197 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00268.pdf
+2026-04-30 14:05:30,198 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:05:30,202 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:05:37,992 - INFO - STEP: MAIN - Starting item 10/20 | DOI: 10.31220/agriRxiv.2024.00266
+2026-04-30 14:05:37,993 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00266
+2026-04-30 14:05:50,933 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:05:50,935 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:05:50,938 - INFO - STEP: DETAILS - Found 4 authors: Deepanjana Saha, Devarajulu Suresh Kumar, Pandian Krishnan, Rajdeep Mukherjee
+2026-04-30 14:05:50,963 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:06:04,826 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00266
+2026-04-30 14:06:06,460 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00266.pdf
+2026-04-30 14:06:06,461 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:06:06,465 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:06:14,260 - INFO - STEP: MAIN - Starting item 11/20 | DOI: 10.31220/agriRxiv.2024.00267
+2026-04-30 14:06:14,261 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00267
+2026-04-30 14:06:27,154 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:06:27,156 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:06:27,159 - INFO - STEP: DETAILS - Found 4 authors: Deepanjana Saha, D. Suresh Kumar, A. Vidhyavathi, M. Vijayabhama
+2026-04-30 14:06:27,199 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:06:41,124 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00267
+2026-04-30 14:06:43,249 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00267.pdf
+2026-04-30 14:06:43,250 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:06:43,255 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:06:51,012 - INFO - STEP: MAIN - Starting item 12/20 | DOI: 10.31220/agriRxiv.2024.00264
+2026-04-30 14:06:51,012 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00264
+2026-04-30 14:07:03,895 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:07:03,896 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:07:03,901 - INFO - STEP: DETAILS - Found 7 authors: Monica Schuster, Jorge Rincón, Rebeca Koloffon, Elena Serfilippi, Gracian Chimwaza, Jaron Porciello, Sini Savilaakso
+2026-04-30 14:07:03,929 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:07:17,792 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00264
+2026-04-30 14:07:19,170 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00264.pdf
+2026-04-30 14:07:19,170 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:07:19,175 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:07:26,508 - INFO - STEP: MAIN - Starting item 13/20 | DOI: 10.31220/agriRxiv.2024.00265
+2026-04-30 14:07:26,508 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00265
+2026-04-30 14:07:38,905 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:07:38,906 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:07:38,911 - INFO - STEP: DETAILS - Found 2 authors: Henry A. Cordoba-Novoa, Valerio Hoyos-Villegas
+2026-04-30 14:07:38,941 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:07:52,780 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00265
+2026-04-30 14:07:56,868 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00265.pdf
+2026-04-30 14:07:56,869 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:07:56,874 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:08:04,669 - INFO - STEP: MAIN - Starting item 14/20 | DOI: 10.31220/agriRxiv.2024.00263
+2026-04-30 14:08:04,669 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00263
+2026-04-30 14:08:17,592 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:08:17,593 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:08:17,597 - INFO - STEP: DETAILS - Found 7 authors: Alexandra Tung, Ramya Ambikapathi, Hope Craig, Sini Savilaakso, David Laborde, Carin Smaller, Jaron-Alena Porciello
+2026-04-30 14:08:17,644 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:08:31,483 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00263
+2026-04-30 14:08:33,835 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00263.pdf
+2026-04-30 14:08:33,836 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:08:33,842 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:08:41,653 - INFO - STEP: MAIN - Starting item 15/20 | DOI: 10.31220/agriRxiv.2024.00262
+2026-04-30 14:08:41,654 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00262
+2026-04-30 14:08:54,100 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:08:54,101 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:08:54,105 - INFO - STEP: DETAILS - Found 2 authors: Sergio Sanabria Orjuela, Stéphane Dupas
+2026-04-30 14:08:54,130 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:09:07,997 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00262
+2026-04-30 14:09:10,899 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00262.pdf
+2026-04-30 14:09:10,899 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:09:10,903 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:09:18,704 - INFO - STEP: MAIN - Starting item 16/20 | DOI: 10.31220/agriRxiv.2024.00261
+2026-04-30 14:09:18,705 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00261
+2026-04-30 14:09:31,520 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:09:31,521 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:09:31,526 - INFO - STEP: DETAILS - Found 6 authors: Anaïs Galvañ, María del Carmen Aguilar-Luzón, Sara García-Figuera, Neil McRoberts, Sergio Villamayor, Antonio Vicent
+2026-04-30 14:09:31,555 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:09:45,392 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00261
+2026-04-30 14:10:03,638 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00261.pdf
+2026-04-30 14:10:03,639 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:10:03,643 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:10:11,456 - INFO - STEP: MAIN - Starting item 17/20 | DOI: 10.31220/agriRxiv.2024.00260
+2026-04-30 14:10:11,456 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00260
+2026-04-30 14:10:24,341 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:10:24,343 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:10:24,346 - INFO - STEP: DETAILS - Found 2 authors: Ali Sina Jayhoon, Pushpendra Kumar
+2026-04-30 14:10:24,375 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:10:38,190 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00260
+2026-04-30 14:10:43,062 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00260.pdf
+2026-04-30 14:10:43,064 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:10:43,069 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:10:50,883 - INFO - STEP: MAIN - Starting item 18/20 | DOI: 10.31220/agriRxiv.2024.00259
+2026-04-30 14:10:50,883 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00259
+2026-04-30 14:11:03,804 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:11:03,806 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:11:03,809 - INFO - STEP: DETAILS - Found 4 authors: Fiama Guevara, Timothy Frey, Antonino Malacrinò, Maria Soledad Benitez Ponce
+2026-04-30 14:11:03,838 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:11:17,769 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00259
+2026-04-30 14:11:26,447 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00259.pdf
+2026-04-30 14:11:26,448 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:11:26,453 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:11:34,186 - INFO - STEP: MAIN - Starting item 19/20 | DOI: 10.31220/agriRxiv.2024.00258
+2026-04-30 14:11:34,186 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00258
+2026-04-30 14:11:47,087 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:11:47,088 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:11:47,092 - INFO - STEP: DETAILS - Found 3 authors: Thomas Cottis, Hesam Mousavi, Svein Øivind Solberg
+2026-04-30 14:11:47,117 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:12:01,062 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00258
+2026-04-30 14:12:04,744 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00258.pdf
+2026-04-30 14:12:04,747 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:12:04,756 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:12:12,582 - INFO - STEP: MAIN - Starting item 20/20 | DOI: 10.31220/agriRxiv.2024.00257
+2026-04-30 14:12:12,582 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00257
+2026-04-30 14:12:25,053 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:12:25,054 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:12:25,057 - INFO - STEP: DETAILS - Found 4 authors: Sha Zhang, Zheng Chen, Xiao Zhou, Long-hua Wu
+2026-04-30 14:12:25,081 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:12:38,506 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00257
+2026-04-30 14:12:42,447 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00257.pdf
+2026-04-30 14:12:42,448 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:12:42,456 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:12:50,243 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 14:13:01,911 - INFO - STEP: PAGINATION - Processing Search Page 23
+2026-04-30 14:13:02,288 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 14:13:13,942 - INFO - STEP: PAGINATION - Processing Search Page 24
+2026-04-30 14:13:14,256 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 14:13:25,910 - INFO - STEP: PAGINATION - Processing Search Page 25
+2026-04-30 14:13:26,189 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 14:13:37,866 - INFO - STEP: PAGINATION - Processing Search Page 26
+2026-04-30 14:13:38,180 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 14:13:49,868 - INFO - STEP: PAGINATION - Processing Search Page 27
+2026-04-30 14:13:50,165 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 14:14:01,841 - INFO - STEP: PAGINATION - Processing Search Page 28
+2026-04-30 14:14:02,160 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 14:14:13,365 - INFO - STEP: PAGINATION - Processing Search Page 29
+2026-04-30 14:14:13,698 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 14:14:25,374 - INFO - STEP: PAGINATION - Processing Search Page 30
+2026-04-30 14:14:25,697 - INFO - STEP: PAGINATION - Clicking NEXT button
+2026-04-30 14:14:37,342 - INFO - STEP: PAGINATION - Processing Search Page 31
+2026-04-30 14:14:37,589 - INFO - STEP: MAIN - Starting item 1/20 | DOI: 10.31220/agriRxiv.2024.00256
+2026-04-30 14:14:37,589 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00256
+2026-04-30 14:14:50,528 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:14:50,530 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:14:50,533 - INFO - STEP: DETAILS - Found 2 authors: Abay Tafere Mengistu, Berihun Kassa Hailu
+2026-04-30 14:14:50,555 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:15:03,999 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00256
+2026-04-30 14:15:07,670 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00256.pdf
+2026-04-30 14:15:07,672 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:15:07,686 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:15:15,541 - INFO - STEP: MAIN - Starting item 2/20 | DOI: 10.31220/agriRxiv.2024.00255
+2026-04-30 14:15:15,541 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00255
+2026-04-30 14:15:28,516 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:15:28,518 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:15:28,521 - INFO - STEP: DETAILS - Found 3 authors: Dessalew Kassa Bezuye, Amare Molla Dinku, Axel Gosseries
+2026-04-30 14:15:28,543 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:15:42,016 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00255
+2026-04-30 14:15:49,003 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00255.pdf
+2026-04-30 14:15:49,006 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:15:49,018 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:15:56,350 - INFO - STEP: MAIN - Starting item 3/20 | DOI: 10.31220/agriRxiv.2024.00254
+2026-04-30 14:15:56,351 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00254
+2026-04-30 14:16:09,327 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:16:09,329 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:16:09,332 - INFO - STEP: DETAILS - Found 2 authors: Shreetama Bhattacharjee, Aditi Singh
+2026-04-30 14:16:09,358 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:16:23,226 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00254
+2026-04-30 14:16:24,837 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00254.pdf
+2026-04-30 14:16:24,839 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:16:24,847 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:16:32,652 - INFO - STEP: MAIN - Starting item 4/20 | DOI: 10.31220/agriRxiv.2024.00253
+2026-04-30 14:16:32,653 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00253
+2026-04-30 14:16:45,592 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:16:45,594 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:16:45,597 - INFO - STEP: DETAILS - Found 7 authors: Germán Wies, John Larsen, David A. Ortiz-Salgado, Alfredo Reyes-Tena, Alejandro Soto-Plancarte, Edna Garcilazo Moreno, Carlos E. González-Esquivel
+2026-04-30 14:16:45,622 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:16:59,515 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00253
+2026-04-30 14:17:01,768 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00253.pdf
+2026-04-30 14:17:01,771 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:17:01,781 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:17:09,144 - INFO - STEP: MAIN - Starting item 5/20 | DOI: 10.31220/agriRxiv.2024.00250
+2026-04-30 14:17:09,144 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00250
+2026-04-30 14:17:22,080 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:17:22,081 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:17:22,084 - INFO - STEP: DETAILS - Found 2 authors: Elin K. Falla, Nik J. Cunniffe
+2026-04-30 14:17:22,108 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:17:35,516 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00250
+2026-04-30 14:17:39,867 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00250.pdf
+2026-04-30 14:17:39,869 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:17:39,885 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:17:47,647 - INFO - STEP: MAIN - Starting item 6/20 | DOI: 10.31220/agriRxiv.2024.00251
+2026-04-30 14:17:47,647 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00251
+2026-04-30 14:18:00,122 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:18:00,124 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:18:00,129 - INFO - STEP: DETAILS - Found 17 authors: Nikee Shrestha, Anirudha Powadi, Jensina Davis, Timilehin T. Ayanlade, Hu-yu Liu, Michael C. Tross, Ramesh K. Mathivanan, Jordan Bares, Lina Lopez-Corona, Jonathan Turkus, Lisa Coffey, Talukder Zaki Jubery, Yu-feng Ge, Soumik Sarkar, James C. Schnable, Baskar Ganapathysubramanian, Patrick S. Schnable
+2026-04-30 14:18:00,152 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:18:14,077 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00251
+2026-04-30 14:18:20,256 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00251.pdf
+2026-04-30 14:18:20,258 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:18:20,266 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:18:28,056 - INFO - STEP: MAIN - Starting item 7/20 | DOI: 10.31220/agriRxiv.2024.00252
+2026-04-30 14:18:28,056 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00252
+2026-04-30 14:18:40,530 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:18:40,531 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:18:40,535 - INFO - STEP: DETAILS - Found 8 authors: Germán Wies, Ana Sofía Monroy, María Leticia López Zepeda, Luis García Barrios, Perla Xochitl Jaimes Piñón, Josefina Rosas Torres, Pablo Fragoso Villavicencio, Marta Astier Calderón
+2026-04-30 14:18:40,564 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:18:54,502 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00252
+2026-04-30 14:18:56,781 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00252.pdf
+2026-04-30 14:18:56,784 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:18:56,790 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:19:04,546 - INFO - STEP: MAIN - Starting item 8/20 | DOI: 10.31220/agriRxiv.2024.00249
+2026-04-30 14:19:04,546 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00249
+2026-04-30 14:19:17,500 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:19:17,502 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:19:17,504 - INFO - STEP: DETAILS - Found 2 authors: Kai-Ting Fan, Yuan Xu
+2026-04-30 14:19:17,530 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:19:31,414 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00249
+2026-04-30 14:19:38,940 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00249.pdf
+2026-04-30 14:19:38,942 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:19:38,957 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:19:46,711 - INFO - STEP: MAIN - Starting item 9/20 | DOI: 10.31220/agriRxiv.2024.00248
+2026-04-30 14:19:46,712 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00248
+2026-04-30 14:19:59,146 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:19:59,147 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:19:59,152 - INFO - STEP: DETAILS - Found 19 authors: Maxime Garnault, Corentin Barbu, Alexis Aulagnier, Christian Bockstaller, Véronique Gouy-Boussada, Per Kudsk, Baptiste Labeyrie, Fabrice le Bellec, Freddie-Jeanne Richard, Marc Gallien, Benoît Grimonprez, Alfred Klinghammer, Tanguy Landrieu, Emilie Maugin, Harry Ozier-Lafontaine, Anne-Sophie Walker, Laura Humbert, François Omnès, Jean-Noël Aubertot
+2026-04-30 14:19:59,176 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:20:13,112 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00248
+2026-04-30 14:20:17,592 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00248.pdf
+2026-04-30 14:20:17,593 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:20:17,597 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:20:25,374 - INFO - STEP: MAIN - Starting item 10/20 | DOI: 10.31220/agriRxiv.2024.00246
+2026-04-30 14:20:25,374 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00246
+2026-04-30 14:20:38,236 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:20:38,237 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:20:38,241 - INFO - STEP: DETAILS - Found 16 authors: Oscar Ingasia Ayuya, Willis Ndeda Ochilo, Benson Mutuku, Idah Mugambi, Léonidas Ntirampeba, Celestin Niyongere, Espérance Habindavyi, Marie Bernadette Hakizimana, Arnold Otieno, Cosmas Lutomia, Emmerence Ndishimiyimana, Privat Ndayihanzamaso, Fredrick Mbugua, Mary Bundi, Janny Vos, Bethel Terefe
+2026-04-30 14:20:38,263 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:20:52,141 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00246
+2026-04-30 14:20:56,624 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00246.pdf
+2026-04-30 14:20:56,626 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:20:56,630 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:21:04,466 - INFO - STEP: MAIN - Starting item 11/20 | DOI: 10.31220/agriRxiv.2024.00247
+2026-04-30 14:21:04,466 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00247
+2026-04-30 14:21:17,340 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:21:17,341 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:21:17,345 - INFO - STEP: DETAILS - Found 13 authors: Philliph Michael Musyoka, Willis Ndeda Ochilo, Léonidas Ntirampeba, Benson Mutuku, Idah Mugambi, Joseph Matata, Celestin Niyongere, Espérance Habindavyi, Privat Ndayihanzamaso, Emmerence Ndishimiyimana, Mary Bundi, Janny Vos, Bethel Terefe
+2026-04-30 14:21:17,370 - INFO - STEP: PDF - Found PDF button, entering viewer
+2026-04-30 14:21:31,231 - INFO - STEP: PDF - Starting secure download for DOI: 10.31220/agriRxiv.2024.00247
+2026-04-30 14:21:32,416 - INFO - STEP: PDF - Successfully saved to C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files\10.31220_agriRxiv.2024.00247.pdf
+2026-04-30 14:21:32,418 - INFO - STEP: SAVE - Updating agrirxiv_final_data.json
+2026-04-30 14:21:32,426 - INFO - STEP: MAIN - Returning to search results
+2026-04-30 14:21:40,170 - INFO - STEP: MAIN - Starting item 12/20 | DOI: 10.31220/agriRxiv.2024.00245
+2026-04-30 14:21:40,170 - INFO - STEP: DETAILS - Navigating to article: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00245
+2026-04-30 14:21:53,051 - INFO - STEP: DETAILS - Extracting abstract text
+2026-04-30 14:21:53,052 - INFO - STEP: DETAILS - Attempting author extraction
+2026-04-30 14:21:53,056 - INFO - STEP: DETAILS - Found 9 authors: Clemens Jänicke, Maximilian Wesemeyer, Cristina Chiarella, Tobia Lakes, Christian Levers, Patrick Meyfroidt, Daniel Müller, Marie Pratzer, Philippe Rufin
+2026-04-30 14:21:53,078 - INFO - STEP: PDF - Found PDF button, entering viewer
