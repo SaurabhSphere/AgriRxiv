@@ -19,7 +19,9 @@ build/
 
 # Downloaded Files and PDFs
 downloaded_files/
-downloaded_files copy
+downloaded_files copy/
+
+downloaded_files copy/
 downloaded_pdfs/
 *.pdf
 *.PDF
