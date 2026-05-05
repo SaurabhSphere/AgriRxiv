@@ -26,10 +26,10 @@ downloaded_pdfs/
 *.pdf
 *.PDF
 
-# Data Files
-agrirxiv_final_data.json
-agrirxiv_data.json
-*.json
+# # Data Files
+# agrirxiv_final_data.json
+# agrirxiv_data.json
+# *.json
 
 # Logs
 *.log

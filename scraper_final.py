@@ -17,6 +17,7 @@ SCRAPER_CONFIG = {
     "search_url": "https://www.cabidigitallibrary.org/action/doSearch?SeriesKey=agrirxiv&sortBy=EPubDate&target=articles-chapters&content=articlesChapters&startPage=0&pageSize=100",
     "base_url": "https://www.cabidigitallibrary.org",
     "max_pages": 100,
+    "crawl_delay": 2,  # Standard crawl delay in seconds to prevent IP blocking
 }
 
 # --- File System Setup ---
@@ -74,34 +75,11 @@ class AgriRxivUltimateScraper:
             except Exception as e:
                 logger.error(f"STEP: Resume - Failed to load existing data: {e}")
 
-    def download_pdf_securely(self, sb, url, doi):
-        logger.info(f"STEP: PDF - Starting secure download for DOI: {doi}")
-        clean_name = re.sub(r'[^a-zA-Z0-9._]', '_', doi)
-        target_path = DOWNLOAD_DIR / f"{clean_name}.pdf"
-
-        # Check if file already exists to avoid re-downloading
-        if target_path.exists():
-            logger.info(f"STEP: PDF - File already exists, skipping download: {target_path}")
-            return str(target_path.absolute())
-
-        try:
-            cookies = {c['name']: c['value'] for c in sb.get_cookies()}
-            headers = {
-                "User-Agent": sb.get_user_agent(),
-                "Referer": sb.get_current_url()
-            }
-            response = requests.get(url, cookies=cookies, headers=headers, stream=True, timeout=45)
-            if response.status_code == 200:
-                with open(target_path, 'wb') as f:
-                    for chunk in response.iter_content(chunk_size=8192):
-                        f.write(chunk)
-                logger.info(f"STEP: PDF - Successfully saved to {target_path}")
-                return str(target_path.absolute())
-            else:
-                logger.error(f"STEP: PDF - Download failed with HTTP Status {response.status_code}")
-        except Exception as e:
-            logger.error(f"STEP: PDF - Exception during download: {e}")
-        return None
+    def apply_crawl_delay(self):
+        """Apply crawl delay to prevent IP blocking."""
+        delay = SCRAPER_CONFIG.get("crawl_delay", 2)
+        logger.info(f"STEP: CRAWL_DELAY - Waiting {delay} seconds before next request")
+        time.sleep(delay)
 
     def scrape_article_details(self, sb, article_info):
         try:
@@ -147,34 +125,29 @@ class AgriRxivUltimateScraper:
                 "publish_date": publish_date,
                 "is_pdf_available": False,
                 "pdf_url": None,
-                "pdf_local_path": None,
-                "status": "incomplete"
+                "status": "complete"
             }
 
-            # 4. Handle PDF Logic
+            # 4. Handle PDF Logic - Extract URL only, no download
             pdf_btn = "a.btn--pdf"
             if sb.is_element_visible(pdf_btn):
-                logger.info("STEP: PDF - Found PDF button, entering viewer")
+                logger.info("STEP: PDF - Found PDF button, extracting URL")
                 data["is_pdf_available"] = True
                 viewer_url = urljoin(SCRAPER_CONFIG["base_url"], sb.get_attribute(pdf_btn, "href"))
                 
+                # Navigate to viewer to get the actual download link
                 sb.uc_open_with_reconnect(viewer_url, 4)
-                sb.sleep(7) 
+                sb.sleep(3) 
                 
                 download_btn = "a.navbar-download"
                 if sb.is_element_visible(download_btn):
                     final_pdf_url = urljoin(SCRAPER_CONFIG["base_url"], sb.get_attribute(download_btn, "href"))
                     data["pdf_url"] = final_pdf_url
-                    
-                    local_path = self.download_pdf_securely(sb, final_pdf_url, article_info['doi'])
-                    if local_path:
-                        data["pdf_local_path"] = local_path
-                        data["status"] = "complete"
+                    logger.info(f"STEP: PDF - Extracted PDF URL for DOI: {article_info['doi']} - {final_pdf_url}")
                 else:
                     logger.warning("STEP: PDF - Viewer opened but download button not found")
             else:
                 logger.info("STEP: PDF - No PDF button available for this article")
-                data["status"] = "complete"
             
             return data
         except Exception as e:
@@ -219,6 +192,9 @@ class AgriRxivUltimateScraper:
                             with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                                 json.dump(self.articles, f, indent=4, ensure_ascii=False)
                         
+                        # Apply crawl delay before returning to search results
+                        self.apply_crawl_delay()
+                        
                         logger.info("STEP: MAIN - Returning to search results")
                         sb.uc_open_with_reconnect(SCRAPER_CONFIG["search_url"], 5)
                         sb.wait_for_element("li.search__item", timeout=20)
@@ -228,7 +204,8 @@ class AgriRxivUltimateScraper:
                         logger.info("STEP: PAGINATION - Clicking NEXT button")
                         sb.uc_click(next_btn, reconnect_time=5)
                         page += 1
-                        sb.sleep(4)
+                        # Apply crawl delay before next page
+                        self.apply_crawl_delay()
                     else:
                         break
         except Exception as e:
