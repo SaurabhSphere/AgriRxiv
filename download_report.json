@@ -1,0 +1,43 @@
+[
+    {
+        "title": "1.Environmental variables driving diversity of arbuscular mycorrhizal fungi in Ohio soybean agricultural systems.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00434",
+        "doi": "10.31220/agriRxiv.2026.00434",
+        "abstract": "Arbuscular mycorrhizal fungi (AMF) play a crucial role in crop productivity and agroecosystem processes. However, the composition of soil AMF communities and the factors controlling their diversity and distribution in Ohio remain poorly understood. We profiled soil AMF and physico-chemical characteristics in 17 soybean fields across agricultural regions in Ohio. Mycorrhizal fungi were recovered through amplicon sequencing of the 18S ribosomal gene coupled with PacBio technology. Within Glomeromycota, we detected 14 genera belonging to six families. The familyGlomeraceaeaccounted for >50% of the AMF reads recovered, while the families Gigasporaceae and Archaeosporaceae were rare. At the genus level,Entrophospora,Nanoglomus,Paraglomus, andFunneliformiswere most widespread, contrasting with rare taxa such asGigaspora,Dominikia, andArchaeospora. Soil AMF community composition varied across soil pH ranges (5.2-7.7), with most genera observed in soils with pH between 5.5-6.5.Funneliformis,Entrophospora, andDiversisporawere present in soils with a wide pH range, but their highest abundance was observed in soils with slightly alkaline conditions, whileGigasporaandArchaeosporawere present in soils with near-neutral pH. From the 17 fields studied, eight were infested with soybean cyst nematode (SCN), with densities ranging from 40 to 720 eggs per 100 cm3of soil. In these soils, AMF diversity was negatively correlated with SCN abundance, and some specific AMF genera were associated with OM, TEC and P. Future research should expand soil sampling to root colonization and evaluate functional impacts on soybean yields in Ohio.",
+        "authors": [
+            "Samaneh Tajik",
+            "Florence Breuillin-Sessoms",
+            "Timothy Frey",
+            "Jelmer W. Poelstra",
+            "Horacio D. Lopez-Nicora",
+            "M. Soledad Benitez Ponce"
+        ],
+        "publish_date": "27 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00434?download=true",
+        "pdf_local_path": "C:\\Users\\Saurabh-CSIO\\Desktop\\Scrapy\\downloaded_files\\10.31220_agriRxiv.2026.00434.pdf",
+        "status": "complete",
+        "scraped_at": "2026-05-04T11:51:41.735538",
+        "pdf_path": "",
+        "download_status": false,
+        "download_error": "HTTP 403"
+    },
+    {
+        "title": "2.A dynamic model of complex plant infections based on a continuum of pathogenesis strategies: verification using long-term spring wheat data under climatic aridification.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00435",
+        "doi": "10.31220/agriRxiv.2026.00435",
+        "abstract": "Current epidemiological models predominantly treat plant pathogens as discrete taxonomic entities, largely ignoring the dynamic and continuous nature of their ecological strategies. This study proposes a novel theoretical framework that integrates the Ramensky-Grime CSR continuum concept into phytopathology, representing pathogenesis strategies not as fixed categories, but as vectors in a continuous L-J-T space bounded by three archetypes: active immune breaching (L-strategy), exergy exploitation (J-strategy), and baseline erosion (T-strategy). Three mechanisms governing transitions within this continuum are introduced: ontogenetic shift, phenotypic plasticity, and evolutionary adaptation. The host's physiological potential (V) is modeled as a function of negative entropy (Bauer's principle), and disease progression is framed as a stochastic optimization problem using Bellman dynamics. The model is verified against a unique 32-year (1992-2024) dataset on spring wheat pathosystem dynamics in the Republic of Tatarstan, Russian Federation. The dataset documents a climate-driven shift in the pathogen community centroid from an L-dominated to a J/T-dominated state, consistent with model predictions. The framework provides a mechanistic explanation for the observed rise of necrotrophic and soil-borne pathogens under aridification and offers a mathematical basis for predicting long-term shifts in phytosanitary risk.",
+        "authors": [
+            "R. I. Safin"
+        ],
+        "publish_date": "27 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00435?download=true",
+        "pdf_local_path": "C:\\Users\\Saurabh-CSIO\\Desktop\\Scrapy\\downloaded_files\\10.31220_agriRxiv.2026.00435.pdf",
+        "status": "complete",
+        "scraped_at": "2026-05-04T11:52:18.311855",
+        "pdf_path": "",
+        "download_status": false,
+        "download_error": "HTTP 403"
+    }
+]
