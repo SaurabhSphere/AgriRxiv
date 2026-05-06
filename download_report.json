@@ -39,5 +39,97 @@
         "pdf_path": "",
         "download_status": false,
         "download_error": "HTTP 403"
+    },
+    {
+        "title": "3.Climate-induced shocks, food insecurity and strategies for tackling evolving impacts within the Alliance of Sahel States.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00432",
+        "doi": "10.31220/agriRxiv.2026.00432",
+        "abstract": "This study sought to analyse and quantify the impacts of floods (proxy through positive rainfall anomalies) and droughts (negative rainfall anomalies) on household food security in the Alliance of Sahel States (AES), namely Burkina Faso, Mali and niger. These countries are also designated crisis countries by the FAO. The goal of the study was to determine and recommend to the countries' governments, the FAO and other development partners, pathways to buffering vulnerable households' food security against climate -induced shocks. The specific objectives of the study were to: 1) Assess how positive and negative rainfall shocks affect food security in the AES, and 2) Explore and recommend available strategies needed to enhance resilience, support adaptation and reduce food insecurity in these states. Two datasets, household survey and satellite precipitation data, were used for the analysis. The household survey data was obtained from the FAO DIEM household survey database, while the precipitation data was extracted from the ECMWF Climate Reanalysis v5 (ERA5) high, spatiotemporal resolution monthly precipitation data provided by the European Centre for Medium-Range Weather Forecasts (ECMWF), Copernicus Climate Change Services. The FAO-DIEM data contains information on various food security indicators. The study however, focused on three of these food security indicators, namely the Food Consumption Score (FCS), the Reduced Coping Strategy Index (rCSI) and Food Insecurity Experience Scale (FIES). The multiple linear regression model was used to estimate the effects of positive and negative rainfall anomalies on household food security. From the analysis, the following conclusions can be drawn: 1) Both positive rainfall anomalies and droughts threaten food security within the AES. While the incidence of floods is disruptive in the short term with implications for food production, droughts cause long term food production risks and livelihood stress. Unlike droughts the incidence and effects of which unfold gradually, the incidence of floods is sudden. Thus, adjusting to the sudden shocks of flood effects is more difficult than adjusting to the gradual effects of droughts. The fast-track nature of flood incidence may imply difficulties for households to adequately ex-ante coping measures. This way, ex-post flood damages may be more deleterious that those of droughts. 2) Crop-livestock diversification is associated with reduced vulnerability and improved household resilience and food security. Thus, the adoption of livestock-crop diversification strategies could be used to spread and reduce the risks associated with floods and droughts. Moreover, crop livestock diversification appears to be useful for sustaining and smoothening household consumption and income patterns to provide a stronger buffer against food insecurity and improve the quality of diets and nutrition among households. Generally, food insecurity interventions, namely cash, food, and asset support, are expected to serve as swift and targeted responses to crises, while linking social protection to nutrition and overall household welfare. Addressing the bottlenecks to food security and consolidating the gains from the social protection divide could be the beginning of safeguarding food supplies, protecting rural economies and ensuring the sustainability of food systems in crisis communities. Based on the above conclusions, the following recommendations are provided to guide the actions of governments of the AES countries, FAO and other development interest groups: 1) In the short term, there is the need for integrated support systems such as cash and asset support as well as targeted food reliefs under more severe situations. This is critical as it addresses the very immediate hunger and potential food insecurity problems while protecting livelihoods. It also, supports and builds seasonal and shock responsive programming whilst strengthening local markets, targeting and protecting the very vulnerable in the society as well as building the adaptive capacities of communities to climate shocks. 2) In the medium term, we recommend the promotion of crop-livestock diversification across the AES. The promotion of crop-livestock diversification is a sure bet to stabilising and smoothing households' income and food supply. This intervention will help bridge seasonal food shortage gaps within households and prevent them from impulse sales of assets. Additionally, the economic viability of households would be enhanced with more market participation due to the benefits and cross-effects of integrating crops and livestock. 3) In the long, there is the need to strengthen flood preparedness and rapid response mechanisms. The importance of this cannot be overstated as this could build the long-term resilience of households and communities to reduce repeated displacements caused by floods and droughts. Also, strengthening flood preparedness and rapid response mechanisms would preserve development gains and thus ensure that resources are channelled to other equally pressing developmental needs. These would save lives in the now and protect livelihoods and developmental gains for the future.",
+        "authors": [
+            "Safiétou Sanfo",
+            "Joseph Amikuzuno"
+        ],
+        "publish_date": "23 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00432?download=true",
+        "pdf_local_path": "C:\\Users\\Saurabh-CSIO\\Desktop\\Scrapy\\downloaded_files\\10.31220_agriRxiv.2026.00432.pdf",
+        "status": "complete",
+        "scraped_at": "2026-05-04T11:52:54.591873",
+        "pdf_path": "",
+        "download_status": false,
+        "download_error": "HTTP 403"
+    },
+    {
+        "title": "4.Drought by design? How rainfall data choices shape food insecurity estimates.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00433",
+        "doi": "10.31220/agriRxiv.2026.00433",
+        "abstract": "This study combines household survey data from Mali and Chad with ten rainfall datasets from various sources to examine how the choice of rainfall data influences estimates of drought impacts on food security. Rainfall shocks are measured using the Standardized Precipitation Index and assigned through bilinear, nearest-neighbor, and zonal aggregation techniques. Results without controls reveal substantial heterogeneity. Estimated coefficients vary widely in both magnitude and sign across datasets and interpolation methods, with coarse or satellite-only products exhibiting particularly high volatility. Once controls are added, this heterogeneity largely disappears and coefficients converge toward consistently negative values in line with theoretical expectations. Beyond magnitudes, the analysis also finds that the relative ranking of datasets shifts depending on the interpolation method and model specification, revealing instability in dataset performance. The findings highlight a fundamental challenge for applied economics since empirical conclusions may depend as much on dataset choice, spatial interpolation, and specification decisions as on the underlying relationship. This highlights the importance of transparency in the selection and processing of rainfall data.",
+        "authors": [
+            "Musa Hasen Ahme"
+        ],
+        "publish_date": "23 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00433?download=true",
+        "pdf_local_path": "C:\\Users\\Saurabh-CSIO\\Desktop\\Scrapy\\downloaded_files\\10.31220_agriRxiv.2026.00433.pdf",
+        "status": "complete",
+        "scraped_at": "2026-05-04T11:53:31.902458",
+        "pdf_path": "",
+        "download_status": false,
+        "download_error": "HTTP 403"
+    },
+    {
+        "title": "5.Emergence and spatial redistribution of severe Dalaca pallens infestations across western Patagonian pastures.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00430",
+        "doi": "10.31220/agriRxiv.2026.00430",
+        "abstract": "Recent severe infestations ofDalaca pallensin western Patagonia suggest a shift in the spatial distribution of this key pasture pest beyond its historically recognized range. Larval infestation was quantified across agroecological gradients in the Ays'en region (Chile) using a multivariate framework in which 2025 observations were projected onto a reference space defined using 2021 data, enabling direct comparison within a fixed environmental structure. The 2021 configuration showed a strong concentration of infestation within a restricted sector of the gradient. By contrast, the 2025 projection revealed a broader spatial footprint and a marked redistribution of infestation intensity across environmental sectors, including increased representation in previously secondary areas. This shift was accompanied by a consistent displacement of the infestation core toward more continental and higher-elevation conditions. Although causal mechanisms cannot be established, the observed pattern is consistent with a reorganization of infestation patterns across the regional environmental gradient under changing conditions. These findings provide the first quantitative evidence of severeD. pallensoutbreaks in western Patagonia and establish a baseline for future studies integrating climatic and phenological drivers.",
+        "authors": [
+            "Pablo Mata Almonacid",
+            "Osvaldo Teuber Winkler"
+        ],
+        "publish_date": "20 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00430?download=true",
+        "pdf_local_path": "C:\\Users\\Saurabh-CSIO\\Desktop\\Scrapy\\downloaded_files\\10.31220_agriRxiv.2026.00430.pdf",
+        "status": "complete",
+        "scraped_at": "2026-05-04T11:54:18.166667",
+        "pdf_path": "",
+        "download_status": false,
+        "download_error": "HTTP 403"
+    },
+    {
+        "title": "6.The impact of floods on food insecurity and vulnerability in Democratic Republic of the Congo.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00431",
+        "doi": "10.31220/agriRxiv.2026.00431",
+        "abstract": "I study the impacts of floods on household food insecurity and vulnerability in Democratic Republic of the Congo. I combine household-level data with two measures of exposure to floods, self-reported exposure and an objective indicator of large flood events at territory-level. I exploit territory-level variation in timing of exposure to floods combined with exposure to floods to identify causal impacts. I find that self-reported exposure to flood is associated with higher food insecurity and greater reliance on negative coping strategies. In contrast, causal estimates based on an objective measure of exposure to floods suggest that exposure to floods does not significantly change consumption frequency or dietary diversity but is associated with improved food security in Eastern DRC. I explore whether this pattern is driven by short-run economic activity or increased agricultural production and find suggestive evidence that exposure to floods in this context expand cultivated land.",
+        "authors": [
+            "Alzaki Alhelo"
+        ],
+        "publish_date": "17 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00431?download=true",
+        "pdf_local_path": "C:\\Users\\Saurabh-CSIO\\Desktop\\Scrapy\\downloaded_files\\10.31220_agriRxiv.2026.00431.pdf",
+        "status": "complete",
+        "scraped_at": "2026-05-04T11:54:54.480264",
+        "pdf_path": "",
+        "download_status": false,
+        "download_error": "HTTP 403"
+    },
+    {
+        "title": "7.A web-based digital seed viability nomograph for interactive estimation of seed longevity from moisture content, temperature, and storage duration.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2026.00426",
+        "doi": "10.31220/agriRxiv.2026.00426",
+        "abstract": "Reliable estimation of seed longevity is central to agriculture, seed banking, restoration, and plant genetic resource conservation. For orthodox seeds, the Ellis-Roberts viability framework remains one of the most influential quantitative approaches for relating storage life to seed moisture content, temperature, and initial seed quality. Classical seed nomographs translated this framework into practical graphical tools, but many contemporary users now work in digital environments and require interactive, portable, and transparent decision-support tools. Here, we present a browser accessible digital seed viability nomograph, implemented as a React/Vite web application and available at https://seed-viability-nomograph.vercel.app. The tool allows users to adjust seed moisture content, storage temperature, storage duration, and viability constants, and then visualizes predicted germination decline, time to selected viability thresholds, and a moisture-based nomograph table. The application is intended as a teaching, research-prototyping, and planning interface rather than as a substitute for species-specific experimental calibration. This distinction is important because orthodox, intermediate, and recalcitrant seeds differ fundamentally in storage biology, and conventional dry seed models are most appropriate for orthodox materials. The digital implementation modernizes classical longevity theory through a portable and transparent interface that can be accessed directly in a web browser, making seed viability prediction easier to explore, communicate, and adapt for educational and preliminary analytical use.",
+        "authors": [
+            "Mark Ihrwell R. Petalcorin"
+        ],
+        "publish_date": "14 April 2026",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2026.00426?download=true",
+        "pdf_local_path": "C:\\Users\\Saurabh-CSIO\\Desktop\\Scrapy\\downloaded_files\\10.31220_agriRxiv.2026.00426.pdf",
+        "status": "complete",
+        "scraped_at": "2026-05-04T11:55:30.202127",
+        "pdf_path": "",
+        "download_status": false,
+        "download_error": "HTTP 403"
     }
 ]

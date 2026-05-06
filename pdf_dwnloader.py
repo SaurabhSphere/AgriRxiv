@@ -110,6 +110,51 @@ class RobotsChecker:
             return False
 
 
+def download_pdf_securely(url: str, target_path: Path, cookies: dict, user_agent: str, referer: str, timeout: int = 30) -> Tuple[bool, str]:
+    """Download a PDF directly to disk using verified cookies and browser headers."""
+    target_path.parent.mkdir(parents=True, exist_ok=True)
+
+    if target_path.exists() and target_path.stat().st_size > 0:
+        return True, str(target_path.resolve())
+
+    temp_path = target_path.with_suffix(target_path.suffix + '.part')
+
+    try:
+        request_headers = {
+            'User-Agent': user_agent or 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Referer': referer,
+            'Accept': 'application/pdf,application/octet-stream,*/*',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Connection': 'keep-alive',
+        }
+
+        with requests.Session() as verified_session:
+            verified_session.cookies.update(cookies)
+            verified_session.headers.update(request_headers)
+
+            response = verified_session.get(url, stream=True, timeout=timeout, allow_redirects=True)
+            if response.status_code != 200:
+                return False, f'HTTP {response.status_code}'
+
+            with open(temp_path, 'wb') as output_file:
+                for chunk in response.iter_content(chunk_size=8192):
+                    if chunk:
+                        output_file.write(chunk)
+
+        if temp_path.exists() and temp_path.stat().st_size > 0:
+            temp_path.replace(target_path)
+            return True, str(target_path.resolve())
+
+        if temp_path.exists():
+            temp_path.unlink(missing_ok=True)
+        return False, 'empty'
+
+    except Exception as exc:
+        if temp_path.exists():
+            temp_path.unlink(missing_ok=True)
+        return False, str(exc)
+
+
 def download_with_resume(session: requests.Session, url: str, out_path: Path, headers: dict, timeout: int = 90) -> Tuple[bool, str]:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     tmp_path = out_path.with_suffix('.pdf.part')
@@ -158,31 +203,72 @@ def download_with_resume(session: requests.Session, url: str, out_path: Path, he
         return False, str(exc)
 
 
-def selenium_verified_download_context(pdf_url: str, base_url: str, wait_timeout: int = 300) -> Tuple[dict, str]:
-    """Open the PDF viewer like scraper_final.py, wait for human verification, then extract cookies and download URL."""
+def selenium_verified_download_context(pdf_url: str, base_url: str, wait_timeout: int = 300) -> Tuple[dict, str, str, str]:
+    """Open viewer, wait for human verification, then return cookies, final URL, referer, and browser UA."""
     if SB is None:
         print("ERROR: SeleniumBase not available for human verification.")
-        return {}, ''
+        return {}, '', '', ''
 
     try:
         print(f"\n{'='*70}")
         print(f"Opening {pdf_url} in browser for human verification...")
         print(f"{'='*70}")
         print("Please complete any verification steps (CAPTCHA, login, etc.) in the browser.")
-        print("The browser will stay open until the verification is completed and the PDF viewer is ready.")
+        print("Do not click browser download. Just complete verification and keep the viewer tab open.")
+        print("The script will download the PDF into your output folder after verification succeeds.")
         print(f"{'='*70}\n")
 
         with SB(uc=True, test=True, locale='en') as sb:
-            sb.uc_open_with_reconnect(pdf_url, 10)
+            # Open the page directly first; reconnect can fail on some Chrome/UC states.
+            try:
+                sb.open(pdf_url)
+            except Exception:
+                sb.uc_open_with_reconnect(pdf_url, 10)
             sb.sleep(4)
 
-            download_btn = 'a.navbar-download'
-            deadline = time.time() + wait_timeout
-            while time.time() < deadline:
-                if sb.is_element_visible(download_btn):
-                    href = sb.get_attribute(download_btn, 'href') or ''
-                    final_url = urljoin(base_url, href) if href else pdf_url
+            # Different page variants expose different selectors for the final PDF URL.
+            candidate_selectors = [
+                'a.navbar-download',
+                'a.btn--pdf',
+                'a[href*="/doi/pdf/"]',
+                'a[href$=".pdf"]',
+                'iframe[src*="pdf"]',
+                'embed[type="application/pdf"]',
+                'object[type="application/pdf"]',
+            ]
 
+            def _extract_final_url() -> str:
+                for selector in candidate_selectors:
+                    if sb.is_element_present(selector):
+                        href = sb.get_attribute(selector, 'href') or sb.get_attribute(selector, 'src') or ''
+                        if href:
+                            return urljoin(base_url, href)
+
+                current_url = ''
+                try:
+                    current_url = sb.get_current_url() or ''
+                except Exception:
+                    current_url = ''
+                if current_url:
+                    # If we are already at a direct PDF endpoint, use it.
+                    if '.pdf' in current_url.lower() or '/doi/pdf/' in current_url.lower():
+                        return current_url
+                return ''
+
+            deadline = time.time() + wait_timeout
+            last_status_log = 0.0
+
+            while time.time() < deadline:
+                # Verification flows sometimes open a new tab/window; stay on the latest one.
+                try:
+                    handles = sb.driver.window_handles
+                    if handles:
+                        sb.driver.switch_to.window(handles[-1])
+                except Exception:
+                    pass
+
+                final_url = _extract_final_url()
+                if final_url:
                     cookies = {}
                     try:
                         raw = sb.get_cookies()
@@ -198,17 +284,48 @@ def selenium_verified_download_context(pdf_url: str, base_url: str, wait_timeout
                         if name and val is not None:
                             cookies[name] = val
 
-                    print(f"Extracted {len(cookies)} cookies from verified session.")
-                    return cookies, final_url
+                    referer_url = ''
+                    browser_ua = ''
+                    try:
+                        referer_url = sb.get_current_url() or ''
+                    except Exception:
+                        referer_url = ''
+                    try:
+                        browser_ua = sb.execute_script('return navigator.userAgent') or ''
+                    except Exception:
+                        browser_ua = ''
 
-                print("Waiting for verification / PDF viewer to become ready...")
-                sb.sleep(3)
+                    print(f"PDF viewer ready. Extracted {len(cookies)} cookies from verified session.")
+                    return cookies, final_url, referer_url, browser_ua
 
-            print("Verification timed out before the download button became visible.")
-            return {}, ''
+                now = time.time()
+                if now - last_status_log >= 10:
+                    current_url = ''
+                    title = ''
+                    try:
+                        current_url = sb.get_current_url() or ''
+                    except Exception:
+                        current_url = ''
+                    try:
+                        title = sb.get_title() or ''
+                    except Exception:
+                        title = ''
+                    print(
+                        "Waiting for verification / PDF viewer to become ready... "
+                        f"(url={current_url or 'n/a'}, title={title or 'n/a'})"
+                    )
+                    last_status_log = now
+
+                sb.sleep(2)
+
+            print(
+                "Verification timed out before a PDF/download element became available. "
+                "Please confirm the CAPTCHA/login was completed and the PDF viewer tab is open."
+            )
+            return {}, '', '', ''
     except Exception as e:
         print(f"ERROR during human verification: {e}")
-        return {}, ''
+        return {}, '', '', ''
 
 
 def main(argv=None):
@@ -294,47 +411,28 @@ def main(argv=None):
         filename = build_pdf_filename(article)
         out_path = out_dir / filename
 
-        success, info = download_with_resume(session, pdf_url, out_path, headers=session.headers, timeout=args.timeout)
+        # Try direct download first using secure method with session headers
+        direct_cookies = requests.utils.dict_from_cookiejar(session.cookies)
+        success, info = download_pdf_securely(
+            pdf_url,
+            out_path,
+            cookies=direct_cookies,
+            user_agent=session.headers.get('User-Agent', args.user_agent),
+            referer='https://www.cabidigitallibrary.org',
+            timeout=args.timeout,
+        )
+        
         if success:
             rec['pdf_path'] = str(out_path.resolve())
             rec['download_status'] = True
             downloaded += 1
             print(f'Downloaded: {key} -> {out_path.name}')
         else:
-            # If blocked (403/401) request human verification to solve CAPTCHA/auth
-            blocked = isinstance(info, str) and (info.startswith('HTTP 403') or info.startswith('HTTP 401'))
-            if blocked:
-                print(f'Blocked ({info}). Waiting for human verification: {key}')
-                cookies, verified_url = selenium_verified_download_context(
-                    pdf_url=pdf_url,
-                    base_url='https://www.cabidigitallibrary.org',
-                    wait_timeout=300,
-                )
-                if cookies:
-                    # apply cookies from verified session and retry
-                    session.cookies.update(cookies)
-                    url_to_try = verified_url or pdf_url
-                    success2, info2 = download_with_resume(session, url_to_try, out_path, headers=session.headers, timeout=args.timeout)
-                    if success2:
-                        rec['pdf_path'] = str(out_path.resolve())
-                        rec['download_status'] = True
-                        downloaded += 1
-                        print(f'Downloaded after human verification: {key} -> {out_path.name}')
-                    else:
-                        rec['pdf_path'] = ''
-                        rec['download_status'] = False
-                        rec['download_error'] = info2
-                        print(f'Failed after verification: {key} -> {info2}')
-                else:
-                    rec['pdf_path'] = ''
-                    rec['download_status'] = False
-                    rec['download_error'] = info
-                    print(f'Failed: {key} -> {info} (verification failed or cancelled)')
-            else:
-                rec['pdf_path'] = ''
-                rec['download_status'] = False
-                rec['download_error'] = info
-                print(f'Failed: {key} -> {info}')
+            # Download failed; record error and continue to next PDF
+            rec['pdf_path'] = ''
+            rec['download_status'] = False
+            rec['download_error'] = info
+            print(f'Failed: {key} -> {info}')
 
         report.append(rec)
 
