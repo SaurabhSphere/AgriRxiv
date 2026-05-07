@@ -3752,21 +3752,6 @@
         "scraped_at": "2026-05-06T23:55:03.849372"
     },
     {
-        "title": "200.The first record of milk thistle (Silybum marianum, Asteraceae) as an alien invasive weed species in Addis Ababa City, Ethiopia.",
-        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00241",
-        "doi": "10.31220/agriRxiv.2024.00241",
-        "abstract": "Since 2020, milk thistle Silybum marianum, an invasive weed species, has been widely observed in urban green spaces and roadsides in Addis Ababa city, Ethiopia. To plan future management activities, this study aimed to determine the current distribution status of the weed in urban green areas of Addis Ababa city. Weed surveys were conducted across 42 urban green sites located in Yeka, Lemi Kura, Bole, Nifas Silk-Lafto, Kolfie Keraniyo, Akaky Kality, and Gullele sub-cities during the main rainy season from June to September 2023. Urban green areas were selected using purposive sampling techniques. Field observations confirmed that Silybum marianum can invade and colonize a wide range of habitats and is highly competitive, posing a threat to important native plant species. High weed density rates and dense stands of weeds were recorded in the 34 urban green areas surveyed. The survey results strongly suggest implementing fast integrated weed management options such as mowing/tilling, weeding before the plant goes to seed, cutting (stems and/or seed heads), and burning (collected plant parts and/or seed heads) into a prepared burrow to minimize the spread of the weed and its ecological impacts. The purpose of this survey study is to provide information about Silybum marianum to minimize or avoid its distribution and associated impacts by following sustainable invasive weed management programs in the city before spreading to other cities in the country.",
-        "authors": [
-            "Weldesenbet Beze Kassie"
-        ],
-        "publish_date": "20 March 2024",
-        "is_pdf_available": true,
-        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2024.00241?download=true",
-        "pdf_local_path": null,
-        "status": "incomplete",
-        "scraped_at": "2026-05-06T23:56:36.670045"
-    },
-    {
         "title": "201.The Equiband Pro System improves gait symmetry in horses at the trot.",
         "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00238",
         "doi": "10.31220/agriRxiv.2024.00238",
@@ -5956,21 +5941,6 @@
         "pdf_local_path": "C:\\Users\\Saurabh\\Desktop\\CSIO\\Scraping\\AgriArchive\\downloaded_files\\10.31220_agriRxiv.2022.00121.pdf",
         "status": "complete",
         "scraped_at": "2026-05-07T01:48:53.073286"
-    },
-    {
-        "title": "317.Design and optimization by response surface of a FAO grade-handicraft prototype for yucca starch extraction.",
-        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2022.00119",
-        "doi": "10.31220/agriRxiv.2022.00119",
-        "abstract": "Yucca starch (Manihot esculentaCrantz) plays several important roles in agroecological agriculture in the tropics. It is an inexpensive source of carbohydrates of high nutritional quality and easily accessible, if preserved and stored. The process of starch artisanal extraction is carried out in Latin America in a rudimentary and impractical way, with water and raw material wasted, which generates losses and ecological problems. This study shows how a prototype of a technological process (Matilda v1.0) for the artisan extraction of yucca starch with FAO grade quality was designed, built, and optimized. The optimization was performed using the response surface methodology, and the experimental design is a Box-Wilson 23full factorial central composite, uniformly rotated and orthogonally blocked per day. Around 60 kg of starch for 200 kg yucca on a working day was obtained. The estimated starch yield was 31.83%, within a confidence interval of (30.24-32.97)% and a prediction interval of (27.98-35.23)%. This yield was higher than that reported for conventional artisanal extraction. Water use was about 0.3 L kg-1yucca, significantly lower than in artisanal productions. The process developed would generate a lower impact on the environment and would allow small agricultural producers to empower themselves with sustainable technologies.",
-        "authors": [
-            "Arsenio José Rodríguez Salazar"
-        ],
-        "publish_date": "13 January 2022",
-        "is_pdf_available": true,
-        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2022.00119?download=true",
-        "pdf_local_path": null,
-        "status": "incomplete",
-        "scraped_at": "2026-05-07T01:49:37.454140"
     },
     {
         "title": "318.Implementing spatio-temporal 3D-convolution neural networks and UAV time series imagery to better predict lodging damage in sorghum.",
@@ -8819,5 +8789,914 @@
         "pdf_local_path": null,
         "status": "complete",
         "scraped_at": "2026-05-07T09:09:52.543664"
+    },
+    {
+        "title": "465.NEW STRATEGY FOR DEVELOPMENT OF FUNCTIONAL PORK SAUSAGES WITH REDUCED NITRITES ADDITION.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/y3tcn",
+        "doi": "10.31220/osf.io/y3tcn",
+        "abstract": "The aim of this study was to develop a new strategy for processing of functional cooked sausages with reduced nitrites addition manufactured using pork obtained from pigs fed with a supplement of 3.5 and 7.5 mg dihydroquercetin (DHQ) (samples D1 and D2, respectively) or 0.255 and 0.545 g dry distilled rose petals (Rosa damascene) (DDRP) (samples R1 and R2, respectively)/kg live weight/d. The sensory properties, colour characteristics (L*, a*, b*), TBARS and shelf life of the sausages were studied. Lower concentration of used phytonutrients approve sensory acceptance of sausages with half added nitrites. Higher doses of DHQ and DDRP supplements increased the sausage pH by 3% (p < 0.05). The use of 0.545 g DDRP/kg live weight/d as a feed supplement with subsequent sausage production decreased the L* value and increased the redness (a*) in sausages while the higher doses of DHQ show an opposite effect. Feed enrichment with DHQ or DDRP is appropriate for manufacturing functional sausages with half added nitrites due to the stabilizing effect on colour (L*, a*, b*) characteristics in dynamics, the decreasing of TBARS and the increasing of the sausages shelf life.",
+        "authors": [
+            "Desislava Vlahova-Vangelova",
+            "Desislav Balev",
+            "Stefan Dragoev"
+        ],
+        "publish_date": "24 July 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:43:50.189879"
+    },
+    {
+        "title": "466.'Farms like mine': a novel method in peer matching for agricultural benchmarking.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/5gjdp",
+        "doi": "10.31220/osf.io/5gjdp",
+        "abstract": "To find opportunities to improve performance, comparisons between farms are often made using aggregates of standard typologies. Being aggregates, farm types in these typologies contain significant numbers of atypical enterprises and thus average figures do not reflect the farming situations of individual farmers wishing to compare their performance with farms of a 'similar' type. We present a novel method that matches a specific farm against all farms in a survey (drawing upon the Farm Business Survey sample) and then selects the nearest 'bespoke farm group' of matches based on distance (Z-score). We do this across 34 dimensions that capture a wide range of English farm characteristics, including tenure and geographic proximity. Means and other statistics are calculated specifically for that bespoke farm comparator group, or 'peer set'. This generates a uniquely defined comparator for each individual farm that could substantially improve key-performance-indicators, such as unit costs of production, which can be used for benchmarking purposes. This methodology has potential to be applied across the full range of FBS farm types and in a wider range of benchmarking contexts.",
+        "authors": [
+            "Mark A. Reader",
+            "Paul Wilson",
+            "Stephen Ramsden",
+            "Ian D. Hodge",
+            "Ben G.A. Lang"
+        ],
+        "publish_date": "15 July 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:44:13.058584"
+    },
+    {
+        "title": "467.Improving the oxidative stability of pork by antioxidant type phytonutrients.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/gz39p",
+        "doi": "10.31220/osf.io/gz39p",
+        "abstract": "The objective of this study was to determine the influence of supplementations with 3.5 or 7.5 mg dihydroquercetin (experimental groups D1 and D2) or with 0.255 or 0.545 g dry distilled rose petals (experimental groups R1 and R2)/kg/d added as to pig's combined feed on the parameters of lipolysis expressed by acid value; lipid hydroperoxides expressed by peroxide value, lipid oxidation secondary products expressed by 2-tiobarbituric acid reactive substances (TBARS), pH and L*, a*, b* colour characteristics in m. Longissimus lumborum et thoracis, m. Semimembranosus, backfat and leaf fat stored 24 h and 7d at 2±1°C, or 315 d at -18±1°C. A total of 120 pigs were randomly divided to five groups - a control (C) and four experimental (D1, D2, R1 and R2) each fed 45 d prior to harvest with shown above levels of phytonutrients enriched diets. More pronounced effects were determined (P ≤ 0.05) at frozen storage compared to chilled storage. The oxidative and colour stabilities of chilled (2±1°C) and frozen (-18°C) pork are comparatively higher when pig's diet was supplemented with 3.5 mg dihydroquercetin or 0.255 g dry distilled rose petals/kg/d. The conclusion was made can the supplementation of pig's combined feed (finisher) with 3.5 mg dihydroquercetin or 0.255 g dry distilled rose petals/kg/d is a promising strategy to increase the oxidative stability of lean pork or fat and stabilized pork meat colour without deleterious changes of meat acidity.",
+        "authors": [
+            "Dessislava B. Vlahova-Vangelova",
+            "Dessislav K. Balev",
+            "Sonya G. Ivanova",
+            "Jivko L. Nakev",
+            "Tanya I. Nikolova",
+            "Stefan G. Dragoev",
+            "David Gerrard"
+        ],
+        "publish_date": "11 July 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:44:35.466242"
+    },
+    {
+        "title": "468.Accessing the nursing behaviour and the harvest timing for multiple utilisation purposes of moso bamboo (Phyllostachys edulis) via carbohydrates and chlorophyll fluorescence.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/652hy",
+        "doi": "10.31220/osf.io/652hy",
+        "abstract": "Context: Nursing behaviour, also known as breastfeeding behaviour, is the feeding of juvenile individuals with nutrients or proteins from matures especially in mammals. As a hypothetical phenomenon in bamboo forests, mature bamboos have transferred photoassimilates to young bamboos for recovering and rebuilding their photosystems especially 16 in winter. This process is accompanied by changes in the ability of photosystems and the mass fraction of non-structural carbohydrates (NSCs), structural carbohydrates (SCs), and lignin. Aims: Clarify the nursing behaviour and reveal timings to harvest moso bamboos for multiple purposes of utilisation. Methods: We analysed carbohydrates and chlorophyll fluorescence to compare the physiological traits in mature (age 2, 3, 4) and immature (age 1) moso bamboos (Phyllostachys edilus) during a year using the Portable Chlorophyll Fluorometer (PCF) and the Liquid Chromatographic (LC) method. Results: The results showed that the mass fraction of total soluble carbohydrates (TSCs) and starch in the bottom of bamboo at age 1 was higher than other parts and ages in spring, whereas the mass fraction of TSCs, starch, and sucrose at age 3 was higher than other parts and ages in winter. The Fv/Fm, an indicator to reveal photosystems were 31 functional or not, at age 1 dramatically dropped when the cold current attacked first time in October, and then quickly recovered in November. Conclusion: Our findings indicate that mature bamboos very possibly provide carbohydrates to immature bamboos and help them rebuild their photosystems when a bamboo forest resists cold stress. Furthermore, old bamboos (≥ age 5) are less likely to be infected by insects because of its low starch content suited for traditional utilisation. (such as making chopsticks and furniture). And they also can be used to torrefact bamboo for producing biocoal during summer, autumn, and winter. Harvested young bamboo (age 1) in summer is suit for making bioethanol.",
+        "authors": [
+            "Shitephen Wang"
+        ],
+        "publish_date": "10 July 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:44:58.400193"
+    },
+    {
+        "title": "469.Using supply chain data to monitor zero deforestation commitments: an assessment of progress in the Brazilian soy sector.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/xb3nk",
+        "doi": "10.31220/osf.io/xb3nk",
+        "abstract": "Zero deforestation commitments (ZDCs) are voluntary initiatives where companies or countries pledge to eliminate deforestation from their supply chains. These commitments offer much promise for sustainable commodity production, but are undermined by a lack of transparency about their coverage and impacts. Here, using state-of-the-art supply chain data, we introduce an approach to evaluate the impact of ZDCs, linking traders and international markets to commodity-associated deforestation in the sub-national jurisdictions from which they source. We focus on the Brazilian soy sector, where we find that ZDC coverage is increasing, but under-represents the Cerrado biome where most soy-associated deforestation currently takes place. Though soy-associated deforestation declined in the Amazon after the introduction of the Soy Moratorium, we observe no change in the exposure of companies or countries adopting ZDCs to soy-associated deforestation in the Cerrado. We further assess the formulation and implementation of these ZDCs and identify several systematic weaknesses which must be addressed to increase the likelihood that they achieve meaningful reductions in deforestation in future. As the 2020 deadline for several of these commitments approaches, our approach can provide independent monitoring of progress toward the goal of ending commodity-associated deforestation.",
+        "authors": [
+            "Erasmus K.H.J. zu Ermgassen",
+            "Ben Ayre",
+            "Javier Godar",
+            "Mairon G. Bastos Lima",
+            "Simone Bauch",
+            "Rachael Garrett",
+            "Jonathan Green",
+            "Michael J Lathuillière",
+            "Pernilla Löfgren",
+            "Christina MacFarquhar",
+            "Patrick Meyfroidt",
+            "Clément Suavet",
+            "Chris West",
+            "Toby Gardner"
+        ],
+        "publish_date": "29 June 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:45:20.826084"
+    },
+    {
+        "title": "470.Aktivitas Enzim Peroksidase dan Kadar Klorofil pada Daun Angsana (Pterocarpus indicus) sebagai Peneduh Jalan yang Terpapar Timbal.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/ucp7q",
+        "doi": "10.31220/osf.io/ucp7q",
+        "abstract": null,
+        "authors": [
+            "Anjar Astuti Ferdhiani",
+            "Sri Lestari",
+            "Elly Proklamasiningsih"
+        ],
+        "publish_date": "9 May 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:45:43.151379"
+    },
+    {
+        "title": "471.Irrigation Scheduling under High Efficiency (Pressurized) Irrigation Systems.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/795qf",
+        "doi": "10.31220/osf.io/795qf",
+        "abstract": "This manual provides information on the irrigation scheduling, daily crop water requirements, and application time and rate of irrigation on field crops, vegetables and fruit crops. Crops covered comprise cotton, sugarcane, maize, wheat, citrus, and peas.",
+        "authors": [
+            "Mumtaz Awan",
+            "Shehzad Ahmad",
+            "Ali Ajaz"
+        ],
+        "publish_date": "8 May 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:46:05.458470"
+    },
+    {
+        "title": "472.'Farms like mine': a big data method in peer matching for agricultural benchmarking.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/7a3bd",
+        "doi": "10.31220/osf.io/7a3bd",
+        "abstract": "To find opportunities to improve, in efficiency or performance, farms are often compared on the basis of standard typologies (i.e. categorisations). For example the EU \"specialist-cereals-oilseeds-pulses\" farm type, known in Britain as \"cereals\" farms. These categories, being aggregates, contain significant numbers of atypical enterprises. For example, in 2017 there were 30 cattle and 69 sheep on the average \"general-cropping\" farm in England. This means that comparators are averages across farms with widely divergent scales of different enterprises (and hence farm characteristics), that are not relevant for the comparison. Furthermore, farmers may not necessarily even know their own farm \"type\" when undertaking benchmarking or comparative analysis. We therefore present a novel method that matches a specific farm against all farms in a survey (drawing upon the Farm Business Survey (FBS) sample), and then selects the nearest \"bespoke farm group\" of matches based on distance (Z-score) away. Across 34 dimensions, including almost all the enterprises characteristic of English farms, as well as tenure and geographic proximity. Means and other statistics are calculated specifically for that bespoke farm comparator group, or \"peer set\" of 25 farms or more if less than 1 Z-score away. This generates a uniquely defined comparator, for each individual farm and gives a substantially improved key-performance-indicators for benchmarking purposes. This methodology has potential to be applied across the full range of FBS farm types and across a wider range of contexts.",
+        "authors": [
+            "Mark A. Reader",
+            "Paul Wilson",
+            "Stephen Ramsden",
+            "Ian D. Hodge",
+            "Ben G.A. Lang"
+        ],
+        "publish_date": "7 May 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:46:28.362909"
+    },
+    {
+        "title": "473.Estrategias de control del picudo del algodón (Anthonomus grandis Boheman) en el Caribe Colombiano: Un modelo conceptual.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/db8nu",
+        "doi": "10.31220/osf.io/db8nu",
+        "abstract": null,
+        "authors": [
+            "Oscar Burbano-Figueroa",
+            "Alexandra Sierra-Monro",
+            "Liliana Grandett Martinez",
+            "Christian Borgemeister",
+            "Eike Luedeling"
+        ],
+        "publish_date": "29 April 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:46:51.262476"
+    },
+    {
+        "title": "474.Global Agricultural Concept Space: lightweight semantics for pragmatic interoperability.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/7ts4z",
+        "doi": "10.31220/osf.io/7ts4z",
+        "abstract": "Progress on research and innovation in food technology depends increasingly on the use of structured vocabularies - concept schemes, thesauri, and ontologies - for discovering and re-using a diversity of data sources. Here we report on GACS Core, a concept scheme in the larger Global Agricultural Concept Space (GACS), which was formed by mapping between the most frequently used concepts of AGROVOC, CAB Thesaurus, and NAL Thesaurus and serves as a target for mapping near-equivalent concepts from other vocabularies. It provides globally unique identifiers which can be used as keywords in bibliographic databases, tags for web content, for building lightweight facet schemes, and for annotating spreadsheets, databases, and image metadata using synonyms and variant labels in 25 languages. The minimal semantics of GACS allows terms defined with more precision in ontologies, or less precision in controlled vocabularies, to be linked together making it easier to discover and integrate semantically diverse data sources.",
+        "authors": [
+            "Thomas Baker",
+            "Brandon Whitehead",
+            "Ruthie Musker",
+            "Johannes Keizer"
+        ],
+        "publish_date": "2 April 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:47:13.087819"
+    },
+    {
+        "title": "475.Increase in Air Temperature in The Region of South Sumatra Province as the Indicator of Global Warming and the Effect on Transpiration of Lansium domesticum Corr.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/jrf35",
+        "doi": "10.31220/osf.io/jrf35",
+        "abstract": "Global warming is one of biggest problems faced in the 21st century. One of the impacts of global warming is that it can affect the transpiration rate of plants that °Ccur. This study purpose to see how much increase in air temperature that occurred in the region of South Sumatra Province and to know the effect of increase in ari temperature in the region of South Sumatra Province on transpiration rate of Lansium domesticum Corr. This study used a complete randomized design with 9 treatments (22.9 °C, 23.6 °C, 24.6 °C, 26.3 °C, 27 °C, 27.8 °C, 31.7 °C, 32.5 °C, and 32.9 °C) and 3 replications. Air temperature data as secondary data obtained from the Meteorology, Climatology and Geophysics Agency (MCGA) Palembang Climatology Station in South Sumatra Province. The measurement of transpiration rate is done by modified potometer method with additional glass box. The data obtained are presented in the form of tables and graphs. Transpiration rate (mm3/g plant/hour) at temperture 22.9 °C = 4.37, 23.6 °C = 7.03, 24.6 °C = 8.03, 26.3 °C = 10.11, 27 °C = 13.13, 27.8 °C = 17.87, 31.7 °C = 23.21, 32.5 °C= 25.45 and 32.9 °C= 27.24. At the minimum air temperature in the region of South Sumatra Province there is increase in air temperature of 1.5 °C, average daily air temperature increase 1.3 °C and maximum air temperature increase 1.2 °C.",
+        "authors": [
+            "Ari Sugiarto",
+            "Hanifa Marisa",
+            "Sarno"
+        ],
+        "publish_date": "10 March 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:47:35.511377"
+    },
+    {
+        "title": "476.Exploring trajectories of shifting-cultivation landscapes through games the case of Assam, India.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/5uczf",
+        "doi": "10.31220/osf.io/5uczf",
+        "abstract": "Understanding landscape change starts with understanding what motivates farmers to transition away from one system, shifting cultivation, into another, like plantation crops, given that they often have limited labour and money available. In this study we explored the resource allocation strategies of the farmers of the Karbi tribe in Northeast India, who practise a traditional shifting cultivation system called jhum. Through Companion Modelling, a participatory modelling framework, we developed a model of the local farming system in the form of a role playing game. Within this environment local jhum farmers participated in a simulation that covered 18 years of farming, while also allowing us to analyse the impacts of their decisions together. In the game, farmers allocated labour and cash to meet household needs, while also investing in new opportunities like bamboo, rubber and tea, or the chance to improve their living standards. When given new opportunities, the farmers were eager to embrace those options where investment costs, especially monetary investments, are low. Returns on these investments were not automatically re-invested in further long-term, more expensive and promising opportunities. Instead, most of the money is spend on improving the household living standards, and especially on the education of the next generation. The landscape changed profoundly as a result of the farmer strategies. Natural ecological succession was replaced by an improved fallow of marketable bamboo species. Plantations of tea and rubber became more prevalent as time progressed. However, old practises that ensure food security are not yet given up.",
+        "authors": [
+            "S.P.M. Bos",
+            "T. Cornioley",
+            "A. Dray",
+            "P.O. Waeber",
+            "C.A. Garcia"
+        ],
+        "publish_date": "8 March 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:47:57.846385"
+    },
+    {
+        "title": "477.Principles of effective collaboration in agricultural development and research for impact.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/udf63",
+        "doi": "10.31220/osf.io/udf63",
+        "abstract": "This paper shares the experiences gained in the course of designing and implementing global partnerships, that have been key to building effective collaboration for impact in smallholder agriculture in sub-Saharan Africa. It describes 'principles of effective collaboration' and lists guidelines to capturing agricultural research project impacts.",
+        "authors": [
+            "Joseph Ndunguru",
+            "Fred Tairo",
+            "Laura M. Boykin",
+            "Peter Sseruwagi"
+        ],
+        "publish_date": "1 February 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:48:20.191276"
+    },
+    {
+        "title": "478.Comparison of Jumping Distance on Several Grasshopper Species (Orthoptera).",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/ybtzq",
+        "doi": "10.31220/osf.io/ybtzq",
+        "abstract": "Grashhoppers have the jumping ability to move on one place to another place. Other than that, Grasshoppers use the jumping ability to escape from predators. The jumping distance of several grasshopper species is not expected to be the same, this led to the idea to conducting reseach to measure the jumping distance of several grasshopper species. This reasearch was conducted in a closed room with a size of 5 m × 5 m. Grasshopper species measured by jumping distance areAtractomorpha crenulata, Gesonula mundata, Oxya hyla, andXenocatantops humilis. The selection of these four grasshopper species is estimated to have different jumping distances. The result of the research showed thatOxya hylahave the farthest jumping distance compared to Atractomorphacrenulata, Gesonula mundata, andXenocatantops humilis.Atractomorpha crenulatahas the shortest jumping distance compared toOxya hyla, Gesonula mundata, andXenocatantops humilis. This difference in the jumping distance can estimated thatOxya hylaandGesonula mundatamore difficult to catch compared toAtractomorpha crenulataandXenocatantops humili.",
+        "authors": [
+            "Ari Sugiarto"
+        ],
+        "publish_date": "23 January 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:48:42.625787"
+    },
+    {
+        "title": "479.The Need for Nutrient Efficient Crop Varieties.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/t9z3j",
+        "doi": "10.31220/osf.io/t9z3j",
+        "abstract": "Commentary: The rapid developments in crop management and crop improvement which ran mutually complimenting paved way to 'green revolution' in several key food crops which almost eradicated famines from the face of earth. However, the best agro-management always required large quantum of agronomic inputs such as fertilizers. The modern varieties need high positive nutrient balance in the soil to throw their best yields. Currently, indiscriminate chemical inputs into agriculture either as fertilizers or pesticides has been recognized as an environmental hazard.",
+        "authors": [
+            "K. K. Vinod"
+        ],
+        "publish_date": "9 January 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:49:04.884788"
+    },
+    {
+        "title": "480.Ecotourism development potential in Sirah Pulau Padang Sub-district reviewed from the society plantation sector.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/xk48v",
+        "doi": "10.31220/osf.io/xk48v",
+        "abstract": "Each region has the potential to be developed into an ecotourism area. Ecotourism development in an region have a large impact on a region. One sector that has the potential to be developed into an ecotourism area, namely plantations. Sirah Pulau Padang Sub-district has quite extensive plantations. Research needs to be done to see the development potential of ecotourism in Sirah Pulau Padang Sub-district in terms of the society plantation sector. This research was carried out by observing society plantations and associated with the ecotourism development potential. The results of the research show that in Sirah Pulau Padang Sub-district has the potential to be developed into a seasonal ecotourism area.",
+        "authors": [
+            "Ari Sugiarto"
+        ],
+        "publish_date": "7 January 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:49:26.810347"
+    },
+    {
+        "title": "481.Potensi Pengembangan Ekowisata Di Kecamatan Sirah Pulau Padang Ditinjau dari Sektor Perkebunan Masyarakat.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/h782g",
+        "doi": "10.31220/osf.io/h782g",
+        "abstract": null,
+        "authors": [
+            "Ari Sugiarto"
+        ],
+        "publish_date": "1 January 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:49:49.210185"
+    },
+    {
+        "title": "482.Impact of Standing Water on the Existence of Several Species of Grasshoppers (Orthoptera) in the Rice Field Ecosystem.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/akbgz",
+        "doi": "10.31220/osf.io/akbgz",
+        "abstract": "The formation of standing water in the rice field ecosystem in the rainy season is estimated to cause differences in the existence of several species of grasshoppers compared to the end of dry season. Research needs to be done on impact of standing water on the existence of several species of grasshoppers (Orthoptera) in the rice field ecosystem. This research was conducted from September to December 2018 by observing several species of grasshoppers in the rice field ecosystem at the end of the dry season and the rainy season. The results of the observations indicate a difference in the presence of several species of grasshoppers at the end of the dry season and the rainy season. This is because in the rainy season formed a standing water forms which causes the sinking of some vegetation to cause vegetation to grow into groups. This condition is thought to cause grasshoppers to adaptation to changes so that there are differences in the presence of several species of grasshoppers at the end of dry season and rainy season.",
+        "authors": [
+            "Ari Sugiarto"
+        ],
+        "publish_date": "27 December 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:50:11.049221"
+    },
+    {
+        "title": "483.Potential of Embam Fruit (Mangifera odorata Griff) which Falling to Support Insects Survival.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/q7s6b",
+        "doi": "10.31220/osf.io/q7s6b",
+        "abstract": "Embam (Mangifera odorata) is one of mango species (Mangiferaspp.) which has a typical aroma. Some species of fruit flies are more interested in laying eggs on mango fruit compared to other fruits. It does not rule out the possibility that some insect species use fruit which falling to laying eggs or as a food source. Need a research to be done about the potential of falling fruit to support insects survival. This research was conducted in November 2018 by observing of falling embam fruit under the tree to see what insects contained in the fruit and analyze the benefits for these insects. Found 6 insects species from a total of 6 families and 2 order on embam fruit which falling. Insect species of order Diptera are most commonly found with a total of 5 species from 5 families. Insect species from order Hymenoptera found only 1 species. The difference on embam fruit ripeity and condition of embam fruit affects insects species which found. on a ripe embam fruit can be useful as a food source for insects, while in rotten embam fruit can be beneficial for insects to laying eggs.",
+        "authors": [
+            "Ari Sugiarto"
+        ],
+        "publish_date": "22 November 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:50:33.860798"
+    },
+    {
+        "title": "484.Inventory of Praying Mantis (Mantodea) in Serdang Menang Village, Sirah Pulau Padang Sub-District, Ogan Komering Ilir District.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/gfe3u",
+        "doi": "10.31220/osf.io/gfe3u",
+        "abstract": "Praying mantis included in the Mantodea order have good adaptations with camouflage and mimicry. The existence of a praying mantis in an ecosystem can help in controlling dangerous insect populations. Serdang Menang Village, Sirah Pulau Padang Sub-district, Ogan Komering Ilir District has various types of ecosystems such as plantation ecosystems, rice fields, settlements, and rivers. Need to do an inventory of praying mantis to complete data on fauna in Indonesia. This research was conducted in Serdang Menang Village in October 2018 by collecting samples of praying mantis around the green ecosystem. The results of the study only obtained 1 species of praying mantis, namelyHeirodula formosana.Heirodula formosanawhich is found is green and some are brown. It can be concluded that variety of praying mantis in Serdang Menang Village is low.",
+        "authors": [
+            "Ari Sugiarto"
+        ],
+        "publish_date": "19 November 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:50:56.806578"
+    },
+    {
+        "title": "485.PERCENTAGE OF TOTAL PLANT MONOCOTS AND DICOTS IN SERDANG MENANG VILLAGE, SIRAH PULAU PADANG SUB-DISTRICT, OGAN KOMERING ILIR DISTRICT.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/un2vh",
+        "doi": "10.31220/osf.io/un2vh",
+        "abstract": "Dicotyledonous plant is a plant that has the characteristic that transporter tissue files are in a loop, while monocot plants are plants that have the characteristic that the tissue transporter beam spread. Morphological differences between plants dicots and monocots can be seen from the roots, stems, leaves and flowers. Dicotyledonous plants rooted riding, rod cambium, pinnate leaves and flower jewelry section consisting of 2, 4, 5 or multiples thereof. Monocot fibrous roots, stems not cambium, leaves curved, parallel, flower jewelry section consists of 3 or multiples thereof. The research was conducted on Sunday, May 15, 2016, in the Serdang Menang village, Sirah Pulau Padang, Ogan Komering Ilir. Tools and materials used are stationery and notepads. Number of dicotyledonous plants located in the village of Serdang Menang totaling 94 species, while the monocot plants totaling 30 species were found. Total comparison 75, 8% (plants dikotil) and 24, 2% (plants monocots).",
+        "authors": [
+            "Ari Sugiarto"
+        ],
+        "publish_date": "19 November 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:51:19.172963"
+    },
+    {
+        "title": "486.An inventory of Tortoise Beetles (Cassidinae) in Post Harvest Rice Field Ecosystem Area, Serdang Menang Village, Sirah Pulau Padang Sub-District.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/d2vtg",
+        "doi": "10.31220/osf.io/d2vtg",
+        "abstract": "Diversity of plants species in post harvest rice field ecosystem area tends to be higher compared to before harvest. Tortoise beetles can be a threat to plants species that exist in rice field ecosystem area. Serdang Menang Village has a fairly extensive rice field ecosystem area. An inventory of tortoise beetles in rice field ecosystem area, Serdang Menang Village will be very helpful in potential estimating of tortoise beetles to plants that exist in rice field ecosystem area, Serdang Menang Village. Determination of this sampling location was done randomly in post harvest rice field ecosystem area, Serdang Menang Village. The sampling method uses small insecting net and hand picking methods. Species of tortoise beetles found were 5 species (Aspidomorpha miliaris,Cassida subreticulata,Cassida circumdata,Cassidasp., danDoloyalasp.) of a total 3 genera.Cassida circumdataand Aspidomorpha miliaris is tortoise beetles species that easiest to be found in this rice field ecosystem area which indicates that population is more than any species of tortoise beetles found.Cassida circumdataandAspidomorpha miliariscan be major threat in rice field ecosystem area compared any species of tortoise beetles that found because a population is estimated to be more.",
+        "authors": [
+            "Ari Sugiarto"
+        ],
+        "publish_date": "15 November 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:51:41.558961"
+    },
+    {
+        "title": "487.Utilization of Coconut Oil (Cocos nucifera L.) for Provoke The Presence of Ants (Hymenoptera: Formicidae).",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/45gtj",
+        "doi": "10.31220/osf.io/45gtj",
+        "abstract": "Ants have an interest in carbohydrates based on studies that have been done by people. Based on other studies showing that coconut oil residues still have a high carbohydrate content. Need to do research on the use of coconut oil to provoke the presence of ants. The results of this study can show the potential of coconut oil to provoke the presence of certain ants. Testing of coconut oil to provoke the presence of these ants is carried out at the location of litter, bush, and terrain in Serdang Menang Village plantation. The selection of test sites in litter, bush, and terrain allows for differences in ant species in that location. The method used is by applying coconut oil to the cotton and then placing it in the location of litter, bush, and terrain. The results of the study found ant speciesDolichoderussp. andTapinomasp. interested in coconut oil which is placed in the location of litter, bush, and terrain. It is estimated that ant species in the locations of litter, bush, and terrain are not onlyDolichoderussp. andTapinomasp. Coconut oil can provoke the presence ofDolichoderussp. andTapinomasp. in the location of litter, bush, and terrain in Serdang Menang Village plantation, this could indicate the potential of coconut oil as an attractant for the ant speciesDolichoderussp. andTapinomasp.",
+        "authors": [
+            "Ari Sugiarto"
+        ],
+        "publish_date": "3 November 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:52:03.873036"
+    },
+    {
+        "title": "488.Semantics for data in agriculture: a community-based wish list.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/eapdv",
+        "doi": "10.31220/osf.io/eapdv",
+        "abstract": "The paper reports on activities carried within the Agrisemantics Working Group of the Research Data Alliance (RDA). The group investigated on what are the current problems research and practitioners experience in their work with semantic resources for agricultural data, and elaborated the list of requirements that are the object of this paper. The main findings include the need to broaden the usability of tools so as to make them useful and available to the variety of profiles usually involved in working with semantics resources; the need to online platform to lift users from the burden of local installation; and the need for services that can be integrated in workflows. We further analyze requirements concerning the tools and services and provide details about the process followed to gather evidence from the community.",
+        "authors": [
+            "Caterina Caracciolo",
+            "Sophie Aubin",
+            "Brandon Whitehead",
+            "Panagiotis Zervas"
+        ],
+        "publish_date": "29 October 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:52:25.808763"
+    },
+    {
+        "title": "489.Ekologi Duku Komering.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/g6fsd",
+        "doi": "10.31220/osf.io/g6fsd",
+        "abstract": null,
+        "authors": [
+            "Ari Sugiarto",
+            "Hanifa Marisa"
+        ],
+        "publish_date": "26 October 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:52:48.186186"
+    },
+    {
+        "title": "490.Dinamika Pemberdayaan Kelembagaan Komunitas Petani Dalam Mewujudkan Ketahanan Pangan Pedesaan di Kabupaten Buru.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/zcnek",
+        "doi": "10.31220/osf.io/zcnek",
+        "abstract": null,
+        "authors": [
+            "Idrus Hentihu",
+            "Samsia Umasugi",
+            "Abdul Latif Wabula",
+            "Said Abdurahman Assagaf",
+            "Abdi Wael",
+            "Rosita Umanailo",
+            "Hamiru Hamiru",
+            "Mansyur Nawawi",
+            "Sukainap Pulhehe",
+            "Mirja Ohoibor",
+            "Riki Bugis",
+            "Edi Said Ningkeula",
+            "Muhammad Bula",
+            "Lutfi Rumkel",
+            "Iskandar Hamid",
+            "Irma Magfirah",
+            "Siami Prafitriyani",
+            "Belinda Sam",
+            "Wa Malmia",
+            "Syaiful Rachman",
+            "Salma Yusuf",
+            "M Yusran Zakaria"
+        ],
+        "publish_date": "9 October 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:53:10.504589"
+    },
+    {
+        "title": "491.Production Efficiency in Small Agriculture: Do Migrant Remittances Matter? Evidence from Rural Nigeria.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/jfvzn",
+        "doi": "10.31220/osf.io/jfvzn",
+        "abstract": "This paper investigates how remittances flow to Nigeria from household migrants correlate with farm production efficiency of the left behind in rural areas using the Living Standard Measurement Survey data set. We applied the production frontier model from which efficiency scores for two groups of farmers were recovered: migrant households and non-migrant households. We subjected the efficiency scores to Anova and stochastic dominance analyses. Mean production efficiency for migrant households was significantly higher atp< 0.05. Across all percentiles, migrant households had higher technical efficiency level compared to households with out migrants. Thus rejecting the hypothesis of negative production efficiency effect of migrant remittances flow to farm households. While policy programmes should promote labour mobility and remittances, it supposes a complementary policy that promote labour saving farm technologies.",
+        "authors": [
+            "John C. Odozi",
+            "Oluwatosin Adeniyi",
+            "Sulaiman A. Yusuf"
+        ],
+        "publish_date": "8 October 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:53:32.928279"
+    },
+    {
+        "title": "492.Energy and Climate Change Mitigation Benefits of Faidherbia albida Agroforestry in Ethiopia.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/wtbqd",
+        "doi": "10.31220/osf.io/wtbqd",
+        "abstract": "Faidherbia albidatrees have an unusual phenology, leafing out during the dry season and shedding leaves at the start of the rainy season. When integrated into agroforestry cropping systems, they provide substantial sustainability benefits, including adding plant nutrients and organic matter to the soil through leaf drop. Dormant during the cropping season,Faidherbia albidadoes not compete with the crop for light, water or nutrients and contributes nitrogen to the soil under its canopy, enhancing crop productivity. This nitrogen benefit is analyzed in relation to its equivalent in industrially manufactured urea nitrogen fertilizer, expressed in terms of the energy required to manufacture and transport an equivalent quantity of urea fertilizer. This is, in effect, a substitution of solar energy that theFaidherbia albidatrees use to obtain nitrogen from the atmosphere, for the fossil fuels used in the industrial manufacture and transport of the urea fertilizer. This energy contribution by the tree, within the food energy and water system, enhances the food production potential of the system, as yields are often increased, and the resilience of the system is enhanced because the soil organic matter increases available water for the plants. This energy contribution to the Ethiopian farming system is estimated as 3.48 GJ ha-1year-1, based on the nitrogen contribution under full canopy cover. Additions of energy to agricultural systems frequently increase productivity and such increases can be realized through the addition of energy provided byFaidherbiaagroforestry. Greenhouse gas emissions are avoided by the substitution of solar energy for fossil fuel energy, a climate change mitigation benefit estimated as 0.116 tons CO2ha-1year-1. This contribution to climate change mitigation is fundamentally different from sequestration of carbon in biomass or soil organic matter. It is a permanently avoided emission of carbon dioxide into the atmosphere, associated with a particular cropping year, and is not reversible, unlike the benefit of carbon stored in biomass or soil organic matter, that could be released back into the atmosphere. The potential extent ofFaidherbia albidaagroforestry is substantial and the potential climate change mitigation benefits of its widespread use are great.",
+        "authors": [
+            "Jonathan D. Haskett",
+            "Belay Simane",
+            "Caitlin Smith"
+        ],
+        "publish_date": "7 September 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:53:55.755290"
+    },
+    {
+        "title": "493.Understanding coffee farmers: using games to explore future coffee agroforestry landscapes in the Western Ghats (India).",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/9374a",
+        "doi": "10.31220/osf.io/9374a",
+        "abstract": "Deforestation and biodiversity loss in agroecosystems are generally the result of rational choices, not of a lack of awareness or knowledge. Despite both scientific evidence and traditional knowledge that supports the value of diverse production systems for ecosystem services and resilience, a trend of agroecosystem intensification is apparent across tropical regions. These transitions happen in spite of policies that prohibit such transformations. We present a participatory modelling study run (1) to understand the drivers of landscape transition and (2) to explore the livelihood and environmental impacts of tenure changes in the coffee agroforestry systems of Kodagu (India). The components of the system, key actors and resources, and their interactions were defined with stakeholders, following the companion modelling (ComMod) approach. The underlying ecological processes driving the system were validated through expert knowledge and scientific literature. The conceptual model was transformed into a Role Playing Game and validated by 8 workshops with 57 participants. Two scenarios were explored, a No Policy Change as baseline, and a Restitution of Rights where rights to cut the native trees are handed over to farmers. Our results suggest the landscape transition is likely to continue unabated unless there is a change to the current policy framework. However, the Restitution of tree Rights risks speeding up the process rather than reversing it, as slow variables such the differential growth rate between exotic and native tree species kick in.",
+        "authors": [
+            "Claude Garcia",
+            "Jeremy Vende",
+            "K.M. Nanaya",
+            "M. M. Nay",
+            "Jenu Kalla",
+            "A. Dray",
+            "M. Delay",
+            "P. O. Waeber",
+            "N. Stoudmann",
+            "A. Bose",
+            "Ch. le Page",
+            "Yenugula Raghuramulu",
+            "R. Bagchi",
+            "J. Ghazoul",
+            "C.G. Kushalappa",
+            "P. Vaast"
+        ],
+        "publish_date": "6 September 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:54:18.462534"
+    },
+    {
+        "title": "494.A bioeconomy perspective for natural sweetener Stevia.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/7bcvr",
+        "doi": "10.31220/osf.io/7bcvr",
+        "abstract": "The \"sweet herb\" (El Caa-ehe) used by the Guaraní tribes living in the forests of today's eastern Paraguay and southern Brazil, is rapidly emerging as natural sweetener alternative both to sugar and synthetic sweeteners, well beyond Japan where it is widely used since the mid 1970s.Stevia rebaudiana(Bertoni) Bertoni contains in its leaves highly sweet steviol glycosides which do not release calories in the human body and do not cause an increase in blood sugar levels. The glycoside most abundant in the leaves, stevioside, has high reactive oxygen species quenching activity originating several health beneficial properties. Rapid advances in green chemistry technology allowing the production of Stevia extracts devoid of liquorice-like after-taste, and their high chemical and physical stability enabling use in baked and beverage food products support large scale uptake of Stevia as natural sweetener. Addressing bioeconomy aspects ranging from production through product formulation, this study identifies the last obstacles to overcome prior to general adoption ofS. rebadudianaas health beneficial sweetener.",
+        "authors": [
+            "Rosaria Ciriminna",
+            "Francesco Meneguzzo",
+            "Mario Pecoraino",
+            "Mario Pagliaro"
+        ],
+        "publish_date": "22 August 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:54:41.305822"
+    },
+    {
+        "title": "495.Detection of Mastitis in Goat Milk using qRTPCR.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/9t7yn",
+        "doi": "10.31220/osf.io/9t7yn",
+        "abstract": "Replicate milk samples were obtained from a herd of Alpine Goats on the research farm at Langston University in Langston, Oklahoma. Subsequent DNA extraction and quantitative real time PCR (qRTPCR) were conducted using Norgen Biotek Milk DNA Preservation and Isolation kit followed by amplification with an iQ™ SYBR Green Supermix. Quantitative real time PCR assays detectingListeria monocytogenes,Staphylococcus aureus,Samonella enterica,Streptococcus agalactiae,Streptococcus dysgalactiae, andStreptococcus uberiswere conducted. These bacteria are all known to cause Mastitis. Mastitis is an inflammation of the udder that causes chemical changes in the composition of, and subsequent lowering of quality in the milk that is produced by affected goats, further causing difficulty affecting an entire dairy herd. This leads to huge economic losses for producers and risk to consumers. Early detection of pathogens that cause Mastitis should be included in routine diagnostic testing. This study shows a diagnostic procedure that can be utilized for the assessment of safe dairy products from Alpine goats. Presented here are the results of a healthy herd raised at the American Institute for Goat Research.",
+        "authors": [
+            "Amber L. Martin",
+            "Ashley Newton",
+            "Yonathan Tilahun",
+            "Steve Zeng"
+        ],
+        "publish_date": "4 August 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:55:03.785133"
+    },
+    {
+        "title": "496.Quantitative and Qualitative Improvements in DNA Extraction Procedures Using a Bronopol™ Tablet in Alpine Goat Milk.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/dh3f2",
+        "doi": "10.31220/osf.io/dh3f2",
+        "abstract": "Preservation of milk is important as it relates toCapra aegagrus hircus(Alpine goat) milk DNA extraction. We examined the difference in concentration and quality of DNA resulting from the use of a preservation tablet (BronopolTM) versus a preservation solution by Norgen Biotek. When examining the concentration and quality of DNA in goat milk for studies using somatic cells from goat milk, it is ideal to use a substance that has a long-term preservation potential. The concentrations and quality of DNA obtained from goat milk was compared. Two separate trial samples of Alpine goat milk were obtained. The preservation tablet commonly known as B-14 or Bronopol™ was dissolved into one sample of milk. Another sample of goat milk without a tablet used a preservation solution from a Norgen Biotek. All DNA extraction methods followed the Norgen Biotek Corp. manufacturer's protocol. DNA quantity and quality was analyzed using a Thermo Scientific NanodropLite spectrophotometer. The study showed that the traditional Bronopol™ was a better method of preserving and maintaining the integrity of DNA in the somatic cells that are present in Alpine goat milk. This is based on the results obtained following determination of quantity and A260/A280 readings for quality assessment. Thus, the use of Bronopol™ is the preferred method of preserving goat milk for DNA extraction.",
+        "authors": [
+            "Ashley Newton",
+            "Amber L. Martin",
+            "Yonathan Tilahun",
+            "Steve Zeng"
+        ],
+        "publish_date": "4 August 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:55:25.695987"
+    },
+    {
+        "title": "497.Statistics for Information Intensive Agriculture.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/dqn4y",
+        "doi": "10.31220/osf.io/dqn4y",
+        "abstract": "This paper proposes that productivity growth in rain fed agriculture is possible with more intensive use of available information. This may be a way out of the productivity plateau experienced since the green revolution. Some illustrative examples are discussed to spell out the ideas. This is intended more to help students of statistics understand their subject as a tool of development, rather as a ready device to be put into immediate practice.",
+        "authors": [
+            "Anil Gore"
+        ],
+        "publish_date": "1 August 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:55:48.049282"
+    },
+    {
+        "title": "498.Site selection for new green mussel culture area expansion in Buguey estuary, Cagayan, Philippines.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/3nb6w",
+        "doi": "10.31220/osf.io/3nb6w",
+        "abstract": "Currently, there is limited data on the suitability of estuaries in Cagayan province, Philippines for aquaculture. In this brief report, we discuss the overall assessment score of Buguey estuary in the municipality of Buguey, Cagayan as potential spot for the culture of green mussel (Perna viridis), locally known in the Philippines as \"tahong\". The score is mainly based on salinity and water temperature. We also present the condition of dissolved oxygen and pH levels in the estuary but these factors do not have major effect on mussel growth compared to salinity and water temperature. The reference ideal values for a suitable culture site are 27 to 35 psu for salinity; 27 to 30°C for water temperature; >5 mg/L for dissolved oxygen; and 7.7 to 8.4 for pH. Based on this reference values, areas in Buguey estuary have acceptable possibility of success for green mussel culture, which is qualitatively equivalent to having \"good\" suitability. This translates to a production estimate of 81% to 90% of cultured mussels will have a marketable size. However, these ratings may vary due to competition with existing oyster farming, water depth of the chosen site (since several areas in Buguey estuary are shallow), and other factors.",
+        "authors": [
+            "Eunice A. Layugan",
+            "John Philip B. Tabasin",
+            "Marlon Alejos",
+            "Lorebelle E. Pidoy",
+            "Jomar F. Rabajante",
+            "Ricardo P. Babaran"
+        ],
+        "publish_date": "18 July 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:56:10.872017"
+    },
+    {
+        "title": "499.BUDIDAYA JAGUNG MANIS.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/5mh8n",
+        "doi": "10.31220/osf.io/5mh8n",
+        "abstract": null,
+        "authors": [
+            "Andre Parulian Sihombing"
+        ],
+        "publish_date": "27 April 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:56:33.794134"
+    },
+    {
+        "title": "500.Evaluating the potential of Genetic Programming as an exploratory data analysis in soil science.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/vtkm6",
+        "doi": "10.31220/osf.io/vtkm6",
+        "abstract": "Genetic Programming is a powerful optimization technique, able to deliver high-quality results in several real-world problems. One of its most successful applications is symbolic regression, where the objective is to find a suitable expression to model the underlying relationship between data points, with no aprioristic assumptions. In this paper, we propose the application of a Genetic Programming technique to a dataset on soil respiration and soil properties, in order to investigate possible influences of soil properties on soil respiration through symbolic regression. The best candidate models obtained by the technique are then studied to determine possible differences in the relationships related to environmental factors. Recurring patterns in the best solutions proposed by the search algorithm are identified, and the suitability of symbolic regression in soil science is evaluated and discussed. Genetic Programming proves to be an extremely promising data mining technique for soil scientists, as it is able to uncover relationships that could otherwise remain hidden, while remaining completely neutral and bias-free. We suggest its application for routine data analysis, as the technique presents particular interest for environmental modeling and development of pedotransfer functions.",
+        "authors": [
+            "Lorenzo Menichetti",
+            "Alberto Paolo Tonda"
+        ],
+        "publish_date": "9 April 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:56:56.653542"
+    },
+    {
+        "title": "501.Farmers' Spending on Variable Inputs Tends to Maximise Crop Yields, Not Profit.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/6fcxt",
+        "doi": "10.31220/osf.io/6fcxt",
+        "abstract": "We estimate the marginal returns to spending on Crop Variable Inputs (CVI) (such as fertilizers and crop protection), to explore whether observed spending maximises physical or economic returns to farmers. Data are taken from the Farm Business Survey for 2004-2013, where gross margins and input spending are available, in over 10,300 crops of conventional winter wheat or oilseed rape in England and Wales. Marginal spending on CVIs generate financial returns significantly less than £ 1 per marginal pound spent. This suggests that expenditure on CVIs exceeds an economic optimum that would maximise profit. However marginal physical products (crop yields) are positive, but small and significantly different from zero. This suggests that, on average, farmers approximately maximise yields. These results hold across a wide range of alternative economic models and two crop species. Similar results have been reported in estimations for Indian grain production and for maize in China. In practice, farmers are making decisions on input use in advance of having information on a variety of factors, including future yield, product quality and price, making it difficult to optimise in put levels according to expected profit. Farmers may be consistently optimistic, prefer to avoid risk, or deliberately seek to maximise yields. Some farmers may put on the standard recommended application irrespective of input or expected output price. It is also possible that advice may sometimes aim to maximise yield, influenced by an incentive to encourage greater sales. Excessive input use both reduces private profits and is a cause of environmental damage. There are thus potential private as well as social benefits to be gained from optimising levels of input use.",
+        "authors": [
+            "Mark A Reader",
+            "Cesar Revoredo-Giha",
+            "Rachel J Lawrence",
+            "Ian D Hodge",
+            "Ben G A Lang"
+        ],
+        "publish_date": "23 March 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:57:29.550128"
+    },
+    {
+        "title": "502.Statistical Gap Analysis on the usage of Biofuels in Chile.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/a9p4v",
+        "doi": "10.31220/osf.io/a9p4v",
+        "abstract": "Data uncertainty is prevalent. The accuracy of biofuel usage data has attracted more attention especially after the publication of \"Green Chile Memorandum\" policy in Chile. Based on data from Chile Biofuel Resources Bulletin (CBEE) and Chile Census for Biofuel (CNW), the authors analyzed disparities in biofuel use data by integrating multiple approaches, including comparison analysis, Jacob expert questionnaire and others, and identified causes for disparities in industrial and agricultural biofuel uses. We presented a set of modified biofuel uses data, which might be more realistic and hopefully will provide more accurate base data for future biofuel resources management.",
+        "authors": [
+            "Victor Flores",
+            "Katherine Medina"
+        ],
+        "publish_date": "23 March 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:57:52.384437"
+    },
+    {
+        "title": "503.Predicting cover crop biomass by lightweight UAS-1 based RGB and NIR photography: an applied 2 photogrammetric approach.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/wd39z",
+        "doi": "10.31220/osf.io/wd39z",
+        "abstract": "Easy-to-capture and robust plant status indicators are important factors when implementing precision agriculture techniques on fields. In this study, aerial red, green and blue color space (RGB) photography and near-infrared (NIR) photography was performed on an experimental field site with nine different cover crops. A lightweight unmanned aerial system (UAS) served as platform, consumer cameras as sensors. Photos were photogrammetrically processed to orthophotos and digital surface models (DSMs). In a first validation step, the spatial precision of RGB orthophotos (x and y, ± 0.1 m) and DSMs (z, ± 0.1 m) was determined. Then, canopy cover (CC), plant height (PH), normalized differenced vegetation index (NDVI), red edge inflection point (REIP), and green red vegetation index (GRVI) were extracted. In a second validation step, the PHs derived from the DSMs were compared with ground truth ruler measurements. A strong linear relationship was observed (R2=0.80-0.84). Finally, destructive biomass samples were taken and compared with the remotely-sensed characteristics. Biomass correlated best with plant height (PH), and good approximations with linear regressions were found (R2=0.74 for four selected species, R2=0.58 for all nine species). CC and the vegetation indices (VIs) showed less significant and less strong overall correlations, but performed well for certain species. It is therefore evident that the use of DSM-based PHs provides a feasible approach to a species-independent non-destructive biomass determination, where the performance of VIs is more species-dependent.",
+        "authors": [
+            "Lukas Roth",
+            "Bernhard Streit"
+        ],
+        "publish_date": "10 March 2018",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:58:14.727643"
+    },
+    {
+        "title": "504.Sampling procedures and Action threshold level of vectors of Maize Lethal Necrosis Disease causing viruses in Kenya.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/jekd2",
+        "doi": "10.31220/osf.io/jekd2",
+        "abstract": "Maize lethal necrosis disease (MLND) has emerged as a great threat to maize production in East Africa. The disease is caused by a coinfection of maize by maize chlorotic mottle virus (MCMV) and sugarcane mosaic virus (SCMV) that are vectored by corn thrips and corn leaf aphids. Due to the recent outbreak of MLND in Bomet County, Kenya, a study was carried out to determine the best scouting and sampling regime as well as action threshold levels for vectors of MLND causing viruses. The trial was laid down in randomized complete block design with four replications for each aspect in two seasons, from 1st April 2015 to 8th April 2016 in Bomet County, Kenya. Three maize regions; lower, middle and upper regions were sampled for vectors. Plants were also sampled between 8.30 to 10.30 am, 12.30-2.30 pm and 3.30-5.30 pm. Finally, five thunder (Imidacloprid and Beta cyfluthrin) spray regimes carried on a weekly, fortnightly, after three weeks and monthly basis was done. The upper plant region was a preferred target for corn thrips (P <0.001) while the lower part region was more preferred by corn leaf aphids (P=0.03). Scouting results showed the most reliable time for scouting to be either from 8.30-10.30 am or 3.30 to 5.30 pm (P=0.04). Maize from plots sprayed on a weekly basis had a significant decrease in corn thrips infestation compared to maize from plots not sprayed (P=0.01). Moreover, maize from thunder sprayed plots was MLND negative while the unsprayed maize was infected with MLND (P <0.001). Although yield of maize from weekly sprayed plots was higher than any other treatments (P <0.001), the net returns from monthly sprayed plots was higher. The action threshold level for corn thrips and corn leaf aphids was found to be 6 and 3 respectively. These findings provide information to farmers and other stake holders on how, when and where to scout and spray. If implemented properly, this will be able to minimize the wide spread of the virus by the vectors and eventually nib the chances of MLND occurring.",
+        "authors": [
+            "E. S. Namikoye",
+            "G. M. Kariuki",
+            "Z.M. Kinyua",
+            "M.W. Githendu",
+            "M. Kasina"
+        ],
+        "publish_date": "28 November 2017",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:58:37.651270"
+    },
+    {
+        "title": "505.A survey of ICAR and NARS websites for web technologies.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/3ky2e",
+        "doi": "10.31220/osf.io/3ky2e",
+        "abstract": "When the use and advocacy for free and open source software (FOSS) movement is gaining momentum in the year 2013, we tried to know what are the web technologies the constituent establishments of the Indian Council of Agricultural Research (ICAR) and the National Agricultural Research System (NARS) are using for hosting their websites. Now when the new guidelines from the Indian Government are in force, how the technologies are being replaced or used has to be found out in this year 2017 after a gap of 4 years. As the technologies keep on changing and are moving towards FOSS, this analysis would give a picture landscape of web technologies in Indian NARS.",
+        "authors": [
+            "Aneeja Guttikonda",
+            "Sridhar Gutam"
+        ],
+        "publish_date": "7 October 2017",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:58:59.975815"
+    },
+    {
+        "title": "506.Results from on-the-ground efforts to promote sustainable cattle ranching in the Brazilian Amazon.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/axyjk",
+        "doi": "10.31220/osf.io/axyjk",
+        "abstract": "Agriculture in Brazil is booming. Brazil has the world's second largest cattle herd and is the second largest producer of soybeans, with the production of beef, soybeans, and bioethanol forecast to increase further. Questions remain, however, about how Brazil can reconcile increases in agricultural production with protection of its remaining natural vegetation. While high hopes have been placed on the potential for intensification of low-productivity cattle ranching to spare land for other agricultural uses, cattle productivity in the Amazon biome (29% of the Brazilian cattle herd) remains stubbornly low, and it is not clear how to realize theoretical productivity gains in practice. We provide results from six initiatives in the Brazilian Amazon, which are successfully improving cattle productivity in beef and dairy production on more than 500,000 hectares of pastureland, while supporting compliance with the Brazilian Forest Code. Spread across diverse geographies, and using a wide range of technologies, participating farms have improved productivity by 30-490%. High-productivity cattle ranching requires some initial investment (R$1300-6900/ha or US$410-2180/ha), with average pay-back times of 2.5-8.5 years. We conclude by reflecting on the challenges that must be overcome to scale up these young initiatives, avoid rebound increases in deforestation, and mainstream sustainable cattle ranching in the Amazon.",
+        "authors": [
+            "Erasmuszu Ermgassen",
+            "Melquesedek Pereira de Alcântara",
+            "Andrew Balmford",
+            "Luis Barioni",
+            "Francisco Beduschi Neto",
+            "Murilo M F Bettarello",
+            "Genivaldo de Brito",
+            "Gabriel C. Carrero",
+            "Eduardo de A.S. Florence",
+            "Edenise Garcia",
+            "Eduardo Trevisan Gonçalves",
+            "Casio Trajano da Luz",
+            "Giovanni M. Mallman",
+            "Bernardo B.N. Strassburg",
+            "Judson F. Valentim",
+            "Agnieszka Latawiec"
+        ],
+        "publish_date": "23 September 2017",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:59:22.971393"
+    },
+    {
+        "title": "507.Meeting SDGs in Bangladesh with agriculture knowledge repositories.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/e9fhp",
+        "doi": "10.31220/osf.io/e9fhp",
+        "abstract": "This paper highlights the best practices being carried out in Bangladesh to achieve the Sustainable Development Goals by 2030, including the strengthening of the National Agricultural Research System (NARS) and the development of knowledge products.",
+        "authors": [
+            "Susmita Das",
+            "Paresh Chandra Golder"
+        ],
+        "publish_date": "6 May 2017",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T10:59:45.377408"
+    },
+    {
+        "title": "508.Community field gene banks: a way forward for achieving zero hunger?",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/6hrzd",
+        "doi": "10.31220/osf.io/6hrzd",
+        "abstract": "The Sustainable Development Goal (SDG) 2 - Zero Hunger, can only be achieved when food and nutritional security is ensured. However, due to the changing climatic scenario, there is a need for the promotion of sustainable agriculture with the constant development of new crop varieties which are resilient to biotic and abiotic stresses. For this purpose, there is a need for community seed banks and field gene banks at local, regional, national and international levels having the seeds and plants with wider genetic diversity and with biotic and abiotic stress tolerant traits. The nature has in its bounty a vast variety of related wild species of the present cultivars. This diversity when developed, managed and promoted as genetic common resources and the access to these resources are granted at fair and equitable sharing basis, new varieties or genotypes can be developed for location specific needs and environments. The constituents of the India's National Agricultural Research System together with the help of the Protection of Plant Varieties & Farmers' Rights Authority, Bioversity Authority and other community/civil society organizations should work for the establishment of the community field gene banks either in the Bioversity parks or elsewhere across the Agra-climatic regions. The genotypic and phenotypic data along with the trait specific data of the established genotypes in the banks should be stored in a public server for public access. This will ensure the farmers, breeders or anyone to access the data and can get the materials for the selection or breeding the improved varieties for the local or national needs in a participatory approach. In India, the National Bureau of Plant Genetic Resources had made efforts for the establishment of community seed banks in Udaipur. And some of the civil societies involved with the agrobiodiversity had also established community seed banks. Internationally efforts are also being made by the Bioversity International. However, community field gene banks, unlike biodiversity parks are not yet established in the country. This paper is about reiteration of the need for such type of establishments with the support of the public for achieving SDG 2, zero hunger.",
+        "authors": [
+            "Sridhar Gutam"
+        ],
+        "publish_date": "5 May 2017",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T11:00:08.213078"
+    },
+    {
+        "title": "509.A Data Mining Approach to Examine the Effect of Climate Change on the Growth of Pinot Noir Grapes in Western Oregon Using Machine Learning Methods.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/ju2c4",
+        "doi": "10.31220/osf.io/ju2c4",
+        "abstract": "The wine industry is one of the top industries in Oregon, with over 700 wineries in the state. This is why this study aims to find the effect of climate change on the wine industry in Western Oregon. To find this, I had to choose a specific grape to look at. The chosen grape was Pinot Noir because a large part of Oregon's wine revenue is from the sale of Pinot Noir wine. Also, I looked at Western Oregon specifically in this study because most of the wineries in Oregon are in Western Oregon. Using NASA's Giovanni website, the surface temperature data of Western Oregon was collected in the form of color-coded heat maps. Using these heat maps, the average surface temperatures during the growing seasons from 1979 to 2015 were found. The growing season for Pinot Noir is April to September. Then, using the average surface temperature data I found the average area of land that was in the ideal temperature range for ripening Pinot Noir for each specific growing season. Next, I got Oregon's average annual temperature data from NOAA's Climate at a Glance website. Using a machine learning regression method called LOESS I examined the two data sets and was able to derive insights from them. The data showed that, generally, as the average annual temperature rises, the average area of land that has a temperature suitable for ripening Pinot Noir decreases. Also, the data shows that the best average annual temperature for growing Pinot Noir is 47 degrees Fahrenheit. Lastly, the data from NOAA's Climate at a Glance website showed that Oregon's average annual temperature is increasing. This means that as time goes on, the area of land with a suitable temperature for growing Pinot Noir will gradually decrease.",
+        "authors": [
+            "Abhigya Sodani",
+            "Debbie Cooper"
+        ],
+        "publish_date": "4 April 2017",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T11:00:30.990363"
+    },
+    {
+        "title": "510.REDIA: designing a repository for agriculture and food research data.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/3e68r",
+        "doi": "10.31220/osf.io/3e68r",
+        "abstract": "This work presents the rationale for developing a research data repository at INIA (Instituto Nacional de Investigación y Tecnología Agraria y Alimentaria - Spain). It introduces the organization goals, our researchers' considerations, the domains where we will make focus on interoperability, and other notes and details about the design of the platform.",
+        "authors": [
+            "Antonio Sánchez-Padial",
+            "Jorge García-Pérez"
+        ],
+        "publish_date": "21 March 2017",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T11:00:53.870361"
+    },
+    {
+        "title": "511.Iniciativas de datos abiertos frente a los desafíos de la seguridad alimentaria global.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/c5t7c",
+        "doi": "10.31220/osf.io/c5t7c",
+        "abstract": null,
+        "authors": [
+            "Antonio Sánchez-Padial"
+        ],
+        "publish_date": "17 March 2017",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T11:01:16.783153"
+    },
+    {
+        "title": "512.Influence of organic amendments on growth, yield and quality of wheat and on soil properties during transition to organic production.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/2zbwj",
+        "doi": "10.31220/osf.io/2zbwj",
+        "abstract": "A transition period of at least two years is required for annual crops before the produce may be certified as organically grown. The purpose of this study was to evaluate the effects of the three organic amendments on yield and quality of wheat (Triticum aestivumL.) and on soil properties during transition to organic production. The organic amendments were composted farmyard manure (FYMC), vermicompost and lantana (Lantanaspp. L.) compost applied to soil at four application rates (60, 90, 120 and 150 kg N ha-1). The grain yield of wheat in all the treatments involving organic amendments was markedly lower (36-65% and 23-54% less in the first and second year of transition, respectively) compared with the mineral fertilizer treatment. For the organic treatments applied at equivalent N rates, grain yield was higher for FYMC treatment closely followed by vermicompost. In the first year of transition, protein content of wheat grain was higher (85.9 g kg-1) for mineral fertilizer treatment whereas in the second year, there were no significant differences among the mineral fertilizer treatment and the highest application rate (150 kg N ha-1) of three organic amendments. The grain P and K contents were, however, significantly higher for the treatments involving organic amendments than their mineral fertilizer counterpart in both years. Application of organic amendments, irrespective of source and rate, greatly lowered bulk density (1.14-1.25 Mg m-3), and enhanced pH (6.0-6.5) and oxidizable organic carbon (13-18.8 g kg-1) of soil compared with mineral fertilizer treatment after two-year transition period. Mineral fertilized plots, however, had higher levels of available N and P than plots with organic amendments. All the treatments involving organic amendments, particularly at higher application rates, enhanced soil microbial activities of dehydrogenase, β-glucosidase, urease and phosphatase compared with the mineral fertilizer and unamended check treatments. We conclude that the application rate of 120 and 150 kg N ha-1of all the three sources of organic amendments improved soil properties. There was, however, a 23-65% reduction in wheat yield during the two years of transition to organic production.",
+        "authors": [
+            "K. A. Gopinath",
+            "Supradip Saha",
+            "B. L. Mina",
+            "Harit Pande",
+            "S. Kundu",
+            "H.S. Gupta"
+        ],
+        "publish_date": "15 February 2017",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T11:01:39.097952"
+    },
+    {
+        "title": "513.Bell pepper yield and soil properties during conversion from conventional to organic production in Indian Himalayas.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/8whkp",
+        "doi": "10.31220/osf.io/8whkp",
+        "abstract": "A conversion period of at least two years is required for annual crops before produce may be certified as organically grown. There is a need for better understanding of the various management options for transitioning from conventional to organic production. The purpose of this study was to evaluate the effects of three organic amendments on growth and yield of bell pepper (Capsicum annuumL.), the benefit:cost ratio, soil fertility and enzymatic activities during conversion to organic production. The organic amendments were composted farmyard manure (FYMC), vermicompost (VC) and poultry manure (PM) along with biofertilizers [Azotobacter+ Phosphorus solubilizing Bacteria (Pseudomonas striata)]. The bell pepper yield under organic management was markedly lower (33-53% and 18-40% less in first and second year of conversion, respectively) compared with conventional practice (FYMC 10 Mg ha-1+ NPK - 100:22:41.5 kg ha-1). Composted FYM 20 Mg ha-1 + biofertilizers (BF), and combined application of three organic amendments (FYMC 10 Mg ha-1+ PM and VC each 1.5 Mg ha-1+ BF) produced similar but significantly higher yield (27.9 and 26.1 Mg ha-1, respectively) of bell pepper compared with other organic amendment treatments. Composted FYM 20 Mg ha-1+ BF and combined application of three organic amendments greatly lowered soil bulk density (1.15-1.17 Mg m-3), and enhanced pH (7.1) and oxidizable organic carbon (1.2-1.3%) of soil compared with conventional practice and unamended control after a two-year transition period. However, the N, P and K levels were highest in the plots under conventional practice. Plots amended with FYMC 20 Mg ha-1+ BF had higher soil microbial activities of dehydrogenase, acid phosphatase and β-glucosidase compared with other treatments. However, the urease activity was greater in the plots under conventional practice. Among the treatments involving organic amendments alone, FYMC 20 Mg ha-1+ BF gave the highest gross margin (US $ 8237.5 ha-1) compared to other treatments. We conclude that FYMC 20 Mg ha-1+ BF was found more suitable for enhancing bell pepper growth and yield, through improved soil properties, during conversion to organic production.",
+        "authors": [
+            "K.A. Gopinath",
+            "Supradip Saha",
+            "B.L. Mina",
+            "Harit Pande",
+            "Narendra Kumar",
+            "A.K. Srivastva",
+            "H.S. Gupta"
+        ],
+        "publish_date": "15 February 2017",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "status": "complete",
+        "scraped_at": "2026-05-05T11:02:01.414167"
+    },
+    {
+        "title": "200.The first record of milk thistle (Silybum marianum, Asteraceae) as an alien invasive weed species in Addis Ababa City, Ethiopia.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00241",
+        "doi": "10.31220/agriRxiv.2024.00241",
+        "abstract": "Since 2020, milk thistle Silybum marianum, an invasive weed species, has been widely observed in urban green spaces and roadsides in Addis Ababa city, Ethiopia. To plan future management activities, this study aimed to determine the current distribution status of the weed in urban green areas of Addis Ababa city. Weed surveys were conducted across 42 urban green sites located in Yeka, Lemi Kura, Bole, Nifas Silk-Lafto, Kolfie Keraniyo, Akaky Kality, and Gullele sub-cities during the main rainy season from June to September 2023. Urban green areas were selected using purposive sampling techniques. Field observations confirmed that Silybum marianum can invade and colonize a wide range of habitats and is highly competitive, posing a threat to important native plant species. High weed density rates and dense stands of weeds were recorded in the 34 urban green areas surveyed. The survey results strongly suggest implementing fast integrated weed management options such as mowing/tilling, weeding before the plant goes to seed, cutting (stems and/or seed heads), and burning (collected plant parts and/or seed heads) into a prepared burrow to minimize the spread of the weed and its ecological impacts. The purpose of this survey study is to provide information about Silybum marianum to minimize or avoid its distribution and associated impacts by following sustainable invasive weed management programs in the city before spreading to other cities in the country.",
+        "authors": [
+            "Weldesenbet Beze Kassie"
+        ],
+        "publish_date": "20 March 2024",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2024.00241?download=true",
+        "pdf_local_path": "C:\\Users\\Saurabh-CSIO\\Desktop\\Scrapy\\downloaded_files\\10.31220_agriRxiv.2024.00241.pdf",
+        "status": "complete",
+        "scraped_at": "2026-05-07T10:19:02.020799"
+    },
+    {
+        "title": "317.Design and optimization by response surface of a FAO grade-handicraft prototype for yucca starch extraction.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2022.00119",
+        "doi": "10.31220/agriRxiv.2022.00119",
+        "abstract": "Yucca starch (Manihot esculentaCrantz) plays several important roles in agroecological agriculture in the tropics. It is an inexpensive source of carbohydrates of high nutritional quality and easily accessible, if preserved and stored. The process of starch artisanal extraction is carried out in Latin America in a rudimentary and impractical way, with water and raw material wasted, which generates losses and ecological problems. This study shows how a prototype of a technological process (Matilda v1.0) for the artisan extraction of yucca starch with FAO grade quality was designed, built, and optimized. The optimization was performed using the response surface methodology, and the experimental design is a Box-Wilson 23full factorial central composite, uniformly rotated and orthogonally blocked per day. Around 60 kg of starch for 200 kg yucca on a working day was obtained. The estimated starch yield was 31.83%, within a confidence interval of (30.24-32.97)% and a prediction interval of (27.98-35.23)%. This yield was higher than that reported for conventional artisanal extraction. Water use was about 0.3 L kg-1yucca, significantly lower than in artisanal productions. The process developed would generate a lower impact on the environment and would allow small agricultural producers to empower themselves with sustainable technologies.",
+        "authors": [
+            "Arsenio José Rodríguez Salazar"
+        ],
+        "publish_date": "13 January 2022",
+        "is_pdf_available": true,
+        "pdf_url": "https://www.cabidigitallibrary.org/doi/pdf/10.31220/agriRxiv.2022.00119?download=true",
+        "pdf_local_path": "C:\\Users\\Saurabh-CSIO\\Desktop\\Scrapy\\downloaded_files\\10.31220_agriRxiv.2022.00119.pdf",
+        "status": "complete",
+        "scraped_at": "2026-05-07T10:20:28.962433"
+    },
+    {
+        "title": "465.Concentration of Liquid Organic Fertilizer and Plant Spacing on Bean Growth and Production.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/gnajp",
+        "doi": "10.31220/osf.io/gnajp",
+        "abstract": "Problems encountered in developing the cultivation of beans, the high use of inorganic fertilizer at the farmer level is not appropriate spacing one effort to increase bean production is to use the right spacing and use of liquid organic fertilizer. The purpose of this study was to analize the concentration of liquid Nasa organic fertilizer dosage and the appropriate spacing of plant spacing on the growth and production of beans (Phaseolus vulgarisL). The research was conducted Karang Jaya village, Namlea District, Buru Regency, the implementation of the study began from March to May 2019. This study used a Randomized Block Design (RBD) which was arranged in fact from two factors with three replications. The first factor of spacing (J) consists of three levels, namely 20×60 cm, 30×60 cm and 40×60 cm. The second factor is the concentration of liquid organic fertilizer (C) which consists of three levels, namely control(without treatment), 40 ml/liter of water and 50 ml/liter of water. Data of research factors were analyzed by statistical analysis. If there is a real difference the real or very fluid, then continued with the Honest Value Difference Test (BNJ)(0.05). The results showed that the concentration of liquid Nasa organic fertilizer with a dose of 40 ml/liter of water with a spacing of 40×60 cm gives an average value the highest average was observed by tall plants 172.13 cm, number of young pods was 31.69 fruits pod length of 12.50 cm and production of fresh adash were 5.53 kg.",
+        "authors": [
+            "Aruadsu"
+        ],
+        "publish_date": "10 September 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "pdf_local_path": null,
+        "status": "complete",
+        "scraped_at": "2026-05-07T10:21:49.142542"
+    },
+    {
+        "title": "466.Urbanization and Diversification.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/wmbrn",
+        "doi": "10.31220/osf.io/wmbrn",
+        "abstract": "The urbanization process in Namlea village is a consequence of the change in the administrative status of Buru regency into a district. The phenomenon of change affects the social economic life of the community, such as kinship patterns and interaction patterns that shift from homegenous to heterogeneous traits. The research location focuses on the village of Namlea in consideration of changes in community structure and the reduction of agricultural land. The number of informers interviewed were as many as farmers, village apparatus, religious figures, community leaders as well as traders. Analytical techniques used to follow the concept of Miles and Huberman where activities in the analysis of qualitative data are conducted interactively and continuously. The results showed that the urbanization process has brought about the impact of changes in the fulfillment of life needs in which life orientation shifts from agriculture to non-agriculture. Diversification is the basis for increasing the value of land selling and the limitation of agricultural products as a result of the increasing number of needs that are not followed by the improvement of land resources and agricultural products.",
+        "authors": [
+            "Aruadsu"
+        ],
+        "publish_date": "10 September 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "pdf_local_path": null,
+        "status": "complete",
+        "scraped_at": "2026-05-07T10:22:12.869643"
+    },
+    {
+        "title": "467.Evaluasi Kenyamanan Termal dan Kualitas Estetika pada Beberapa Taman Kota Banda Aceh.",
+        "link": "https://www.cabidigitallibrary.org/doi/10.31220/osf.io/awpsv",
+        "doi": "10.31220/osf.io/awpsv",
+        "abstract": null,
+        "authors": [
+            "Azwinur"
+        ],
+        "publish_date": "19 August 2019",
+        "is_pdf_available": false,
+        "pdf_url": null,
+        "pdf_local_path": null,
+        "status": "complete",
+        "scraped_at": "2026-05-07T10:22:36.709918"
     }
 ]

@@ -1,64 +1,132 @@
 # AgriRxiv Ultimate Scraper & Research Dashboard
 
-A high-precision, automated research data extraction suite for the **CABI Digital Library (AgriRxiv series)**. This project is engineered to bypass Cloudflare security, handle Windows file system restrictions (Errno 22), and provide a professional visual reporting interface.
+This project scrapes article metadata and PDFs from the CABI Digital Library AgriRxiv series, stores the results in JSON, and keeps the process resumable across runs. It also includes a local dashboard for reviewing the collected data.
 
 ---
 
-## 📊 Process Workflow
+## What This Scraper Does
+
+The scraper collects the following for each article it finds:
+
+- Title and article link
+- DOI
+- Abstract
+- Author names
+- Online publish date
+- PDF URL, if available
+- Local PDF path, if downloaded successfully
+- Status value that shows whether the record is complete or incomplete
+
+It also avoids re-downloading files that already exist in the download folder and avoids re-processing articles that were already saved in the JSON file.
+
+---
+
+## Main Workflow
 
 ```mermaid
 graph TD
-    A[Start Scraper] --> B{Existing Data?}
-    B -- Yes --> C[Load JSON & Skip DOIs]
-    B -- No --> D[Initialize Browser]
-    C --> D
-    D --> E[Open Search Page]
-    E --> F[Identify Articles on Page]
-    F --> G{DOI Processed?}
-    G -- Yes --> H[Check Next Item]
-    G -- No --> I[Open Article Page]
-    I --> J[Extract Metadata: Abstract/Authors/Date]
-    J --> K{PDF Available?}
-    K -- Yes --> L[Open PDF Viewer]
-    L --> M[Secure Download via Requests + Cookies]
-    M --> N[Sanitize Filename & Save]
-    K -- No --> O[Mark as Complete]
-    N --> O
-    O --> P[Save to JSON File]
-    P --> Q[Return to Search Page]
-    Q --> R{More Items?}
-    R -- Yes --> G
-    R -- No --> S{Next Page?}
-    S -- Yes --> T[Click Next]
-    T --> F
-    S -- No --> U[End Scraper]
+    A[Start scraper] --> B[Load existing JSON]
+    B --> C[Build list of seen DOIs]
+    C --> D[Open search results page]
+    D --> E[Read articles on current page]
+    E --> F{DOI already saved?}
+    F -- Yes --> G[Skip article]
+    F -- No --> H[Open article page]
+    H --> I[Extract abstract, authors, and date]
+    I --> J{PDF link available?}
+    J -- No --> K[Save metadata as complete]
+    J -- Yes --> L[Open PDF viewer]
+    L --> M[Download PDF with browser cookies]
+    M --> N{File already exists?}
+    N -- Yes --> O[Reuse existing PDF path]
+    N -- No --> P[Save PDF to disk]
+    O --> Q[Save article to JSON]
+    P --> Q[Save article to JSON]
+    Q --> R[Return to search results]
+    R --> S{More items on page?}
+    S -- Yes --> F
+    S -- No --> T{Next page available?}
+    T -- Yes --> U[Go to next page]
+    U --> E
+    T -- No --> V[End]
 ```
 
 ---
 
-## 🛠️ Setup & Installation
+## Resume Download Support
 
-### 1. Prerequisites
+The scraper is designed to continue from where it stopped.
 
-- **Python**: 3.10 or higher
-- **Google Chrome**: Must be installed on the local machine
+When you start `scraper_final.py`, it first checks whether `agrirxiv_final_data.json` already exists. If it does, the scraper loads every saved record and creates an in-memory set of DOIs called `seen_dois`.
 
-### 2. Environment Setup
+That means:
 
-#### Activate Virtual Environment:
+- Articles already saved in the JSON file are skipped immediately.
+- The scraper can be stopped and started again without re-processing the same records.
+- New articles found later are appended to the same JSON file.
+
+This is the main resume mechanism. The JSON file is the source of truth for what has already been processed.
+
+---
+
+## How Existing Articles Are Checked
+
+The scraper checks each article on the search results page using its DOI.
+
+### Step by step
+
+1. It loads the current list of saved records from `agrirxiv_final_data.json`.
+2. It extracts the DOI from every saved record and stores those DOIs in `seen_dois`.
+3. On each search-results page, it collects the articles currently visible.
+4. For each article, it compares the article DOI against `seen_dois`.
+5. If the DOI already exists, the article is skipped.
+6. If the DOI is new, the scraper opens the article page, extracts details, downloads the PDF if available, and writes the result back to the JSON file.
+
+This prevents duplicate entries even if the scraper is restarted many times.
+
+### PDF file existence check
+
+The download step also checks the target PDF file name before saving it.
+
+- If the PDF file already exists in `downloaded_files/`, the scraper does not download it again.
+- If the file does not exist, the scraper downloads it and saves it using a DOI-based sanitized file name.
+
+So there are two protection layers:
+
+- JSON/DOI checking for article-level resume support
+- File-existence checking for PDF-level reuse
+
+---
+
+## Important Backup Note Before Restarting
+
+Before starting the scraper again, take a backup of the downloaded PDF files and the JSON file.
+
+Recommended backup items:
+
+- `downloaded_files/`
+- `agrirxiv_final_data.json`
+
+This protects your current progress if you want to rerun the scraper with different settings, test changes, or recover from a bad run.
+
+---
+
+## Setup
+
+### Requirements
+
+- Python 3.10 or higher
+- Google Chrome installed locally
+
+### Install Dependencies
 
 ```bash
 python -m venv venv
 venv\Scripts\activate
-```
-
-#### Install Dependencies:
-
-```bash
 pip install -r requirements.txt
 ```
 
-#### Initialize Driver:
+### Chrome Driver Setup
 
 ```bash
 sbase install chromedriver
@@ -66,106 +134,99 @@ sbase install chromedriver
 
 ---
 
-## 🚀 Execution Guide
+## Run the Scraper
 
-### Part 1: Running the Scraper
+1. Confirm the download directory in `scraper_final.py` points to:
 
-1. Verify the `DOWNLOAD_DIR` in `scraper_final.py` is set to:
-   ```
-   C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files
-   ```
+   `C:\Users\Saurabh-CSIO\Desktop\Scrapy\downloaded_files`
 
-2. Run the script:
+2. Run the scraper:
+
    ```bash
    python scraper_final.py
    ```
 
-3. Monitor `STEP:` logs in the terminal for real-time progress.
+3. Watch the terminal logs for `STEP:` messages. Those logs show pagination, article skipping, metadata extraction, and download status.
 
-### Part 2: Viewing the Dashboard
+---
 
-Once data has been scraped, you can view the visual report:
+## View the Dashboard
 
-1. Start the local server:
+After scraping, you can inspect the data in the dashboard:
+
+1. Start a local server from the project folder:
+
    ```bash
    python -m http.server
    ```
 
-2. Open the dashboard:
-   Navigate to `http://localhost:8000/scraper_dashboard.html` in your browser.
+2. Open the dashboard in your browser:
+
+   `http://localhost:8000/scraper_dashboard.html`
 
 ---
 
-## 📁 Project Structure
+## Project Files
 
-| File/Directory | Description |
+| File or Folder | Purpose |
 |---|---|
-| `scraper_final.py` | The main execution engine featuring Cloudflare bypass and PDF cookie-sync |
-| `scraper_dashboard.html` | Interactive dashboard with real-time search, filters, and abstract accordions |
-| `agrirxiv_final_data.json` | The central data store (Auto-updated/Resume-enabled) |
-| `downloaded_files/` | Organized directory containing sanitized PDF research papers |
-| `downloaded_pdfs/` | Alternative storage directory for PDF files |
-| `scraper_debug.log` | Detailed audit trail for every scraping step |
-| `requirements.txt` | Python package dependencies |
+| `scraper_final.py` | Main scraper logic, resume handling, and PDF download flow |
+| `scraper_dashboard.html` | Local dashboard for browsing the scraped data |
+| `agrirxiv_final_data.json` | Saved article database used for resume support |
+| `downloaded_files/` | Local PDF storage folder |
+| `scraper_debug.log` | Detailed runtime log file |
+| `requirements.txt` | Python dependencies |
 | `README.md` | Project documentation |
 
 ---
 
-## 📊 Data Features
+## Data Fields
 
-| Field | Description |
+| Field | Meaning |
 |---|---|
-| **Status** | `complete` if metadata and PDF are secured; `incomplete` if a step failed |
-| **Authors** | Extracted via a three-tier selector strategy (Links, Spans, and Schema metadata) |
-| **Sanitization** | File paths are automatically cleaned of restricted Windows characters (`?`, `=`, `:`) to prevent Errno 22 |
-| **Resume Logic** | Skips previously processed DOIs based on the existing JSON file |
+| `title` | Article title |
+| `link` | Article detail page |
+| `doi` | Unique identifier used for resume checks |
+| `abstract` | Article abstract text |
+| `authors` | Extracted author names |
+| `publish_date` | Online publication date |
+| `is_pdf_available` | Whether the scraper found a PDF viewer link |
+| `pdf_url` | Final PDF download URL, if available |
+| `pdf_local_path` | Local PDF path on disk |
+| `status` | `complete` or `incomplete` |
+| `scraped_at` | Timestamp when the record was saved |
 
 ---
 
-## ⚠️ Known Fixes Incorporated
+## Logging
 
-| Issue | Solution |
-|---|---|
-| **Errno 22 (Invalid Argument)** | Resolved by aggressive filename sanitization |
-| **403 Forbidden** | Bypassed by injecting browser cookies and User-Agents into the download request |
-| **Author Extraction** | Fixed by targeting nested `givenName` and `familyName` spans found in CABI's HTML |
-| **Browser Crashes** | Handled via `NoSuchWindowException` recovery and automatic JSON state management |
+The scraper writes detailed information to `scraper_debug.log`, including:
 
----
-
-## 🔧 Configuration
-
-- Modify the `DOWNLOAD_DIR` variable in `scraper_final.py` to change the download location
-- Adjust timeout values and page navigation delays as needed for your network conditions
-- Update User-Agent strings in the requests if required
+- Resume loading
+- Article skipping decisions
+- PDF file reuse decisions
+- PDF download success or failure
+- Pagination progress
+- Fatal errors
 
 ---
 
-## 📝 Logging
+## Configuration Notes
 
-The scraper automatically generates `scraper_debug.log` with detailed information about:
-- Each scraping step
-- Errors and exceptions
-- DOI processing status
-- File download operations
+- Change `DOWNLOAD_DIR` in `scraper_final.py` to store PDFs in a different location.
+- Adjust `crawl_delay` if you need the scraper to move faster or slower.
+- Keep the JSON file intact if you want resume support to work on the next run.
 
 ---
 
-## 🤝 Contributing
+## Troubleshooting
 
-Contributions are welcome! Please ensure:
-- Code follows PEP 8 standards
-- Changes are tested before submission
-- Commit messages are descriptive
+- If the scraper seems to repeat old records, check that `agrirxiv_final_data.json` still exists and contains the earlier run data.
+- If PDFs are not downloading, confirm that the browser session can still access the PDF viewer page and that `downloaded_files/` is writable.
+- If you want a clean rerun, back up the current JSON file and PDF folder first, then remove or replace the active copies.
 
 ---
 
-## 📄 License
+## License
 
 This project is provided as-is for research and educational purposes.
-
----
-
-## 📞 Support
-
-For issues or questions, refer to the project documentation or check the debug logs for troubleshooting information.

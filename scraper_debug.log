@@ -13600,3 +13600,45 @@
 2026-05-06 17:11:28,894 - INFO - STEP: DETAILS - Navigating to: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00223
 2026-05-06 17:12:09,733 - INFO - STEP: MAIN - 19/100 | DOI: 10.31220/agriRxiv.2023.00221
 2026-05-06 17:12:09,733 - INFO - STEP: DETAILS - Navigating to: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2023.00221
+2026-05-07 10:17:54,872 - INFO - STEP: Resume - Loaded 511 items from JSON.
+2026-05-07 10:17:58,051 - INFO - STEP: INIT - Starting Scraper
+2026-05-07 10:18:13,036 - INFO - STEP: PAGINATION - Search Page 1
+2026-05-07 10:18:14,095 - INFO - STEP: SKIP - Page 1 (All 100 already exist)
+2026-05-07 10:18:27,328 - INFO - STEP: PAGINATION - Search Page 2
+2026-05-07 10:18:28,218 - INFO - STEP: LIST - Page 2 has 1 new items
+2026-05-07 10:18:28,218 - INFO - STEP: MAIN - 100/100 | DOI: 10.31220/agriRxiv.2024.00241
+2026-05-07 10:18:28,218 - INFO - STEP: DETAILS - Navigating to: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2024.00241
+2026-05-07 10:19:01,997 - INFO - STEP: PDF - Successfully saved: 10.31220_agriRxiv.2024.00241.pdf
+2026-05-07 10:19:24,532 - INFO - STEP: PAGINATION - Search Page 3
+2026-05-07 10:19:25,419 - INFO - STEP: SKIP - Page 3 (All 100 already exist)
+2026-05-07 10:19:38,575 - INFO - STEP: PAGINATION - Search Page 4
+2026-05-07 10:19:39,525 - INFO - STEP: SKIP - Page 4 (All 100 already exist)
+2026-05-07 10:19:52,724 - INFO - STEP: PAGINATION - Search Page 5
+2026-05-07 10:19:53,545 - INFO - STEP: LIST - Page 5 has 1 new items
+2026-05-07 10:19:53,546 - INFO - STEP: MAIN - 17/100 | DOI: 10.31220/agriRxiv.2022.00119
+2026-05-07 10:19:53,546 - INFO - STEP: DETAILS - Navigating to: https://www.cabidigitallibrary.org/doi/10.31220/agriRxiv.2022.00119
+2026-05-07 10:20:28,959 - INFO - STEP: PDF - Successfully saved: 10.31220_agriRxiv.2022.00119.pdf
+2026-05-07 10:20:51,504 - INFO - STEP: PAGINATION - Search Page 6
+2026-05-07 10:20:52,369 - INFO - STEP: SKIP - Page 6 (All 100 already exist)
+2026-05-07 10:21:05,540 - INFO - STEP: PAGINATION - Search Page 7
+2026-05-07 10:21:06,479 - INFO - STEP: SKIP - Page 7 (All 100 already exist)
+2026-05-07 10:21:19,699 - INFO - STEP: PAGINATION - Search Page 8
+2026-05-07 10:21:20,621 - INFO - STEP: SKIP - Page 8 (All 100 already exist)
+2026-05-07 10:21:33,822 - INFO - STEP: PAGINATION - Search Page 9
+2026-05-07 10:21:34,710 - INFO - STEP: LIST - Page 9 has 3 new items
+2026-05-07 10:21:34,710 - INFO - STEP: MAIN - 65/100 | DOI: 10.31220/osf.io/gnajp
+2026-05-07 10:21:34,710 - INFO - STEP: DETAILS - Navigating to: https://www.cabidigitallibrary.org/doi/10.31220/osf.io/gnajp
+2026-05-07 10:21:58,487 - INFO - STEP: MAIN - 66/100 | DOI: 10.31220/osf.io/wmbrn
+2026-05-07 10:21:58,487 - INFO - STEP: DETAILS - Navigating to: https://www.cabidigitallibrary.org/doi/10.31220/osf.io/wmbrn
+2026-05-07 10:22:22,250 - INFO - STEP: MAIN - 67/100 | DOI: 10.31220/osf.io/awpsv
+2026-05-07 10:22:22,250 - INFO - STEP: DETAILS - Navigating to: https://www.cabidigitallibrary.org/doi/10.31220/osf.io/awpsv
+2026-05-07 10:22:59,236 - INFO - STEP: PAGINATION - Search Page 10
+2026-05-07 10:23:00,178 - INFO - STEP: SKIP - Page 10 (All 100 already exist)
+2026-05-07 10:23:13,383 - INFO - STEP: PAGINATION - Search Page 11
+2026-05-07 10:23:14,304 - INFO - STEP: SKIP - Page 11 (All 100 already exist)
+2026-05-07 10:23:27,500 - INFO - STEP: PAGINATION - Search Page 12
+2026-05-07 10:23:28,390 - INFO - STEP: SKIP - Page 12 (All 100 already exist)
+2026-05-07 10:23:41,601 - INFO - STEP: PAGINATION - Search Page 13
+2026-05-07 10:23:42,507 - INFO - STEP: SKIP - Page 13 (All 100 already exist)
+2026-05-07 10:23:55,694 - INFO - STEP: PAGINATION - Search Page 14
+2026-05-07 10:23:55,915 - INFO - STEP: SKIP - Page 14 (All 16 already exist)
