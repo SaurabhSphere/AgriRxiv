@@ -24,31 +24,56 @@ It also avoids re-downloading files that already exist in the download folder an
 ## Main Workflow
 
 ```mermaid
-graph TD
-    A[Start scraper] --> B[Load existing JSON]
-    B --> C[Build list of seen DOIs]
-    C --> D[Open search results page]
-    D --> E[Read articles on current page]
-    E --> F{DOI already saved?}
-    F -- Yes --> G[Skip article]
-    F -- No --> H[Open article page]
-    H --> I[Extract abstract, authors, and date]
-    I --> J{PDF link available?}
-    J -- No --> K[Save metadata as complete]
-    J -- Yes --> L[Open PDF viewer]
-    L --> M[Download PDF with browser cookies]
-    M --> N{File already exists?}
-    N -- Yes --> O[Reuse existing PDF path]
-    N -- No --> P[Save PDF to disk]
-    O --> Q[Save article to JSON]
-    P --> Q[Save article to JSON]
-    Q --> R[Return to search results]
-    R --> S{More items on page?}
-    S -- Yes --> F
-    S -- No --> T{Next page available?}
-    T -- Yes --> U[Go to next page]
-    U --> E
-    T -- No --> V[End]
+flowchart TD
+
+    A([Start Scraper])
+        --> B[Load Existing JSON Database]
+
+    B --> C[Build Set of Existing DOIs]
+
+    C --> D[Open Search Results Page]
+
+    D --> E[Parse Articles on Current Page]
+
+    E --> F{DOI Already Exists?}
+
+    F -- Yes --> G[Skip Article]
+    G --> R
+
+    F -- No --> H[Open Article Page]
+
+    H --> I[Extract Metadata<br/>• Abstract<br/>• Authors<br/>• Publication Date]
+
+    I --> J{PDF Available?}
+
+    J -- No --> K[Save Metadata Record]
+    K --> R
+
+    J -- Yes --> L[Open PDF Viewer]
+
+    L --> M[Download PDF Using Session Cookies]
+
+    M --> N{PDF Already Downloaded?}
+
+    N -- Yes --> O[Reuse Existing File Path]
+    N -- No --> P[Save PDF to Local Storage]
+
+    O --> Q[Save Complete Article Record]
+    P --> Q
+
+    Q --> R[Return to Search Results]
+
+    R --> S{More Articles on Current Page?}
+
+    S -- Yes --> E
+
+    S -- No --> T{Next Page Available?}
+
+    U[Open Next Results Page]
+        --> E
+
+    T -- Yes --> U
+    V([End]) <-- No --> T
 ```
 
 ---
