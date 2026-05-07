@@ -9,7 +9,7 @@ This project scrapes article metadata and PDFs from the CABI Digital Library Agr
 The scraper collects the following for each article it finds:
 
 - Title and article link
-- DOI
+- DOI(Digital Object Identifier)
 - Abstract
 - Author names
 - Online publish date
