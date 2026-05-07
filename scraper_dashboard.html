@@ -152,7 +152,7 @@
                 <label>Completion Status</label>
                 <select id="completionFilter">
                     <option value="all">All Records</option>
-                    <option value="complete">Complete (Title + Abstract + DOI)</option>
+                    <option value="complete">Complete Metadata (Title + Abstract + DOI)</option>
                     <option value="incomplete">Incomplete Metadata</option>
                 </select>
             </div>
@@ -160,9 +160,9 @@
             <div class="filter-group">
                 <label>PDF Availability</label>
                 <select id="pdfFilter">
-                    <option value="all">All PDF Status</option>
-                    <option value="yes">Has PDF URL</option>
-                    <option value="no">No PDF Available</option>
+                    <option value="all">All</option>
+                    <option value="yes">Available</option>
+                    <option value="no">Not Available</option>
                 </select>
             </div>
 
@@ -183,7 +183,7 @@
                         <th>Status</th>
                         <th style="width: 55%;">Article Details & Links</th>
                         <th>Identifier</th>
-                        <th>Year</th>
+                        <th>Publication Date</th>
                     </tr>
                 </thead>
                 <tbody id="table-body"></tbody>
@@ -282,7 +282,7 @@
                         </div>
                     </td>
                     <td style="font-family:monospace; font-size:0.7rem;">${item.doi || 'MISSING_DOI'}</td>
-                    <td style="font-weight:600;">${new Date(item.publish_date).getFullYear()}</td>
+                    <td style="font-weight:600;">${item.publish_date}</td>
                 </tr>
             `;
         }).join('');
